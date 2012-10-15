@@ -10,6 +10,7 @@ public class TestSync
 		System.out.printf("%s", "Original");
 		System.out.printf("%s", "Copy");
 		System.out.printf("%s", "Win7");
+		System.out.printf("%s", "Juno");
 	}
 
 }
