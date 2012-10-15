@@ -8,8 +8,8 @@ public class TestSync
 	{
 		// TODO Auto-generated method stub
 		System.out.printf("%s", "Original");
+		System.out.printf("%s", "Copy");
 		
-		System.out.printf("%s", "Win7");
 		System.out.printf("%s", "Juno");
 	}
 
