@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=flyBehavior
+comment0.target=void\ setFlyBehavior(FlyBehavior)
+comment1.params=quackBehavior
+comment1.target=void\ setQuackBehavior(QuackBehavior)
+comment2.target=Duck()
+comment3.target=void\ performFly()
+comment3.text=\nexecute\ fly()\n\n@param\ \ \ none\n@return\ \ \ \ \ \ \ \ void\ \n\n
+comment4.target=void\ performQuack()
+comment4.text=\nexecute\ quack()\n\n@param\ \ \ none\n@return\ \ \ \ \ \ \ \ void\ \n\n
+comment5.target=void\ swim()
+numComments=6
