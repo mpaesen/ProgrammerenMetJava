@@ -32,14 +32,15 @@ public class CalculatorTest
 		input = JOptionPane.showInputDialog("Give second Value: ");
 		//conversion of input into "second" value
 		second = Double.parseDouble(input);
-		input = JOptionPane.showInputDialog("Give the operation (+, -, *, /): ");
+		input = JOptionPane.showInputDialog("Give the operation (+, -, *, /, ^): ");
 		//substring of input into "operator"
 		operator = input.charAt(0);
 		final Calculator calculator = new Calculator();
 		result = calculator.result(first, second, operator);
 		//prepare message
 		message = getResult(message, first, second, operator);
-		message += result;
+		message = String.format("%S %5.2f", message, result);
+		//message += result;
 		//show message
 		JOptionPane.showMessageDialog(null, message);
 	}
@@ -48,21 +49,25 @@ public class CalculatorTest
 	{
 		//present the result
 		message = message + first;
-		if (operator == '+')
+		if (operator == Calculator.ADD)
 		{
 			message = message + " added to " + second;
 		}
-		if (operator == '-')
+		if (operator == Calculator.SUB)
 		{
 			message = message + " subtracted by " + second;
 		}
-		if (operator == '*')
+		if (operator == Calculator.MULT)
 		{
 			message = message + " multiplied by " + second;
 		}
-		if (operator == '/')
+		if (operator == Calculator.DIV)
 		{
 			message = message + " divided by " + second;
+		}
+		if (operator == Calculator.POW)
+		{
+			message = message + " power to " + second;
 		}
 		return message + " equals: ";
 	}
