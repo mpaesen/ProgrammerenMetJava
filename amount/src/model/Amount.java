@@ -257,8 +257,8 @@ public class Amount {
 
 	public String toString() {
 		return ""+this.getCurrency() + this.getValue()
-				+ "\n which represents: \n\tIntegral " + this.getIntegral()
-				+ " and Fraction " + this.getFraction();
+				+ "\n which represents: \n\tIntegral " +this.getCurrency()+ this.getIntegral()
+				+ " and Fraction " + this.getFraction()+" cents";
 	}
 
 	/**
