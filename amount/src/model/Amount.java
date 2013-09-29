@@ -1,7 +1,15 @@
 package model;
-
+/**
+ * 
+ */
 import java.util.StringTokenizer;
 
+/**
+ * 
+ * @author Mathy Paesen
+ * @version 2013/9/29
+ *
+ */
 public class Amount {
 	private long intg; // The numbers before the decimal point
 
