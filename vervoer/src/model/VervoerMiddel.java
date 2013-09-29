@@ -32,7 +32,6 @@ public abstract class VervoerMiddel extends Object implements Kleurbaar {
 
 	/**
 	 * An example of an abstract method
-	 * 
 	 * @return String
 	 */
 	public abstract String toString();
@@ -128,8 +127,7 @@ public abstract class VervoerMiddel extends Object implements Kleurbaar {
 	/**
 	 * Gives all doors
 	 * 
-	 * @param y
-	 *            index in array wielen
+	 * @param y index in array wielen
 	 * @return the selected Wheel
 	 */
 	public String getDeuren() {
