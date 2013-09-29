@@ -161,6 +161,7 @@
 	</build>
 	<modules>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<module>JUnitTutorial</module>
 		<module>logging</module>
 		<module>roro</module>
@@ -279,6 +280,26 @@
 						<artifactId>junit</artifactId>
 					</exclusion>
 				</exclusions>
+=======
+		<module>samples</module>
+	
+		<module>calculator</module>
+
+	</modules>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>log4j</groupId>
+				<artifactId>log4j</artifactId>
+				<version>1.2.17</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	<dependencies>
+			<dependency>
+				<groupId>log4j</groupId>
+				<artifactId>log4j</artifactId>
+>>>>>>> branch 'master' of https://github.com/mpaesen/ProgrammerenMetJava.git
 =======
 		<module>samples</module>
 	
