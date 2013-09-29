@@ -14,11 +14,11 @@ public class Amount {
 	 * Default constuctor
 	 */
 	public Amount() {
-		this(0.0, '€');
+		this(0.0, 'â‚¬');
 	}
 
 	public Amount(double value) {
-		this(value, '€');
+		this(value, 'â‚¬');
 	}
 
 	public Amount(double value, char currency) {
@@ -160,10 +160,12 @@ public class Amount {
 		long tmpin;
 		short tmpfrc;
 		double quot = 0.0, rest = 0.0;
-		String number = Double.toString(newval);
+		double tempDouble = Double.valueOf(String.format("%.2f", newval));
+		String number = Double.toString(tempDouble);
 		StringTokenizer stringTokenizer = new StringTokenizer(number, ".");
 		tmpin = Long.parseLong(stringTokenizer.nextToken());
 		String temp = stringTokenizer.nextToken();
+		
 		tmpfrc = Short.parseShort(temp);
 		
 		if(temp.charAt(0) != '0'){
