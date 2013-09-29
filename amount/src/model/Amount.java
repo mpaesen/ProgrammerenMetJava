@@ -43,7 +43,7 @@ public class Amount {
 	}
 
 	/**
-	 * @return the fracimal part of the Amount
+	 * @return the fraction part of the Amount
 	 */
 	public short getFraction() {
 		
