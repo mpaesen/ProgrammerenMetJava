@@ -48,7 +48,7 @@ public class GenerateTestData
 	public static String getRandomName()
 	{
 		final String names[] = { "Paesen", "Hameed", "Schoofs", "Westhovens", "Geybels", "Vicari", "Lambrechts" };
-		final String fnames[] = { "Mathy", "Shahul", "Odon", "Els", "Johan", "Gino", "Geert" };
+		final String fnames[] = { "Mathy", "Shahul", "Odon", "Els", "Johan", "Gino", "Geert", "Tom", "Stefan", "Frank" };
 
 		final StringBuffer name = new StringBuffer(names[random.nextInt(names.length)]);
 		name.append(", ");
