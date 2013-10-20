@@ -12,10 +12,14 @@ import exceptions.NoNegativeAmountAllowed;
 public class GenerateTestData
 {
 	private static Random random = new Random();
+	private static final int MAX_CUSTOMERS_GENERATED = 10;
+	private static final int MAX_TRANSACTIONS_GENERATED = 50;
+	private static final int MAX_ACCOUNTS_GENERATED = 5;
+	
 
 	public static ArrayList<Customer> createCustomers(ArrayList<Customer> customers)
 	{
-		final int MAX_CUSTOMERS = 1 + random.nextInt(5);
+		final int MAX_CUSTOMERS = 1 + random.nextInt(MAX_CUSTOMERS_GENERATED);
 		customers = new ArrayList<Customer>();
 		Customer customer;
 		for (int i = 0; i < MAX_CUSTOMERS; i++)
@@ -29,15 +33,15 @@ public class GenerateTestData
 	public static Customer createAccounts(final Customer customer)
 	{
 
-		final int MAX_ACCOUNTS = 1 + random.nextInt(10);
+		final int MAX_ACCOUNTS = 1 + random.nextInt(MAX_ACCOUNTS_GENERATED);
 		Account account;
 		final AccountFactory factory = new AccountFactory();
 		for (int i = 0; i < MAX_ACCOUNTS; i++)
 		{
 			//random account generation
 			account = factory.createAccount(AccountFactory.Type.values()[random.nextInt(AccountFactory.Type.values().length)]);
-			//0.0 <= Begin saldo < 100.0
-			account.setBeginSaldo(new Amount(100.0 * random.nextDouble()));
+			//0.0 <= Begin saldo < 1000.0
+			account.setBeginSaldo(new Amount(1000.0 * random.nextDouble()));
 			//random transaction generation
 			account = createTransactions(account);
 			customer.addAccount(account);
@@ -58,13 +62,13 @@ public class GenerateTestData
 
 	public static Account createTransactions(final Account account)
 	{
-		final int MAX_TRANSACTIONS = 1 + random.nextInt(50);
+		final int MAX_TRANSACTIONS = 1 + random.nextInt(MAX_TRANSACTIONS_GENERATED);
 		Amount amount;
 		for (int i = 0; i < MAX_TRANSACTIONS; i++)
 		{
 			//0.0 <= transaction < 20.0
 			amount = new Amount(20.0 * random.nextDouble());
-			//for every 4th amount invers the sign (CREDIT)
+			//for every 4th amount inverse the sign (CREDIT)
 			if (i % 4 == 0)
 			{
 				amount.inverseSign();
