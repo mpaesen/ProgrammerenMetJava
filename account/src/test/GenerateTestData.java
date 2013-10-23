@@ -80,7 +80,7 @@ public class GenerateTestData
 			}
 			catch (final NoNegativeAmountAllowed e)
 			{
-				//only error is SavingAccount
+				//only error if SavingAccount
 				System.err.printf("%s\n", e);
 			}
 		}

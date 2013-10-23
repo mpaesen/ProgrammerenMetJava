@@ -70,7 +70,7 @@ public class Amount
 
 	public void makePositive()
 	{
-		if (getAmount() < ZERO)
+		if (isNegative())
 		{
 			inverseSign();
 		}
@@ -78,7 +78,7 @@ public class Amount
 
 	public void makeNegative()
 	{
-		if (getAmount() > ZERO)
+		if (!isNegative())
 		{
 			inverseSign();
 		}
