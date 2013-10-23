@@ -20,7 +20,7 @@ public class SavingAccount extends Account
 		final Amount current = getCurrentValue();
 		current.modify(Transaction.DEPOSIT, amount);
 
-		if (current.getAmount() < Amount.ZERO)
+		if (current.isNegative())
 		{
 			final String message = String.format("A saving account can not be negative!\nThe current value (begin saldo %10.2f - transactions %s) is: %10.2f\n\tA deposit/credit of %10.2f is not allowed. \n", this.getBeginSaldo().getAmount(), this.getTransactions(), current.getAmount(),
 					amount.getAmount());
