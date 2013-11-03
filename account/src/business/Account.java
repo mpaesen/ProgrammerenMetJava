@@ -49,7 +49,7 @@ public abstract class Account
 
 	public Amount getCurrentValue()
 	{
-		final Amount value = getBeginSaldo();
+		Amount value = getBeginSaldo();
 		value.modify(Amount.Transaction.DEPOSIT, totalTransactions());
 		return value;
 	}
@@ -58,7 +58,7 @@ public abstract class Account
 
 	public Amount totalTransactions()
 	{
-		final Amount value = new Amount();
+		Amount value = new Amount();
 		for (final Amount amount : getTransactions())
 		{
 			//total of transactions

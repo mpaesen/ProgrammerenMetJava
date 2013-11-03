@@ -30,7 +30,7 @@ public class GenerateTestData
 		return customers;
 	}
 
-	public static Customer createAccounts(final Customer customer)
+	public static Customer createAccounts( Customer customer)
 	{
 
 		final int MAX_ACCOUNTS = 1 + random.nextInt(MAX_ACCOUNTS_GENERATED);
@@ -52,7 +52,7 @@ public class GenerateTestData
 	public static String getRandomName()
 	{
 		final String names[] = { "Paesen", "Hameed", "Schoofs", "Westhovens", "Geybels", "Vicari", "Lambrechts" };
-		final String fnames[] = { "Mathy", "Shahul", "Odon", "Els", "Johan", "Gino", "Geert", "Tom", "Stefan", "Frank" };
+		final String fnames[] = { "Mathy", "Shahul", "Odon", "Els", "Johan", "Gino", "Geert", "Tom", "Stefan", "Frank", "Patricia", "Imran", "Antonio", "Ingrid" };
 
 		final StringBuffer name = new StringBuffer(names[random.nextInt(names.length)]);
 		name.append(", ");
@@ -60,7 +60,7 @@ public class GenerateTestData
 		return name.toString();
 	}
 
-	public static Account createTransactions(final Account account)
+	public static Account createTransactions( Account account)
 	{
 		final int MAX_TRANSACTIONS = 1 + random.nextInt(MAX_TRANSACTIONS_GENERATED);
 		Amount amount;

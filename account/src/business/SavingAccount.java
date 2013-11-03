@@ -17,7 +17,7 @@ public class SavingAccount extends Account
 	@Override
 	public void addTransaction(final Amount amount) throws NoNegativeAmountAllowed
 	{
-		final Amount current = getCurrentValue();
+		 Amount current = getCurrentValue();
 		current.modify(Transaction.DEPOSIT, amount);
 
 		if (current.isNegative())
@@ -26,31 +26,36 @@ public class SavingAccount extends Account
 					amount.getAmount());
 			throw new NoNegativeAmountAllowed(message);
 		}
-		getTransactions().add(amount);
+		super.getTransactions().add(amount);
 	}
 
+	private Amount baseIntrest(){
+		 Amount value = getBeginSaldo();
+		value.modify(Amount.Transaction.MULTIPLY, new Amount(BASE_INTREST));
+		return value;
+	}
 	private Amount growthPremium()
 	{
-		final Amount value = totalTransactions();
+		 Amount value = totalTransactions();
 		if (!value.isNegative())
 		{
-			value.modify(Amount.Transaction.MULTIPLY, new Amount(1.0 + GROWTH));
+			value.modify(Amount.Transaction.MULTIPLY, new Amount(GROWTH));
 		}
 		return value;
 	}
 
 	private Amount loyaltyPremium()
 	{
-		final Amount value = getBeginSaldo();
-		value.modify(Amount.Transaction.MULTIPLY, new Amount(1.0 + LOYALTY));
+		 Amount value = getBeginSaldo();
+		value.modify(Amount.Transaction.MULTIPLY, new Amount(LOYALTY));
 		return value;
 	}
 
 	@Override
 	public Amount getCurrentValue()
 	{
-		final Amount value = super.getCurrentValue();
-		value.modify(Amount.Transaction.MULTIPLY, new Amount(1.0 + BASE_INTREST));
+		 Amount value = super.getCurrentValue();
+		value.modify(Amount.Transaction.DEPOSIT, baseIntrest());
 		value.modify(Amount.Transaction.DEPOSIT, growthPremium());
 		value.modify(Amount.Transaction.DEPOSIT, loyaltyPremium());
 		return value;
