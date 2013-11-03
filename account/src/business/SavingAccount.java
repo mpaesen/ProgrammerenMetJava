@@ -15,22 +15,24 @@ public class SavingAccount extends Account
 	}
 
 	@Override
-	public void addTransaction(final Amount amount) throws NoNegativeAmountAllowed
-	{
-		 Amount current = getCurrentValue();
+	public void addTransaction(final Amount amount)
+			throws NoNegativeAmountAllowed {
+		Amount current = super.getCurrentValue();
 		current.modify(Transaction.DEPOSIT, amount);
 
-		if (current.isNegative())
-		{
-			final String message = String.format("A saving account can not be negative!\nThe current value (begin saldo %10.2f - transactions %s) is: %10.2f\n\tA deposit/credit of %10.2f is not allowed. \n", this.getBeginSaldo().getAmount(), this.getTransactions(), current.getAmount(),
-					amount.getAmount());
+		if (current.isNegative()) {
+			final String message = String
+					.format("A saving account can not be negative!\nThe current value (begin saldo %10.2f - transactions %s) is: %10.2f\n\tA deposit/credit of %10.2f is not allowed. \n",
+							this.getBeginSaldo().getAmount(),
+							this.getTransactions(), current.getAmount(),
+							amount.getAmount());
 			throw new NoNegativeAmountAllowed(message);
 		}
 		super.getTransactions().add(amount);
 	}
 
 	private Amount baseIntrest(){
-		 Amount value = getBeginSaldo();
+		 Amount value = super.getBeginSaldo();
 		value.modify(Amount.Transaction.MULTIPLY, new Amount(BASE_INTREST));
 		return value;
 	}
@@ -46,7 +48,7 @@ public class SavingAccount extends Account
 
 	private Amount loyaltyPremium()
 	{
-		 Amount value = getBeginSaldo();
+		 Amount value = super.getBeginSaldo();
 		value.modify(Amount.Transaction.MULTIPLY, new Amount(LOYALTY));
 		return value;
 	}
@@ -54,11 +56,11 @@ public class SavingAccount extends Account
 	@Override
 	public Amount getCurrentValue()
 	{
-		 Amount value = super.getCurrentValue();
-		value.modify(Amount.Transaction.DEPOSIT, baseIntrest());
-		value.modify(Amount.Transaction.DEPOSIT, growthPremium());
-		value.modify(Amount.Transaction.DEPOSIT, loyaltyPremium());
-		return value;
+		 Amount current = super.getCurrentValue();
+		 current.modify(Amount.Transaction.DEPOSIT, baseIntrest());
+		 current.modify(Amount.Transaction.DEPOSIT, growthPremium());
+		 current.modify(Amount.Transaction.DEPOSIT, loyaltyPremium());
+		return current;
 	}
 
 	@Override
