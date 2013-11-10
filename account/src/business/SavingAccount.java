@@ -5,9 +5,9 @@ import exceptions.NoNegativeAmountAllowed;
 
 public class SavingAccount extends Account
 {
-	public static final double BASE_INTREST = 0.015;
-	public static final double GROWTH = 0.02;
-	public static final double LOYALTY = 0.005;
+	private static final double BASE_INTREST = 0.015;
+	private static final double GROWTH = 0.02;
+	private static final double LOYALTY = 0.005;
 
 	public SavingAccount(final Amount beginSaldo)
 	{
@@ -32,7 +32,7 @@ public class SavingAccount extends Account
 	}
 
 	private Amount baseIntrest(){
-		 Amount value = super.getBeginSaldo();
+		Amount value = getBeginSaldo();
 		value.modify(Amount.Transaction.MULTIPLY, new Amount(BASE_INTREST));
 		return value;
 	}
@@ -48,7 +48,7 @@ public class SavingAccount extends Account
 
 	private Amount loyaltyPremium()
 	{
-		 Amount value = super.getBeginSaldo();
+		 Amount value = getBeginSaldo();
 		value.modify(Amount.Transaction.MULTIPLY, new Amount(LOYALTY));
 		return value;
 	}

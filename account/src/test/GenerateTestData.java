@@ -15,6 +15,8 @@ public class GenerateTestData
 	private static final int MAX_CUSTOMERS_GENERATED = 10;
 	private static final int MAX_TRANSACTIONS_GENERATED = 50;
 	private static final int MAX_ACCOUNTS_GENERATED = 5;
+	private static final double INITIAL_VALUE = 20.0;
+	private static final double BEGIN_SALDO = 1000.0;
 	
 
 	public static ArrayList<Customer> createCustomers(ArrayList<Customer> customers)
@@ -40,8 +42,8 @@ public class GenerateTestData
 		{
 			//random account generation
 			account = factory.createAccount(AccountFactory.Type.values()[random.nextInt(AccountFactory.Type.values().length)]);
-			//0.0 <= Begin saldo < 1000.0
-			account.setBeginSaldo(new Amount(1000.0 * random.nextDouble()));
+			//ZERO <= Begin saldo < BEGIN_SALDO
+			account.setBeginSaldo(new Amount(BEGIN_SALDO * random.nextDouble()));
 			//random transaction generation
 			account = createTransactions(account);
 			customer.addAccount(account);
@@ -66,8 +68,8 @@ public class GenerateTestData
 		Amount amount;
 		for (int i = 0; i < MAX_TRANSACTIONS; i++)
 		{
-			//0.0 <= transaction < 20.0
-			amount = new Amount(20.0 * random.nextDouble());
+			//ZERO <= transaction < INITIAL_VALUE
+			amount = new Amount(INITIAL_VALUE * random.nextDouble());
 			//for every 4th amount inverse the sign (CREDIT)
 			if (i % 4 == 0)
 			{
