@@ -32,6 +32,10 @@ public class Amount {
 	public Amount() {
 		this(ZERO);
 	}
+	
+	public Amount clone(){
+		return new Amount(this.getAmount());
+	}
 
 	public int getNumber() {
 		return number;

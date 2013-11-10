@@ -44,7 +44,7 @@ public abstract class Account
 
 	public Amount getBeginSaldo()
 	{
-		return beginSaldo;
+		return beginSaldo.clone();
 	}
 
 	public Amount getCurrentValue()
@@ -67,12 +67,12 @@ public abstract class Account
 		return value;
 	}
 
-//	public void updateAccount()
-//	{
-//		this.beginSaldo = getCurrentValue();
-//		//empty transactions list
-//		this.transactions = new ArrayList<Amount>();
-//	}
+	public void updateAccount()
+	{
+		this.beginSaldo = getCurrentValue();
+		//empty transactions list
+		this.transactions = new ArrayList<Amount>();
+	}
 
 	@Override
 	public String toString()

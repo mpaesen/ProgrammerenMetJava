@@ -16,7 +16,7 @@ public class GenerateTestData
 	private static final int MAX_TRANSACTIONS_GENERATED = 50;
 	private static final int MAX_ACCOUNTS_GENERATED = 5;
 	private static final double INITIAL_VALUE = 20.0;
-	private static final double BEGIN_SALDO = 1000.0;
+	private static final double INITIAL_BEGIN_SALDO = 1000.0;
 	
 
 	public static ArrayList<Customer> createCustomers(ArrayList<Customer> customers)
@@ -42,8 +42,8 @@ public class GenerateTestData
 		{
 			//random account generation
 			account = factory.createAccount(AccountFactory.Type.values()[random.nextInt(AccountFactory.Type.values().length)]);
-			//ZERO <= Begin saldo < BEGIN_SALDO
-			account.setBeginSaldo(new Amount(BEGIN_SALDO * random.nextDouble()));
+			//ZERO <= Begin saldo < INITIAL_BEGIN_SALDO
+			account.setBeginSaldo(new Amount(INITIAL_BEGIN_SALDO * random.nextDouble()));
 			//random transaction generation
 			account = createTransactions(account);
 			customer.addAccount(account);
