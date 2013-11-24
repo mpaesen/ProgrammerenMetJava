@@ -160,8 +160,7 @@
 		</plugins>
 	</build>
 	<modules>
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 		<module>JUnitTutorial</module>
 		<module>logging</module>
 		<module>roro</module>
@@ -170,7 +169,7 @@
 		<module>samples</module>
 		<module>gitsync</module>
 		<module>calculator</module>
-		<module>calculator</module>
+
 	</modules>
 	<dependencyManagement>
 		<dependencies>
@@ -233,95 +232,6 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-	<dependencies>
-			<dependency>
-				<groupId>log4j</groupId>
-				<artifactId>log4j</artifactId>
-			</dependency>
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-api</artifactId>
-			</dependency>
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>slf4j-log4j12</artifactId>
-			</dependency>
-			<dependency>
-				<groupId>org.slf4j</groupId>
-				<artifactId>jcl-over-slf4j</artifactId>
-			</dependency>
-
-			<dependency>
-				<groupId>commons-lang</groupId>
-				<artifactId>commons-lang</artifactId>
-			</dependency>
-			<dependency>
-				<groupId>commons-io</groupId>
-				<artifactId>commons-io</artifactId>
-			</dependency>
-			<dependency>
-				<groupId>commons-logging</groupId>
-				<artifactId>commons-logging</artifactId>
-			</dependency>
-			<dependency>
-				<groupId>commons-beanutils</groupId>
-				<artifactId>commons-beanutils</artifactId>
-			</dependency>
-			<dependency>
-				<groupId>commons-collections</groupId>
-				<artifactId>commons-collections</artifactId>
-			</dependency>
-			<dependency>
-				<groupId>org.testng</groupId>
-				<artifactId>testng</artifactId>
-				<exclusions>
-					<exclusion>
-						<groupId>junit</groupId>
-						<artifactId>junit</artifactId>
-					</exclusion>
-				</exclusions>
-=======
-		<module>samples</module>
-	
-		<module>calculator</module>
-
-	</modules>
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>log4j</groupId>
-				<artifactId>log4j</artifactId>
-				<version>1.2.17</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
-	<dependencies>
-			<dependency>
-				<groupId>log4j</groupId>
-				<artifactId>log4j</artifactId>
->>>>>>> branch 'master' of https://github.com/mpaesen/ProgrammerenMetJava.git
-=======
-		<module>samples</module>
-	
-		<module>calculator</module>
-
-	</modules>
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>log4j</groupId>
-				<artifactId>log4j</artifactId>
-				<version>1.2.17</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
-	<dependencies>
-			<dependency>
-				<groupId>log4j</groupId>
-				<artifactId>log4j</artifactId>
->>>>>>> branch 'master' of https://github.com/mpaesen/ProgrammerenMetJava.git
-			</dependency>
-	</dependencies>
 	<reporting>
 		<plugins>
 			<plugin>
