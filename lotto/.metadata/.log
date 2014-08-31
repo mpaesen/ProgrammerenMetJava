@@ -1,0 +1,41 @@
+!SESSION 2008-10-06 18:26:56.703 -----------------------------------------------
+eclipse.buildId=M20080221-1800
+java.version=1.6.0_05
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=nl_BE
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\j\lotto
+
+!ENTRY org.eclipse.ui.workbench 2 0 2008-10-06 18:27:02.718
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2008-10-06 18:27:02.718
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.eclipsemonkey.emFileContextMenu/org.eclipse.eclipsemonkey.action4':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.eclipsemonkey.emFileContextMenu/org.eclipse.eclipsemonkey.action4,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.eclipsemonkey.actions.PublishScriptForWiki),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1342a67),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.eclipsemonkey.emFileContextMenu/org.eclipse.eclipsemonkey.action4,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.eclipsemonkey.actions.PublishScriptForWiki),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1342a67),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2008-10-06 18:27:02.718
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.eclipsemonkey.emFileContextMenu/org.eclipse.eclipsemonkey.action5':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.eclipsemonkey.emFileContextMenu/org.eclipse.eclipsemonkey.action5,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.eclipsemonkey.actions.PublishScript),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1342a67),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.eclipsemonkey.emFileContextMenu/org.eclipse.eclipsemonkey.action5,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.eclipsemonkey.actions.PublishScript),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1342a67),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2008-10-06 18:27:02.718
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.eclipsemonkey.emFileContextMenu/org.eclipse.eclipsemonkey.action2':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.eclipsemonkey.emFileContextMenu/org.eclipse.eclipsemonkey.action2,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.eclipsemonkey.actions.PublishScriptForBlogger),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1342a67),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.eclipsemonkey.emFileContextMenu/org.eclipse.eclipsemonkey.action2,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.eclipsemonkey.actions.PublishScriptForBlogger),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1342a67),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2008-10-06 18:27:02.718
+!MESSAGE Conflict for 'AUTOGEN:::org.eclipse.eclipsemonkey.emFileContextMenu/org.eclipse.eclipsemonkey.action6':
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.eclipsemonkey.emFileContextMenu/org.eclipse.eclipsemonkey.action6,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.eclipsemonkey.actions.PublishScriptForEmail),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1342a67),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.eclipse.eclipsemonkey.emFileContextMenu/org.eclipse.eclipsemonkey.action6,
+	handler=ActionDelegateHandlerProxy(null,org.eclipse.eclipsemonkey.actions.PublishScriptForEmail),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1342a67),sourcePriority=16384)
