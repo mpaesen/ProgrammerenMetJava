@@ -8,8 +8,7 @@ import java.util.Random;
 
 import lotto.ui.BadLimitException;
 
-@SuppressWarnings("unchecked")
-public class LottoCombination implements Serializable, Comparable {
+public class LottoCombination implements Serializable, Comparable <Object>{
 	/**
 	 * 
 	 */
@@ -133,7 +132,7 @@ public class LottoCombination implements Serializable, Comparable {
 	 * @see java.lang.Object#toString()
 	 */
 	public String toString() {
-		ArrayList v = new ArrayList(combination.length);
+		ArrayList <String>v = new ArrayList<String>(combination.length);
 		DecimalFormat twoDigits = new DecimalFormat("00");
 		for (int i = 0; i < combination.length; i++) {
 			v.add(twoDigits.format(combination[i]));

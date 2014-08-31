@@ -7,12 +7,13 @@
 package lotto.ui;
 import java.io.*;
 import java.util.ArrayList;
-
 import java.util.Iterator;
 import java.util.Random;
 
 
+
 import javax.swing.*;
+
 import java.awt.*;
 import java.awt.event.*;
 
@@ -40,8 +41,7 @@ public class LottoControleGUI extends JFrame {
 
 	private LottoSerializedFileIn input;
 	private File fileName;
-	@SuppressWarnings("unchecked")
-	private ArrayList list;
+	private ArrayList<LottoCombination> list;
 	private LottoCombination combinatie;
 	private boolean stop;
 
@@ -145,12 +145,11 @@ public class LottoControleGUI extends JFrame {
 		}
 	}
 
-	@SuppressWarnings("unchecked")
-	private boolean checkFigure(ArrayList list, LottoCombination combinatie) {
+	private boolean checkFigure(ArrayList<LottoCombination> list, LottoCombination combinatie) {
 		//for (int i = 0; i < list.size() - 1; i++) {
 			for (int j = 0; j < list.size(); j++) {
 				combinatie.sort();
-				if (((LottoCombination) list.get(j)).equals(combinatie)) {
+				if (list.get(j).equals(combinatie)) {
 					return true;
 				}
 			}
@@ -167,8 +166,8 @@ public class LottoControleGUI extends JFrame {
 	}
 
 	@SuppressWarnings("unchecked")
-	private ArrayList getInputStreamList() {
-		ArrayList list = null;
+	private ArrayList<LottoCombination> getInputStreamList() {
+		ArrayList<LottoCombination> list = null;
 		try {
 			list = input.getSerializedList(fileName.getName());
 		} catch (FileNotFoundException e) {
@@ -182,12 +181,11 @@ public class LottoControleGUI extends JFrame {
 		
 	}
 
-	@SuppressWarnings("unchecked")
 	public void run() {
 		openSerializedFile();
 		list = getInputStreamList();
 		lottoCombinaties.append("Uw cijfers!\n");
-		Iterator en = list.iterator();
+		Iterator<LottoCombination> en = list.iterator();
 		while (en.hasNext())
 			lottoCombinaties.append(en.next().toString() + "\n");
 		lottoCombinaties.append("\nEinde!");

@@ -64,14 +64,13 @@ public class LottoSerializedFileOut {
 	 * @throws IOException
 	 * @throws BadLimitException
 	 */
-	@SuppressWarnings("unchecked")
 	public void streamSerializedList()
 		throws
 			InvalidClassException,
 			NotSerializableException,
 			IOException,
 			BadLimitException {
-		List out = new ArrayList(numberOfElements);
+		List<LottoCombination> out = new ArrayList<LottoCombination>(numberOfElements);
 
 		for (int i = 0; i < numberOfElements; i++) {
 			out.add(new LottoCombination(rnd, MAX_FIGURE));
@@ -90,8 +89,7 @@ public class LottoSerializedFileOut {
 	 * @throws IOException
 	 * @throws BadLimitException
 	 */
-	@SuppressWarnings("unchecked")
-	public void streamSerializedList(List list)
+	public void streamSerializedList(List<LottoCombination> list)
 		throws
 			InvalidClassException,
 			NotSerializableException,

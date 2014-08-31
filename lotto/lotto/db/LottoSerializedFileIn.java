@@ -12,16 +12,13 @@ import utilities.FileIO;
 
 /** implementation of a file acces program */
 public class LottoSerializedFileIn {
-	@SuppressWarnings("unchecked")
-	private ArrayList uniek = new ArrayList();
-	@SuppressWarnings("unchecked")
-	private ArrayList count = new ArrayList();
+	private ArrayList<LottoCombination> uniek = new ArrayList<LottoCombination>();
+	private ArrayList<Integer> count = new ArrayList<Integer>();
 	private ObjectInputStream inputStream;
 	/**
 	 * @param input
 	 */
-	@SuppressWarnings("unchecked")
-	public void fillUp(ArrayList input) {
+	public void fillUp(ArrayList<LottoCombination> input) {
 		int positie, aantal;
 		for (int i = 0; i < input.size() - 1; i++) {
 			for (int j = i + 1; j < input.size(); j++) {
@@ -49,11 +46,12 @@ public class LottoSerializedFileIn {
 	 * @throws FileNotFoundException
 	 * @throws ClassNotFoundException
 	 */
+
 	@SuppressWarnings("unchecked")
-	public ArrayList getSerializedList(String stream)
+	public ArrayList<LottoCombination> getSerializedList(String stream)
 		throws IOException, FileNotFoundException, ClassNotFoundException {
 		inputStream = FileIO.getObjectInputStream(stream);
-		ArrayList v = (ArrayList) inputStream.readObject();
+		ArrayList<LottoCombination> v = (ArrayList<LottoCombination>) inputStream.readObject();
 		this.close();
 		return v;
 	}
@@ -69,32 +67,28 @@ public class LottoSerializedFileIn {
 	/**
 	 * @return
 	 */
-	@SuppressWarnings("unchecked")
-	public ArrayList getCount() {
+	public ArrayList<Integer> getCount() {
 		return count;
 	}
 
 	/**
 	 * @return
 	 */
-	@SuppressWarnings("unchecked")
-	public ArrayList getUniek() {
+	public ArrayList<LottoCombination> getUniek() {
 		return uniek;
 	}
 
 	/**
 	 * @param arrayList
 	 */
-	@SuppressWarnings("unchecked")
-	public void setCount(ArrayList arrayList) {
+	public void setCount(ArrayList<Integer> arrayList) {
 		count = arrayList;
 	}
 
 	/**
 	 * @param arrayList
 	 */
-	@SuppressWarnings("unchecked")
-	public void setUniek(ArrayList arrayList) {
+	public void setUniek(ArrayList<LottoCombination> arrayList) {
 		uniek = arrayList;
 	}
 

@@ -32,7 +32,6 @@ public class VerifyDialog extends JDialog {
 	private JTextArea area;
 	private LottoCombination combination;
 	
-	@SuppressWarnings("unchecked")
 	private Collection <LottoCombination>combinations;
 	private JButton generateButton, verifyButton;
 
@@ -64,7 +63,7 @@ public class VerifyDialog extends JDialog {
 	} //end inner class GenerateListener
 
 	private class VerifyListener implements ActionListener {
-		@SuppressWarnings({ "unchecked", "unchecked", "unchecked", "unchecked" })
+		
 		public void actionPerformed(ActionEvent e) {
 			// code for the Verify button behaviour
 			try {
@@ -82,7 +81,7 @@ public class VerifyDialog extends JDialog {
 				return;
 			}
 
-			if (checkCombination((ArrayList) combinations, combination))
+			if (checkCombination((ArrayList<LottoCombination>) combinations, combination))
 				JOptionPane.showMessageDialog(VerifyDialog.this, "You win!");
 			else
 				JOptionPane.showMessageDialog(VerifyDialog.this, "You lose!");
@@ -90,20 +89,19 @@ public class VerifyDialog extends JDialog {
 	} //end inner class VerifyListener
 
 
-	@SuppressWarnings({ "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked" })
-	public VerifyDialog(LottoGui parent, Collection combinations) {
+	public VerifyDialog(LottoGui parent, Collection<LottoCombination> combinations) {
 		super(parent, "Verify combinations");
 
 		this.parent = parent;
 		this.combinations = combinations;
-		parent.getInput().fillUp(new ArrayList<Object>(combinations));
+		parent.getInput().fillUp(new ArrayList<LottoCombination>(combinations));
 		this.textFields = new ArrayList<JTextField>();
 		initializeComponents();
 		addActionListeners();
 		setSize(600, 350);
 		//pack();
 	}
-	@SuppressWarnings({ "unchecked", "unchecked", "unchecked" })
+
 	public JTextArea showNonUniqueCombinations() {
 		JTextArea area = null;
 
@@ -143,7 +141,7 @@ public class VerifyDialog extends JDialog {
 		verifyButton.addActionListener(new VerifyListener());
 	}
 
-	@SuppressWarnings({ "unchecked", "unchecked", "unchecked", "unchecked", "unchecked" })
+
 	private boolean checkCombination(
 		ArrayList <LottoCombination>list,
 		LottoCombination combination) {
@@ -170,7 +168,6 @@ public class VerifyDialog extends JDialog {
 		}
 	}
 
-	@SuppressWarnings({ "unchecked", "unchecked", "unchecked" })
 	private void initializeComponents() {
 		JPanel content = (JPanel) getContentPane();
 		content.setLayout(new BorderLayout());
