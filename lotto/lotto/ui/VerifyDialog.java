@@ -116,7 +116,7 @@ public class VerifyDialog extends JDialog {
 			for (Iterator <LottoCombination> iteration = parent.getInput().getUniek().iterator();
 				iteration.hasNext();
 				) {
-				actueelElement = (LottoCombination) iteration.next();
+				actueelElement = iteration.next();
 				area.append(
 					actueelElement.toString()
 						+ "\t"
@@ -148,7 +148,7 @@ public class VerifyDialog extends JDialog {
 		for (int i = 0; i < list.size() - 1; i++) {
 			for (int j = i + 1; j < list.size(); j++) {
 				combination.sort();
-				if (((LottoCombination) list.get(i)).equals(combination)) {
+				if (list.get(i).equals(combination)) {
 					return true;
 				}
 			}
