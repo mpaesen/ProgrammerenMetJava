@@ -50,8 +50,7 @@ public class LottoGui extends JFrame {
 	private JLabel minLabel, maxLabel, elementsInCombinationLabel,
 			numberOfCombinationsLabel;
 	private JTextArea area;
-	@SuppressWarnings("unchecked")
-	private ArrayList list;
+	private ArrayList <LottoCombination>list;
 	private JButton generateButton, saveButton, loadButton, verifyButton;
 	private JScrollPane pane;
 	/*
@@ -74,7 +73,6 @@ public class LottoGui extends JFrame {
 		 * 
 		 * @see java.awt.event.ActionListener#actionPerformed(java.awt.event.ActionEvent)
 		 */
-		@SuppressWarnings("unchecked")
 		public void actionPerformed(ActionEvent arg0) {
 			// Write the code that should be performed when
 			// the generate button is pressed here
@@ -85,7 +83,7 @@ public class LottoGui extends JFrame {
 						.parseInt(numberOfCombinationsField.getText());
 				max = Integer.parseInt(maxField.getText());
 				LottoCombination combination = null;
-				list = new ArrayList(numberOfCombinations);
+				list = new ArrayList<LottoCombination>(numberOfCombinations);
 				try {
 					for (int i = 0; i < numberOfCombinations; i++) {
 						combination = new LottoCombination(rnd, getMin(),
@@ -112,7 +110,6 @@ public class LottoGui extends JFrame {
 	 * 
 	 */
 	private class LoadListener implements ActionListener {
-		@SuppressWarnings("unchecked")
 		public void actionPerformed(ActionEvent arg0) {
 			// Write the code that should be performed when
 			// the load button is pressed here
@@ -121,7 +118,7 @@ public class LottoGui extends JFrame {
 			openSerializedFile();
 			list = getInputStreamList();
 			area.append("Uw cijfers!\n");
-			Iterator it = list.iterator();
+			Iterator <LottoCombination>it = list.iterator();
 			Object obj = null;
 			while (it.hasNext()) {
 				obj = it.next();
@@ -140,7 +137,6 @@ public class LottoGui extends JFrame {
 	 * 
 	 */
 	private class SaveListener implements ActionListener {
-		@SuppressWarnings("unchecked")
 		public void actionPerformed(ActionEvent arg0) {
 			// Write the code that should be performed when
 			// the save button is pressed here
@@ -225,9 +221,8 @@ public class LottoGui extends JFrame {
 		return elementsInCombination;
 	}
 
-	@SuppressWarnings("unchecked")
-	private ArrayList getInputStreamList() {
-		ArrayList list = null;
+	private ArrayList<LottoCombination> getInputStreamList() {
+		ArrayList<LottoCombination> list = null;
 		try {
 			list = input.getSerializedList(fileName.getName());
 		} catch (FileNotFoundException e) {
@@ -372,8 +367,8 @@ public class LottoGui extends JFrame {
 	/**
 	 * @param list
 	 */
-	@SuppressWarnings({ "unchecked", "unchecked", "unchecked", "unchecked", "unchecked", "unchecked" })
-	private void saveSerializedFile(ArrayList list) {
+
+	private void saveSerializedFile(ArrayList <LottoCombination>list) {
 		// display dialog, so user can choose file
 		JFileChooser fileChooser = new JFileChooser();
 		fileChooser.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);

@@ -24,11 +24,10 @@ import utilities.ConsoleGUI;
  * Window&gt;Preferences&gt;Java&gt;Code Generation&gt;Code and Comments
  */
 public class LottoSerializedFileInGUI {
-	@SuppressWarnings("unchecked")
 	public static void showInput(LottoSerializedFileIn in)
 		throws IOException, FileNotFoundException, ClassNotFoundException {
 		String inputStream = ConsoleGUI.readString("\nInput File: ");
-		ArrayList serializedList = in.getSerializedList(inputStream);
+		ArrayList <LottoCombination>serializedList = in.getSerializedList(inputStream);
 		ConsoleGUI.write(
 			"\n"
 				+ serializedList.size()
@@ -39,7 +38,7 @@ public class LottoSerializedFileInGUI {
 			output = new JTextArea("Combinations found more than ones:\n");
 			output.append("Combinations\t\t#\n");
 			LottoCombination actueelElement;
-			for (Iterator iteration = in.getUniek().iterator();
+			for (Iterator <LottoCombination>iteration = in.getUniek().iterator();
 				iteration.hasNext();
 				) {
 				actueelElement = (LottoCombination) iteration.next();

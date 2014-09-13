@@ -165,7 +165,6 @@ public class LottoControleGUI extends JFrame {
 		}
 	}
 
-	@SuppressWarnings("unchecked")
 	private ArrayList<LottoCombination> getInputStreamList() {
 		ArrayList<LottoCombination> list = null;
 		try {
