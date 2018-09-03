@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JUnitTutorial/JUnitTutorial.iml" filepath="$PROJECT_DIR$/JUnitTutorial/JUnitTutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculator/Lab1bis.iml" filepath="$PROJECT_DIR$/calculator/Lab1bis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-projects.iml" filepath="$PROJECT_DIR$/java-projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/logging/logging.iml" filepath="$PROJECT_DIR$/logging/logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roro/roro.iml" filepath="$PROJECT_DIR$/roro/roro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/samples/samples.iml" filepath="$PROJECT_DIR$/samples/samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vervoer/vervoer.iml" filepath="$PROJECT_DIR$/vervoer/vervoer.iml" />
+    </modules>
+  </component>
+</project>
