@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JUnitTutorial/JUnitTutorial.iml" filepath="$PROJECT_DIR$/JUnitTutorial/JUnitTutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculator/Lab1bis.iml" filepath="$PROJECT_DIR$/calculator/Lab1bis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/account/account.iml" filepath="$PROJECT_DIR$/account/account.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-projects.iml" filepath="$PROJECT_DIR$/java-projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/logging/logging.iml" filepath="$PROJECT_DIR$/logging/logging.iml" />
       <module fileurl="file://$PROJECT_DIR$/roro/roro.iml" filepath="$PROJECT_DIR$/roro/roro.iml" />
