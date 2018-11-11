@@ -1,14 +1,14 @@
 package creational.singleton;
 
-import org.apache.log4j.Priority;
+	import org.apache.log4j.Priority;
 
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintStream;
 import java.text.SimpleDateFormat;
 import java.util.GregorianCalendar;
 import java.util.Properties;
-import java.io.InputStream;
-import java.io.FileOutputStream;
-import java.io.PrintStream;
-import java.io.IOException;
 
 public class Logger {
 	private Properties properties;
