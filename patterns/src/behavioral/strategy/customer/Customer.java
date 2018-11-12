@@ -11,6 +11,14 @@ class Customer
     // Get/Set Strategy
     private IBillingStrategy strategy;
 
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "drinks=" + drinks +
+                ", strategy=" + strategy +
+                '}';
+    }
+
     public Customer(IBillingStrategy strategy)
     {
         this.drinks = new ArrayList<Double>();
