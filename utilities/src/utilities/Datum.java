@@ -12,6 +12,7 @@ import java.util.StringTokenizer;
  * @author Mathy Paesen
  * @date 24 september 2009
  */
+@SuppressWarnings("JavaDoc")
 public class Datum implements Comparable<Datum> {
     public static final int LONG_JUL = 1000;
     // berekening van Julian datum
@@ -39,29 +40,41 @@ public class Datum implements Comparable<Datum> {
     private int maand;
     private int jaar;
 
-    public Datum() throws DatumException {
+    public Datum() {
         GregorianCalendar gc;
         gc = new GregorianCalendar();
         this.setDag(gc.get(Calendar.DATE));
         this.setMaand(gc.get(Calendar.MONTH));
         this.setJaar(gc.get(Calendar.YEAR));
-        testDatum();
+        //validDatum();
     }
 
     public Datum(int dag, int maand, int jaar) throws DatumException {
         super();
         this.setDag(dag);
-        this.setMaand(maand - CORRECTIE_MAAND);
+        this.setMaand(maand);
         // maanden worden bewaard van 0 - 11
         this.setJaar(jaar);
-        testDatum();
+        validDatum();
     }
 
     public Datum(Datum datum) throws DatumException {
-        this(datum.getDag(), datum.getMaand() + CORRECTIE_MAAND, datum
+        this(datum.getDag(), datum.getMaand(), datum
                 .getJaar());
         // maanden worden bewaard van 0 - 11
-        testDatum();
+        //validDatum();
+    }
+
+    @Override
+    public Datum clone(){
+        Datum datum;
+        try {
+            datum = new Datum(this.getDag(),this.getMaand(),this.getJaar());
+        } catch (DatumException e) {
+            e.printStackTrace();
+            datum = null;
+        }
+        return datum;
     }
 
     public Datum(String datum) throws DatumException {
@@ -75,8 +88,8 @@ public class Datum implements Comparable<Datum> {
                     break;
                 case 1:
                     this.setMaand(Integer
-                            .parseInt((String) tokenizer.nextElement())
-                            - CORRECTIE_MAAND);
+                            .parseInt((String) tokenizer.nextElement()));
+                          //  - CORRECTIE_MAAND);
                     // maanden worden bewaard van 0 - 11
                     break;
                 case 2:
@@ -91,13 +104,12 @@ public class Datum implements Comparable<Datum> {
             }
             i++;
         }
-        testDatum();
+        validDatum();
     }
 
     /**
      * Geeft steeds de laatste dag van de maand
      *
-     * @param Datum
      * @return Datum
      * @throws DatumException
      */
@@ -106,12 +118,11 @@ public class Datum implements Comparable<Datum> {
         int dagVanDeMaand = gc.get(Calendar.DAY_OF_MONTH);
         gc.add(Calendar.MONTH, 1);
         gc.add(Calendar.DAY_OF_MONTH, -dagVanDeMaand);
-        return new Datum(gc.get(Calendar.DATE), gc.get(Calendar.MONTH) + CORRECTIE_MAAND, gc.get(Calendar.YEAR));
+        return new Datum(gc.get(Calendar.DATE), gc.get(Calendar.MONTH), gc.get(Calendar.YEAR));
         //GregorianCalendar kent enkel maanden tussen 0-11
     }
 
     /**
-     * @param Datum[]
      * @return Datum[]
      */
     public static Datum[] sorteerDatums(Datum[] datums) {
@@ -134,7 +145,7 @@ public class Datum implements Comparable<Datum> {
      *
      * @throws DatumException
      */
-    private void testDatum() throws DatumException {
+    private void validDatum() throws DatumException {
         // maand 0-11
 
         GregorianCalendar testDatum = new GregorianCalendar(this.jaar, this.maand, this.dag);
@@ -161,16 +172,8 @@ public class Datum implements Comparable<Datum> {
         return maand; // maanden worden bewaard van 0 - 11
     }
 
-    public void setMaand(int maand) {
-        this.maand = maand;
-    }
-
-    public int getJaar() {
-        return jaar;
-    }
-
-    public void setJaar(int jaar) {
-        this.jaar = jaar;
+    public void setMaand(int maand)  {
+            this.maand = maand;
     }
 
     /**
@@ -181,44 +184,18 @@ public class Datum implements Comparable<Datum> {
      * @param dag
      * @return true, false
      */
-    public boolean setDatum(int dag, int maand, int jaar) {
+    public boolean setDatum(int dag, int maand, int jaar)  {
         boolean correct = false;
-        @SuppressWarnings("unused")
-        Datum test = null;
+        this.setDag(dag);
+        this.setMaand(maand);
+        this.setJaar(jaar);
         try {
-            test = new Datum(dag, maand, jaar);
-            this.setDag(dag);
-            this.setMaand(maand);
-            this.setJaar(jaar);
-            correct = true;
+            validDatum();
         } catch (DatumException e) {
-            correct = false;
-            System.err.println("[" + jaar + SEPARATOR + maand + SEPARATOR + dag
-                    + "] is geen correcte datum!");
+            //e.printStackTrace();
+            return false;
         }
         return correct;
-    }
-
-    /**
-     * Datum in USA formaat
-     *
-     * @return MM/DD/YYYY
-     */
-    public String getDatumInAmerikaansFormaat() {
-        return String.format("%s%s%s", getMaand() + SEPARATOR, getDag()
-                + SEPARATOR, getJaar());
-
-    }
-
-    /**
-     * Datum in EUR formaat
-     *
-     * @return DD/MM/YYYY
-     */
-    public String getDatumInEuropeesFormaat() {
-        return String.format("%s%s%s", getDag() + SEPARATOR, getMaand()
-                + SEPARATOR, getJaar());
-
     }
 
     /**
@@ -226,7 +203,7 @@ public class Datum implements Comparable<Datum> {
      */
     public String getMaandText() {
         if (getMaand() > LAATSTE_MAAND || getMaand() < EERSTE_MAAND) {
-            return "Verkeerde maand";
+            return String.format("%d is Foutieve maand", getMaand());
         }
         return MAAND_TEXT[getMaand()];
     }
@@ -335,17 +312,12 @@ public class Datum implements Comparable<Datum> {
      */
     public int verschilInDagen(Datum datum) {
         int verschil = 0;
-        Datum test;
-        try {
-            test = new Datum(this);
-            for (int i = 0; i < this.verschilInJaren(datum); i++) {
-                test.setJaar(test.getJaar() - 1);
-                verschil += test.aantalDagen();
-            }
-        } catch (DatumException e) {
-            e.printStackTrace();
+        Datum test = datum.clone();
+        for (int i = 0; i < this.verschilInJaren(datum); i++) {
+            test.setJaar(test.getJaar() - 1);
+            verschil += test.aantalDagenInHuidigeJaar();
         }
-        verschil += this.dagVanHetJaar() - datum.dagVanHetJaar();
+        verschil += (this.dagVanHetJaar() - datum.dagVanHetJaar());
         return verschil;
     }
 
@@ -396,7 +368,8 @@ public class Datum implements Comparable<Datum> {
      *
      * @return 365 of 366
      */
-    public int aantalDagen() {
+   public int aantalDagenInHuidigeJaar() {
+
         if (this.isLeapYear()) {
             return LEAP_YEAR;
         }
@@ -412,7 +385,7 @@ public class Datum implements Comparable<Datum> {
         this.setDag(this.getDag() + aantalDagen);
         GregorianCalendar gc = new GregorianCalendar();
         gc.setLenient(true);
-        gc.set(this.getJaar(), this.getMaand(), this.getDag());
+        gc.set(this.getJaar(), this.getMaand()+CORRECTIE_MAAND, this.getDag());
         this.setDag(gc.get(Calendar.DAY_OF_MONTH));
         this.setMaand(gc.get(Calendar.MONTH));
         this.setJaar(gc.get(Calendar.YEAR));
@@ -427,4 +400,15 @@ public class Datum implements Comparable<Datum> {
     public int hashCode() {
         return julianDatum();
     }
+
+
+    public int getJaar() {
+        return jaar;
+    }
+
+    public void setJaar(int jaar) {
+        this.jaar = jaar;
+    }
+
+
 }

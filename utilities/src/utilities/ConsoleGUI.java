@@ -165,7 +165,7 @@ public final class ConsoleGUI {
      * write an integer on screen
      */
     public static void write(int x) {
-        Integer o = new Integer(x);
+        Integer o = x;
         JOptionPane.showMessageDialog(
                 null,
                 o,
@@ -177,7 +177,7 @@ public final class ConsoleGUI {
      * write an integer on screen with a line skip
      */
     public static void write(int x, String text) {
-        Integer o = new Integer(x);
+        Integer o = x;
         JOptionPane.showMessageDialog(
                 null,
                 o,
@@ -189,7 +189,7 @@ public final class ConsoleGUI {
      * write a double on screen
      */
     public static void write(double x) {
-        Double o = new Double(x);
+        Double o = x;
         JOptionPane.showMessageDialog(
                 null,
                 o,
@@ -201,7 +201,7 @@ public final class ConsoleGUI {
      * write a double on screen with a line skip
      */
     public static void write(double x, String text) {
-        Double o = new Double(x);
+        Double o = x;
         JOptionPane.showMessageDialog(
                 null,
                 o,
