@@ -7,7 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/account/account.iml" filepath="$PROJECT_DIR$/account/account.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculator/calculator.iml" filepath="$PROJECT_DIR$/calculator/calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculator/calculator/calculator1.iml" filepath="$PROJECT_DIR$/calculator/calculator/calculator1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/roro/lambdasAndStreams.iml" filepath="$PROJECT_DIR$/roro/lambdasAndStreams.iml" />
       <module fileurl="file://$PROJECT_DIR$/logging/logging.iml" filepath="$PROJECT_DIR$/logging/logging.iml" />
       <module fileurl="file://$PROJECT_DIR$/lotto/lotto.iml" filepath="$PROJECT_DIR$/lotto/lotto.iml" />
       <module fileurl="file://$PROJECT_DIR$/Introduction/src/main/main.iml" filepath="$PROJECT_DIR$/Introduction/src/main/main.iml" />
