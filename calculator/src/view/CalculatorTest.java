@@ -6,6 +6,7 @@ import business.Calculator;
 import business.Operator;
 import io.IOCalculator;
 
+import javax.swing.*;
 import java.io.IOException;
 import java.util.HashSet;
 
@@ -61,7 +62,7 @@ public class CalculatorTest {
         double first, second;
         Operator operator;
 
-        String message = new String(RESULT);
+        String message = RESULT;
         do {
             String input = dialog(FIRST);
 
