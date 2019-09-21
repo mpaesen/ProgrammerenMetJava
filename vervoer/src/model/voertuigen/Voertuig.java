@@ -1,10 +1,10 @@
 package model.voertuigen;
 
-import java.math.BigDecimal;
-
 import model.VervoerMiddel;
 import model.wielen.Wiel;
 import utilities.Category;
+
+import java.math.BigDecimal;
 
 /**
  * Abstract class Voertuig - write a description of the class here
@@ -17,7 +17,6 @@ public abstract class Voertuig extends VervoerMiddel {
 	private Wiel wielen[];
 
 	/**
-	 * @param AANTAL_WIELEN
 	 * @param cat
 	 * @param waarde
 	 */
@@ -36,7 +35,7 @@ public abstract class Voertuig extends VervoerMiddel {
 
 	public String toString() {
 		return "\n\tDe Categorie is " + getCategory() + " "
-				+ "met als waarde €" + getWaarde();
+				+ "met als waarde ï¿½" + getWaarde();
 	}
 
 	/**

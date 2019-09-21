@@ -22,7 +22,7 @@ public class LottoGui extends JFrame {
 	/*
 	 * constants
 	 */
-	private static final long serialVersionUID = 5357702772370410491L;
+	private static final long serialVersionUID = 1L;
 	private static final int MAX_BOVEN_LIMIET = 50;
 	public static final int MAX_COMBINATIE_LIMIET = 10;
 	private static final int MAX_COMBINATIES_LIMIET = 10000;

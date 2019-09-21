@@ -3,12 +3,19 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JUnitTutorial/JUnitTutorial.iml" filepath="$PROJECT_DIR$/JUnitTutorial/JUnitTutorial.iml" />
-      <module fileurl="file://$PROJECT_DIR$/calculator/Lab1bis.iml" filepath="$PROJECT_DIR$/calculator/Lab1bis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nutshell2/Nutshell2.iml" filepath="$PROJECT_DIR$/Nutshell2/Nutshell2.iml" />
       <module fileurl="file://$PROJECT_DIR$/account/account.iml" filepath="$PROJECT_DIR$/account/account.iml" />
-      <module fileurl="file://$PROJECT_DIR$/java-projects.iml" filepath="$PROJECT_DIR$/java-projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculator/calculator.iml" filepath="$PROJECT_DIR$/calculator/calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calculator/calculator/calculator1.iml" filepath="$PROJECT_DIR$/calculator/calculator/calculator1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/roro/lambdasAndStreams.iml" filepath="$PROJECT_DIR$/roro/lambdasAndStreams.iml" />
       <module fileurl="file://$PROJECT_DIR$/logging/logging.iml" filepath="$PROJECT_DIR$/logging/logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lotto/lotto.iml" filepath="$PROJECT_DIR$/lotto/lotto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Introduction/src/main/main.iml" filepath="$PROJECT_DIR$/Introduction/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/patterns/patterns.iml" filepath="$PROJECT_DIR$/patterns/patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/roro/roro.iml" filepath="$PROJECT_DIR$/roro/roro.iml" />
-      <module fileurl="file://$PROJECT_DIR$/samples/samples.iml" filepath="$PROJECT_DIR$/samples/samples.iml" />
+      <module fileurl="file://$USER_HOME$/Dropbox/j/ucll/samples/samples.iml" filepath="$USER_HOME$/Dropbox/j/ucll/samples/samples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utilities/utilities.iml" filepath="$PROJECT_DIR$/utilities/utilities.iml" />
       <module fileurl="file://$PROJECT_DIR$/vervoer/vervoer.iml" filepath="$PROJECT_DIR$/vervoer/vervoer.iml" />
     </modules>
   </component>

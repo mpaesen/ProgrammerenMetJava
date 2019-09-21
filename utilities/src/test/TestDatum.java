@@ -3,7 +3,7 @@ package test;
 import utilities.Datum;
 import utilities.DatumException;
 
-import java.util.Arrays;
+import static java.util.Arrays.sort;
 
 public class TestDatum {
 
@@ -23,7 +23,7 @@ public class TestDatum {
             }
         }
         // datums = Datum.sorteerDatums(datums);
-        Arrays.sort(datums);
+        sort(datums);
         for (int i = 0; i < datums.length; i++) {
             System.out.println(datums[i]);
         }

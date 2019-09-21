@@ -7,8 +7,7 @@ import utilities.TijdsInterval;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
 
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class TijdsIntervalTest {
     private TijdsInterval first;
@@ -71,7 +70,7 @@ public class TijdsIntervalTest {
     public void testOverlap() {
         assertTrue(third.overlapt(first));
         assertTrue(first.overlapt(third));
-        assertFalse(second.overlapt(first));
+        assertEquals(false, second.overlapt(first));
         assertTrue(second.overlapt(third));
         assertTrue(third.overlapt(second));
     }

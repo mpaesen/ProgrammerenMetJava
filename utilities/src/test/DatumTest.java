@@ -102,7 +102,7 @@ public class DatumTest {
         datumDefault.setJaar(datumDefault.getJaar() + 1);
         assertTrue(datumDefault.aantalDagenInHuidigeJaar() == 365);
         datumDefault.setJaar(datumDefault.getJaar() + 1);
-        assertTrue(datumDefault.aantalDagenInHuidigeJaar() == 365);
+        assertTrue(datumDefault.aantalDagenInHuidigeJaar() == 366);
         datumDefault.setJaar(datumDefault.getJaar() + 1);
         assertTrue(datumDefault.aantalDagenInHuidigeJaar() == 365);
         datumDefault.setJaar(datumDefault.getJaar() + 1);

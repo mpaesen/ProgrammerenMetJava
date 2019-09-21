@@ -7,21 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JUnitTutorial" />
-        <module name="Lab1bis" />
-        <module name="logging" />
-        <module name="roro" />
-        <module name="samples" />
-        <module name="vervoer" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="java-projects" target="1.7" />
-      <module name="JUnitTutorial" target="1.7" />
-      <module name="Lab1bis" target="1.7" />
-      <module name="logging" target="1.7" />
-      <module name="roro" target="1.7" />
-      <module name="samples" target="1.7" />
-      <module name="vervoer" target="1.7" />
+    <bytecodeTargetLevel target="8">
+      <module name="JUnitTutorial" target="8" />
+      <module name="logging" target="8" />
+      <module name="roro" target="8" />
+      <module name="vervoer" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
