@@ -4,6 +4,7 @@ import business.Calculation;
 import business.Calculator;
 import business.Operator;
 
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class CalculatorTest {
@@ -47,6 +48,6 @@ public class CalculatorTest {
         calc = new Calculation(Operator.ADD, 2.0, 0.0);
         calc.setOperation(Operator.DIV);
         result = calculator.result(calc.getOp1(), calc.getOp2(), calc.getOperation());
-        assertTrue("Divide by Zero", !(result == 0.0));
+        assertFalse("Divide by Zero", !(result == 0.0));
     }
 }
