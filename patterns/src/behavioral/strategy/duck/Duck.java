@@ -28,8 +28,7 @@ public abstract class Duck
 
 	/**
 	 * execute fly()
-	 * 
-	 * @param   none
+	 *
 	 * @return        void 
 	 */
 	public void performFly()
@@ -39,8 +38,7 @@ public abstract class Duck
 
 	/**
 	 * execute quack()
-	 * 
-	 * @param   none
+	 *
 	 * @return        void 
 	 */
 	public void performQuack()
@@ -52,5 +50,6 @@ public abstract class Duck
 	{
 		System.out.println("Alle eenden drijven, ook lokeenden");
 	}
+
 
 }

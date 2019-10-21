@@ -12,7 +12,7 @@ public class LottoCombination implements Serializable, Comparable <Object>{
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 5375157488915775867L;
+    private static final long serialVersionUID = 1L;
 
 	private int[] combination;
 

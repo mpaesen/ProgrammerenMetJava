@@ -16,4 +16,8 @@ public class ModelDuck extends Duck
 		System.out.println("Ik ben een model eend");
 	}
 
+	@Override
+	public String toString() {
+		return "ModelDuck{}";
+	}
 }

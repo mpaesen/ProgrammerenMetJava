@@ -105,7 +105,7 @@ public final class IOCalculator {
      * @return HashSet
      */
     public static HashSet<Calculation> getRandomCalculations() {
-        //reads text file with predefined operations
+
         Random random = new Random();
         //minium 10 calculation
         final int MAX = 10 + random.nextInt(30);

@@ -8,6 +8,10 @@ package behavioral.strategy.duck;
  */
 public class MallardDuck extends Duck
 {
+	@Override
+	public String toString() {
+		return "MallardDuck{}";
+	}
 
 	/**
 	 * Constructor for objects of class MallardDuck
