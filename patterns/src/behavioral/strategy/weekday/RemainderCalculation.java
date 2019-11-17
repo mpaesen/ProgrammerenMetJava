@@ -10,7 +10,7 @@ public class RemainderCalculation implements CalculateDayOfWeek {
         long epoch = aDate.toEpochDay() - ANY_SUNDAY.toEpochDay();
         byte dayOfWeek = (byte) (epoch % 7L); //-7 < d < 7
 
-        if (dayOfWeek < 0) {
+        if (dayOfWeek <= 0) {
             dayOfWeek += 7;
         }
         return DayOfWeek.of(dayOfWeek);
