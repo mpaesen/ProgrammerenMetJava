@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="boatrescue">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/examen2013/SchipInNood/boatrescue.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

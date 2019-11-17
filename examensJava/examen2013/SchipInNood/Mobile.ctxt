@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=double\ getSnelheid()
+comment1.params=
+comment1.target=double\ getReactieTijd()
+comment2.params=graden
+comment2.target=double\ getWendbaarheid(double)
+comment3.params=
+comment3.target=double\ getGrootte()
+comment4.params=
+comment4.target=int\ getCapaciteit()
+comment5.params=
+comment5.target=double\ getKoers()
+numComments=6

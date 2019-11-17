@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=schip
+comment0.target=void\ registerObserver(Schip)
+comment1.params=schip
+comment1.target=void\ removeObserver(Schip)
+comment2.params=schipInNood
+comment2.target=void\ notifyObservers(Schip)
+numComments=3

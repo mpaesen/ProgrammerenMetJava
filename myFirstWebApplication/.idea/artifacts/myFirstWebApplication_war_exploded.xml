@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="myFirstWebApplication:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/myFirstWebApplication_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="myFirstWebApplication/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="myFirstWebApplication" />
+        </element>
+      </element>
+      <element id="archive" name="myFirstWebApplication.war">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/web/index.jsp" output-file-name="MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

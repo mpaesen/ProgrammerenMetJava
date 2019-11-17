@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=locatie\ koers
+comment0.target=Bericht(Locatie,\ double)
+comment1.params=
+comment1.target=double\ getKoers()
+comment2.params=
+comment2.target=Locatie\ getLocatie()
+comment3.params=
+comment3.target=void\ sendSOS()
+numComments=4

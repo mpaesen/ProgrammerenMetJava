@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=locatie
+comment0.target=Actor(Locatie)
+comment1.params=functies
+comment1.target=void\ setFuncties(BasisFuncties)
+comment2.params=
+comment2.target=BasisFuncties\ getFuncties()
+comment3.params=actor
+comment3.target=double\ getAfstand(Actor)
+comment4.params=
+comment4.target=Locatie\ getLocatie()
+numComments=5
