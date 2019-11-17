@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Nutshell2/Nutshell2.iml" filepath="$PROJECT_DIR$/Nutshell2/Nutshell2.iml" />
       <module fileurl="file://$PROJECT_DIR$/account/account.iml" filepath="$PROJECT_DIR$/account/account.iml" />
       <module fileurl="file://$PROJECT_DIR$/calculator/calculator.iml" filepath="$PROJECT_DIR$/calculator/calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../workspace/geocache/geocache.iml" filepath="$PROJECT_DIR$/../workspace/geocache/geocache.iml" />
       <module fileurl="file://$PROJECT_DIR$/immobiliën/immobiliën.iml" filepath="$PROJECT_DIR$/immobiliën/immobiliën.iml" />
       <module fileurl="file://$PROJECT_DIR$/logging/logging.iml" filepath="$PROJECT_DIR$/logging/logging.iml" />
       <module fileurl="file://$PROJECT_DIR$/lotto/lotto.iml" filepath="$PROJECT_DIR$/lotto/lotto.iml" />
