@@ -1,7 +1,5 @@
 package creational.singleton;
 
-	import org.apache.log4j.Priority;
-
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -21,6 +19,16 @@ public class Logger {
 	}
 
 	/**
+	 * this method initialises the logger, creates an object
+	 *
+	 * @return
+	 */
+	public static Logger initialize() {
+		logger = new Logger();
+		return logger;
+	}
+
+	/**
 	 * Level of logging, error or information etc
 	 * @return level, int
 	 */
@@ -28,7 +36,7 @@ public class Logger {
 		int i = 0;
 		try {
 			InputStream inputstream = getClass().getResourceAsStream(
-					"Logger.properties");
+					"BaseLogger.properties");
 			properties.load(inputstream);
 			inputstream.close();
 			i = Integer.parseInt(properties
@@ -51,7 +59,7 @@ public class Logger {
 	private String getFileName(GregorianCalendar gc) {
 		SimpleDateFormat dateFormat1 = new SimpleDateFormat("dd-MMM-yyyy");
 		String dateString = dateFormat1.format(gc.getTime());
-		String fileName = "C:\\temp\\log\\PatternsExceptionLog-"
+		String fileName = "PatternsExceptionLog-"
 				+ dateString + ".txt";
 		return fileName;
 	}
@@ -61,7 +69,7 @@ public class Logger {
 	 * @param p  Priority
 	 * @param message  String
 	 */
-	public void logMsg(Priority p, String message) {
+	public void logMsg(int p, String message) {
 		try {
 			GregorianCalendar gc = new GregorianCalendar();
 			String fileName = getFileName(gc);
@@ -75,13 +83,6 @@ public class Logger {
 		} catch (IOException ie) {
 			ie.printStackTrace();
 		}
-	}
-
-	/**
-	 * this method initialises the logger, creates an object
-	 */
-	public static void initialize() {
-		logger = new Logger();
 	}
 
 	// singleton - pattern
