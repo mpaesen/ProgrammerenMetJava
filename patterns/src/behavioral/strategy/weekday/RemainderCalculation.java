@@ -14,7 +14,6 @@ public class RemainderCalculation implements CalculateDayOfWeek {
             dayOfWeek += 7;
         }
         return DayOfWeek.of(dayOfWeek);
-        //String weekDay[] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
-        //return null;
+
     }
 }

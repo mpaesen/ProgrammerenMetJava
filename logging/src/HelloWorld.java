@@ -9,7 +9,7 @@ public class HelloWorld {
 	public static void main(String[] args) {
 
 		BasicConfigurator.configure();
-		logger.setLevel(Level.WARN);
+		logger.setLevel(Level.DEBUG);
 
 		logger.debug("Sample debug message");
 

@@ -22,7 +22,7 @@ public class DayOfWeekProcedural {
         long epoch = aDate.toEpochDay() - ANY_SUNDAY.toEpochDay();
         byte dayOfWeek = (byte) (epoch % 7L); //-7 < d < 7
 
-        if (dayOfWeek < 0) {
+        if (dayOfWeek <= 0) {
             dayOfWeek += 7;
         }
         String[] weekDay = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
