@@ -31,7 +31,7 @@ public class VoertuigFactory {
 		case 1:
 			return new Auto(Voertuig.setWaarde());
 		case 2:
-			return new Vrachtwagen(LaadBak.setLaadBak(), Wiel.setAantalWielen(), Voertuig.setCategory(), Voertuig.setWaarde());
+			return new Vrachtwagen(LaadBakken.createLaadBak(), Wiel.setAantalWielen(), Voertuig.setCategory(), Voertuig.setWaarde());
 		default:
 			return null;
 		}

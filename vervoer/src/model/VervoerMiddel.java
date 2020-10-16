@@ -1,40 +1,72 @@
 package model;
 
-import java.math.BigDecimal;
-
-import utilities.Category;
-
 import model.deuren.Deur;
-import model.kleuren.Kleur;
-import model.kleuren.Kleurbaar;
-import model.kleuren.Kleuren;
+import utilities.kleuren.Kleur;
+import utilities.kleuren.Kleurbaar;
+import model.factory.Kleuren;
 import model.motoren.Motor;
 import model.vensters.Venster;
+import utilities.Category;
+
+import java.math.BigDecimal;
+import java.util.Arrays;
 
 public abstract class VervoerMiddel extends Object implements Kleurbaar {
-
+	private static int nummer;
 	private Category category;
-	private BigDecimal waarde;
+	private BigDecimal waarde; //API class
 	private Kleur kleur;
 	protected Motor motor;
-	private Venster vensters[];
-	private Deur deuren[];
+	private Venster[] vensters;
+	private Deur[] deuren; //kunnen vensters bevatten
+
+	public static int getNummer() {
+		return nummer;
+	}
+
+	public int getCurrentNummer() {
+		return currentNummer;
+	}
+
+	private int currentNummer;
 
 	/**
 	 * @param category
 	 * @param waarde
 	 */
 	public VervoerMiddel(Category category, BigDecimal waarde) {
+		currentNummer = nummer;
+		nummer++; //static
 		this.category = category;
 		this.waarde = waarde;
-		kleur = Kleuren.randomKleur();
+		//kleur = Kleuren.randomKleur(); //factory method
+	}
+	/**
+	 * @param category
+	 * @param waarde
+	 * @param kleur
+	 */
+	public VervoerMiddel(Category category, BigDecimal waarde, Kleur kleur, Motor motor){
+		this(category,waarde);
+		this.kleur = kleur;
+		this.motor = motor;
 	}
 
 	/**
 	 * An example of an abstract method
 	 * @return String
 	 */
-	public abstract String toString();
+	@Override
+	public String toString() {
+		return "VervoerMiddel{" +
+				"category=" + category +
+				", waarde=" + waarde +
+				", kleur=" + kleur +
+				", motor=" + motor +
+				", vensters=" + Arrays.toString(vensters) +
+				", deuren=" + Arrays.toString(deuren) +
+				'}';
+	}
 
 	/**
 	 * @param vensters
@@ -127,7 +159,6 @@ public abstract class VervoerMiddel extends Object implements Kleurbaar {
 	/**
 	 * Gives all doors
 	 * 
-	 * @param y index in array wielen
 	 * @return the selected Wheel
 	 */
 	public String getDeuren() {
@@ -151,8 +182,6 @@ public abstract class VervoerMiddel extends Object implements Kleurbaar {
 	/**
 	 * Gives all windows
 	 * 
-	 * @param y
-	 *            index in array wielen
 	 * @return the selected Wheel
 	 */
 	public String getVensters() {

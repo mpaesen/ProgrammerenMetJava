@@ -2,6 +2,7 @@ package model.vaartuigen;
 
 import java.math.BigDecimal;
 
+import model.factory.Motoren;
 import model.motoren.Motor;
 
 import utilities.Category;
@@ -10,7 +11,7 @@ import utilities.Category;
 public class MotorBoot extends Boot {
 	public MotorBoot(Category cat, BigDecimal waarde){
 		super(cat, waarde);
-		motor = new Motor();
+		motor = Motoren.createRandomMotor();
 	}
 	/**
 	 * @return Returns the motor.

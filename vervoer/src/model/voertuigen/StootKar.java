@@ -2,6 +2,7 @@ package model.voertuigen;
 
 import java.math.BigDecimal;
 
+import model.factory.Kleuren;
 import utilities.Category;
 
 
@@ -14,7 +15,7 @@ import utilities.Category;
 public class StootKar extends Voertuig
 {
     public StootKar(int aantalWielen, Category cat, BigDecimal waarde) {
-		super(aantalWielen, cat, waarde);
+		super(aantalWielen, cat, waarde, Kleuren.randomKleur(), null);
 		// TODO Auto-generated constructor stub
 	}
 

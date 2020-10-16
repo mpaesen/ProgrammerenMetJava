@@ -21,9 +21,10 @@ public class Deur
     {
         // initialise instance variables
         this.deur = deur;
-        switch((int)(Math.random()*2.0)){
+        switch((int)(Math.random()*3.0)){
             case 0:venster = new Venster("(met normaal zijvenster)");break;
             case 1:venster = new Venster("(met geblindeerd zijvenster)");break;
+            case 2: venster = new Venster("(geen venster)");
             default:venster = new Venster("(met kapot zijvenster)");break;
         }
     }
@@ -31,7 +32,7 @@ public class Deur
     /**
      * Initialises a window
      * 
-     * @param  y   a sample parameter for a method
+     * @param     a sample parameter for a method
      * @return     the sum of x and y 
      */
     public void setVenster(Venster venster)

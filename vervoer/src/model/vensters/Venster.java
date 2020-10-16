@@ -17,8 +17,7 @@ public class Venster {
 	 */
 	public Venster(String venster) {
 		// initialise instance variables
-		this.venster = venster;
-		dikte = 1;
+		this(venster, 1);
 	}
 
 	public Venster(String venster, int dikte) {

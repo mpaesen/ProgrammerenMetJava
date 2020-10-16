@@ -13,14 +13,9 @@ public class Motor
     /**
      * Constructor for objects of class Motor
      */
-    public Motor()
+    public Motor(String type)
     {
-        // initialise instance variables
-         switch((int)(Math.random()*2.0)){
-            case 0: type = "diesel";break;
-            case 1: type = "benzine";break;
-            default: type = "H20";break;
-        }
+        this.type = type;
     }
 
     /**

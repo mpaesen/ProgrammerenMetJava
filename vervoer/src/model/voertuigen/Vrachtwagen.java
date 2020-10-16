@@ -2,6 +2,7 @@ package model.voertuigen;
 
 import java.math.BigDecimal;
 
+import model.factory.Kleuren;
 import utilities.Category;
 import model.laadbakken.LaadBak;
 
@@ -17,16 +18,18 @@ public class Vrachtwagen extends Auto {
 	private LaadBak laadbak;
 
 	public Vrachtwagen(LaadBak laadbak, int aantalWielen, Category cat, BigDecimal waarde) {
-		super(aantalWielen, cat, waarde);
+		super(aantalWielen, cat, waarde, Kleuren.randomKleur());
 		this.laadbak = laadbak;
 	}
 
 
+	@Override
 	public String toString() {
-		return super.toString()
-				+ "\n\thet is een vrachtwagen met als laadbak: " + getLaadbak();
+		return "Vrachtwagen{" + super.toString() +
+				" laadbak=" + laadbak +
+				", motor=" + motor +
+				'}';
 	}
-
 
 	public LaadBak getLaadbak() {
 		return laadbak;
