@@ -7,9 +7,201 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="32ed47de-858d-4b57-ba40-17ad35f7f037" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="32ed47de-858d-4b57-ba40-17ad35f7f037" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../JHTP11" beforeDir="false" afterPath="$PROJECT_DIR$/../JHTP11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/out/artifacts/mobyus/WEB-INF/classes/temperature/model/Celcius.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/out/artifacts/mobyus/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebApplication/out/artifacts/mobyus/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/out/artifacts/mobyus/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebApplication/out/artifacts/mobyus/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/out/artifacts/mobyus/temperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebApplication/out/artifacts/mobyus/temperature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/out/production/MyWebApplication/temperature/model/Celcius.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/src/be/mobyus/TemperatureServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebApplication/src/be/mobyus/TemperatureServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/src/temperature/model/Celcius.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebApplication/src/temperature/model/Celcius.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/src/temperature/model/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebApplication/src/temperature/model/Conversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/src/temperature/model/Farenheit.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebApplication/src/temperature/model/Farenheit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/src/temperature/model/Kelvin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebApplication/src/temperature/model/Kelvin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/src/temperature/model/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebApplication/src/temperature/model/Temperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/src/temperature/view/TestTemperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebApplication/src/temperature/view/TestTemperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/src/test/WelcomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebApplication/src/test/WelcomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebApplication/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebApplication/web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MyWebApplication/web/temperature.html" beforeDir="false" afterPath="$PROJECT_DIR$/../MyWebApplication/web/temperature.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Opdrachten" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdrachten" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examens/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../examens/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2005/examen/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2005/examen/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2005/examen/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2005/examen/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2005/examen/exceptions/MaximumAantalKamers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2005/examen/exceptions/MaximumAantalKamers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2005/examen/model/EengezinsWoning.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2005/examen/model/EengezinsWoning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2005/examen/model/Kamer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2005/examen/model/Kamer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2005/examen/model/Loft.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2005/examen/model/Loft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2005/examen/model/Villa.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2005/examen/model/Villa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2005/examen/model/Woning.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2005/examen/model/Woning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2005/examen/test/TestWoning.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2005/examen/test/TestWoning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/BerichtFactory.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/BerichtFactory.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/IBerichtFactory.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/IBerichtFactory.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/IInformatieFactory.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/IInformatieFactory.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/IVervoermiddelFactory.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/IVervoermiddelFactory.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/InformatieFactory.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/InformatieFactory.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/VerplaatsingVoorbijException.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/VerplaatsingVoorbijException.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/VervoerMiddelFactory.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/VervoerMiddelFactory.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/bluej.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/bluej.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/Datum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/Datum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/Inschrijving.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/Inschrijving.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/Persoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/Persoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/Reiziger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/Reiziger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/Subject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/Verplaatsing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/Verplaatsing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/berichten/Bericht.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/berichten/Bericht.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/berichten/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/berichten/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/berichten/SMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/berichten/SMS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/berichten/Telefoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/berichten/Telefoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/bluej.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/bluej.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/informatie/Afgelasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/informatie/Afgelasting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/informatie/Informatie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/informatie/Informatie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/informatie/Omleiding.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/informatie/Omleiding.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/informatie/Vertraging.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/informatie/Vertraging.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/vervoermiddelen/Boot.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/vervoermiddelen/Boot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/vervoermiddelen/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/vervoermiddelen/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/vervoermiddelen/Tram.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/vervoermiddelen/Tram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/vervoermiddelen/Trein.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/vervoermiddelen/Trein.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/vervoermiddelen/VervoerMiddel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/vervoermiddelen/VervoerMiddel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/business/vervoermiddelen/Vliegtuig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/business/vervoermiddelen/Vliegtuig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/exceptions/VerplaatsingVoorbijException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/exceptions/VerplaatsingVoorbijException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/exceptions/bluej.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/exceptions/bluej.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/exceptions/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/exceptions/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/BerichtFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/BerichtFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/IBerichtFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/IBerichtFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/IInformatieFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/IInformatieFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/IVervoermiddelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/IVervoermiddelFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/InformatieFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/InformatieFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/VervoerMiddelFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/VervoerMiddelFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/bluej.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/bluej.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/factories/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/test/Randomizers.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/test/Randomizers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/test/bluej.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/test/bluej.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/test/enums/Berichten.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/test/enums/Berichten.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/test/enums/Namen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/test/enums/Namen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/test/enums/Steden.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/test/enums/Steden.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/test/enums/Voertuigen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/test/enums/Voertuigen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/test/enums/Voornamen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/test/enums/Voornamen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2010/src/test/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2010/src/test/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/AInstantie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/AInstantie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/GemeeteStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/GemeeteStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/GenericPrijs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/GenericPrijs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/IInschrijfStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/IInschrijfStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/IObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/IObserver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/IPrijs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/IPrijs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/ISubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/ISubject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/InschrijfFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/InschrijfFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/InstantieFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/InstantieFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/Leverancier.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/Leverancier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/LeverancierFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/LeverancierFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/PrijsFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/PrijsFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/PrivateStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/PrivateStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/Prive.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/Prive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/ProvincieStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/ProvincieStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/Publiek.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/Publiek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/README.TXT" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/README.TXT" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/SeizoensPrijs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/SeizoensPrijs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/ATegenpartij.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/ATegenpartij.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/Adres.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/Adres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/ProfessioneleTegenPartij.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/ProfessioneleTegenPartij.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/RetailTegenpartij.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/RetailTegenpartij.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/SoortRelatie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/SoortRelatie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/Tegenpartijen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/Tegenpartijen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/keybIO/KeybIO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/keybIO/KeybIO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/testtegenpartijen/TestTegenPartijen.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/testtegenpartijen/TestTegenPartijen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/testtegenpartijen/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2011/src/tegenpartijen/testtegenpartijen/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2012/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2012/.classpath" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2012/.project" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2012/.project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2012/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2012/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Actor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Actor.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Actor.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/ActorFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/ActorFactory$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/ActorFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/ActorFactory.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/ActorFactory.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/BasisFuncties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/BasisFuncties.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/BasisFuncties.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/BasisFunctiesFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/BasisFunctiesFactory$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/BasisFunctiesFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/BasisFunctiesFactory.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/BasisFunctiesFactory.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Bericht.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Bericht.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Bericht.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Coördinaten.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Coördinaten.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Locatie.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Locatie.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Mobile.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Mobile.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Observer.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Observer.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Static.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Static.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Subject.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/Subject.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Actor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Actor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/ActorFactory.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/ActorFactory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/BasisFuncties.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/BasisFuncties.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/BasisFunctiesFactory.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/BasisFunctiesFactory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Bericht.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Bericht.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Coördinaten.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Coördinaten.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Locatie.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Locatie.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Mobile.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Mobile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Observer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Observer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Static.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Static.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Subject.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/Subject.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/logfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/logfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/doc/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2013/SchipInNood/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/Actor.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/Actor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/ActorFactory.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/ActorFactory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/Observer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/Observer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/Subject.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/Subject.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/logfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/logfile.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/../examensJava/examen2014/IntelligenteCamera/doc/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../invoices/invoices.xcodeproj/project.xcworkspace/xcuserdata/mpaesen.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/../invoices/invoices.xcodeproj/project.xcworkspace/xcuserdata/mpaesen.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../invoicing" beforeDir="false" afterPath="$PROJECT_DIR$/../invoicing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/myFirstWebApplication.war/WEB-INF/classes/temperature/model/Celcius.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/myFirstWebApplication_war_exploded/WEB-INF/classes/temperature/model/Celcius.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myFirstWebApplication/be/mobyus/TemperatureServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myFirstWebApplication/be/mobyus/TemperatureServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/myFirstWebApplication/temperature/model/Conversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/myFirstWebApplication/temperature/model/Conversion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/be/mobyus/TemperatureServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/be/mobyus/TemperatureServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/temperature/model/Celcius.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/temperature/model/Celcius.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/temperature/model/Conversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/temperature/model/Conversion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/temperature/model/Farenheit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/temperature/model/Farenheit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/temperature/model/Kelvin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/temperature/model/Kelvin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/temperature/model/Temperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/temperature/model/Temperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/temperature/view/TestTemperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/temperature/view/TestTemperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/WelcomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/WelcomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testWeb" beforeDir="false" afterPath="$PROJECT_DIR$/../testWeb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,9 +210,6 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -28,45 +217,23 @@
       </list>
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/be/mobyus/TemperatureServlet.java" />
-        <option value="$PROJECT_DIR$/TemperatureServlet.http" />
-        <option value="$PROJECT_DIR$/src/test/WelcomeServlet.java" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="myFirstWebApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myFirstWebApplication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myFirstWebApplication" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectId" id="1h2YkhB3eLMy2nbeCDqaesiklNq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -75,6 +242,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553770022567" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -97,19 +265,7 @@
       <command value="open ~/git/myFirstWebApplication" />
     </option>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Tomcat Server.index.jsp">
+  <component name="RunManager" selected="Application.TestTemperature">
     <configuration name="TestTemperature" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="temperature.view.TestTemperature" />
       <module name="myFirstWebApplication" />
@@ -347,6 +503,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -362,11 +519,10 @@
       <workItem from="1553760236490" duration="34000" />
       <workItem from="1553760302977" duration="216000" />
       <workItem from="1553769880007" duration="120000" />
+      <workItem from="1599210800908" duration="56000" />
+      <workItem from="1602258004415" duration="63000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5038000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -377,92 +533,26 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="DB Browser" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="UI Designer" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info id="JavaEE:App" order="8" side_tool="true" />
-      <window_info id="Web" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32894737" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32894737" />
-      <window_info anchor="bottom" id="DB Execution Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32894737" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32894737" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info active="true" anchor="bottom" id="Messages" order="14" visible="true" weight="0.32894737" />
-      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32894737" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Remote Host" order="5" weight="0.32967034" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="SciView" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/temperature/view/TestTemperature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myFirstWebApplication.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TemperatureServlet.http">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/WelcomeServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/be/mobyus/TemperatureServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1358" height="270" key="GridCell.Tab.0.bottom" timestamp="1599210856870">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1358" height="270" key="GridCell.Tab.0.bottom/0.23.1792.1097@0.23.1792.1097" timestamp="1599210856870" />
+    <state width="1358" height="270" key="GridCell.Tab.0.center" timestamp="1599210856869">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1358" height="270" key="GridCell.Tab.0.center/0.23.1792.1097@0.23.1792.1097" timestamp="1599210856869" />
+    <state width="1358" height="270" key="GridCell.Tab.0.left" timestamp="1599210856869">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1358" height="270" key="GridCell.Tab.0.left/0.23.1792.1097@0.23.1792.1097" timestamp="1599210856869" />
+    <state width="1358" height="270" key="GridCell.Tab.0.right" timestamp="1599210856869">
+      <screen x="0" y="23" width="1792" height="1097" />
+    </state>
+    <state width="1358" height="270" key="GridCell.Tab.0.right/0.23.1792.1097@0.23.1792.1097" timestamp="1599210856869" />
   </component>
   <component name="masterDetails">
     <states>
