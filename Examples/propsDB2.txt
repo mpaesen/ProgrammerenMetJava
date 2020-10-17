@@ -1,0 +1,21 @@
+# *  Exercise :     Opdracht2 : Ontwerpen met java
+#*  FileName :   	propsDB.txt
+#*  @author Pascal Sempels 
+#*  @version Revision : 1.0  date : 06/02/2010
+#*  
+#*  Propertie-bestand 
+#*/
+# Do not change this file !!!!
+# properties configuratie bestand voor het opzetten van een verbinding naar de
+#
+#
+#Derby databank
+# Servername is COBRAII in bestand hosts ipadres en naam ingeven !!!
+#
+#DerbyServer=jdbc:derby://COBRAII:1527/Oefening2;create=true
+Derby.url=jdbc:derby://localhost:1527/DB2;create=true
+#Derby.url=jdbc:derby:Oefening2;create=true
+Derby.paswoord =APP
+Derby.user =APP
+#
+#
