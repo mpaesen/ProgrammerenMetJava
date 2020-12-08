@@ -9,7 +9,7 @@
 	</servlet>
 	<servlet>
 		<servlet-name>TemperatureServlet</servlet-name>
-		<servlet-class>be.mobyus.TemperatureServlet</servlet-class>
+		<servlet-class>be.mySchool.TemperatureServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>welcome</servlet-name>

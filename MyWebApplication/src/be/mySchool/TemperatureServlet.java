@@ -1,4 +1,4 @@
-package be.mobyus;
+package be.mySchool;
 
 import temperature.model.Conversion;
 import temperature.model.Temperature;
