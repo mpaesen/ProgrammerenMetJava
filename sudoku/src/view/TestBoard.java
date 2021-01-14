@@ -21,6 +21,7 @@ public class TestBoard
 		BasicConfigurator.configure();
 		//Constants.logger.setLevel(Level.ERROR);
 		Constants.logger.setLevel(Level.INFO);
+		//Constants.logger.setLevel(Level.OFF);
 		final Board board = new Board();
 		board.generateBoard();
 		Constants.logger.info(board);
