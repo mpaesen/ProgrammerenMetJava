@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.6.0_05"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v6.0 (2)"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/j/_Studenten2009/Ronsmans/Oef5-hibernate/Oef5-hibernate/project/required jars/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/j/_Studenten2009/Ronsmans/Oef5-hibernate/Oef5-hibernate/project/required jars/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/j/_Studenten2009/Ronsmans/Oef5-hibernate/Oef5-hibernate/project/required jars/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/j/_Studenten2009/Ronsmans/Oef5-hibernate/Oef5-hibernate/project/required jars/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/j/_Studenten2009/Ronsmans/Oef5-hibernate/Oef5-hibernate/project/required jars/javassist-3.4.GA.jar"/>
+	<classpathentry kind="lib" path="C:/j/_Studenten2009/Ronsmans/Oef5-hibernate/Oef5-hibernate/project/required jars/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/j/_Studenten2009/Ronsmans/Oef5-hibernate/Oef5-hibernate/project/required jars/slf4j-api-1.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/j/_Studenten2009/Ronsmans/Oef5-hibernate/Oef5-hibernate/project/required jars/slf4j-simple-1.5.6.jar"/>
+	<classpathentry kind="lib" path="C:/DBDrivers/MySQL/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

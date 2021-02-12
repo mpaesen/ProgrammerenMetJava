@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.rational.xtools.umlvisualizer.emfnotation:Pack xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.rational.xtools.umlvisualizer.emfnotation="http:///com/rational/xtools/umlvisualizer/emfnotation.ecore" Id="3e96f8ba-0104-ebe8-3bcc-7f000001aa77" version="8">
+  <Diagram DiagramId="3e96f8bb-0104-ecfb-57a9-7f000001aa77">
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="3e971729-0104-f238-024e-7f000001aa77" targetConnectors="3e97eff5-0104-e721-11f4-7f000001aa77" PositionX="625" PositionY="1850" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Testable})" Name="Testable" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="3e97173d-0104-e553-0b79-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Testable})" Name="Testable" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="3e971747-0104-ee29-5337-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Testable})" Name="Testable" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="3e971751-0104-fad1-648d-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Testable})" Name="Testable" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="3e971752-0104-f798-7b29-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Testable})" Name="Testable" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="3e97ed9c-0104-e14a-64b9-7f000001aa77" sourceConnectors="3e97eff5-0104-e721-11f4-7f000001aa77" PositionX="625" PositionY="7750" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Test})" Name="Test" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="3e97ed9d-0104-e25d-7168-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Test})" Name="Test" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="3e97ed9e-0104-ff24-7a73-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Test})" Name="Test" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="3e97ed9f-0104-e037-0231-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Test})" Name="Test" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="3e97eda0-0104-e7fa-0bf7-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Test})" Name="Test" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="3e97eff5-0104-e721-11f4-7f000001aa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="3e97ed9c-0104-e14a-64b9-7f000001aa77" target="3e971729-0104-f238-024e-7f000001aa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Test})(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Test})(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Testable}))" Name="" Kind="125"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="3e97efff-0104-ed94-37e0-7f000001aa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Test})(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Test})(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Testable}))" Name="" Kind="125"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="3e97f000-0104-fd0a-5354-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Test})(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Test})(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Testable}))" Name="" Kind="125"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="3e97f001-0104-fe1d-5d15-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Test})(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Test})(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Testable}))" Name="" Kind="125"/>
+        </children>
+      </Labels>
+      <Labels Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="3e97f002-0104-fae4-687b-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Test})(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Test})(~jclass{!pid%Developing OO Applications with Java}{%lab9.model.Testable}))" Name="" Kind="125"/>
+      </Labels>
+      <BendPoints x="4" y="-210"/>
+      <BendPoints x="4" y="138"/>
+      <BendPoints x="4" y="-242"/>
+      <BendPoints x="4" y="106"/>
+    </children>
+  </Diagram>
+</com.rational.xtools.umlvisualizer.emfnotation:Pack>

@@ -1,0 +1,6 @@
+@CHARSET "ISO-8859-1";
+
+BODY { background-color: #bbffbb } /*#rrggbb = red green blue*/
+
+H2 {text-align: left;
+	color: black;}

@@ -1,0 +1,169 @@
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+	<!-- General description of your Web application -->
+	<display-name>
+		Java How to Program JSP and Servlet Chapter Examples
+	</display-name>
+
+	<description>
+		This is the Web application in which we demonstrate our JSP and
+		Servlet examples.
+	</description>
+
+	<!-- Servlet definitions -->
+	<servlet>
+		<servlet-name>welcome</servlet-name>
+
+		<description>
+			A simple servlet that handles an HTTP get request.
+		</description>
+
+		<servlet-class>be.WelcomeServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>welcome2</servlet-name>
+
+		<description>
+			A simple servlet that handles an HTTP get request.
+		</description>
+
+		<servlet-class>be.WelcomeServlet2</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>welcome3</servlet-name>
+
+		<description>
+			A simple servlet that handles an HTTP post request.
+		</description>
+
+		<servlet-class>be.WelcomeServlet3</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>redirect</servlet-name>
+		<description>
+			A servlet that redirects to another URL.
+		</description>
+		<servlet-class>be.RedirectServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>animalsurvey</servlet-name>
+		<description>A survey servlet.</description>
+		<servlet-class>be.SurveyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>lotto</servlet-name>
+		<description>Lotto Results</description>
+		<servlet-class>be.GetLottoResults</servlet-class>
+	</servlet>
+
+
+	<servlet>
+		<servlet-name>CurrencyServlet</servlet-name>
+		<display-name>CurrencyServlet</display-name>
+		<servlet-class>be.mySchool.CurrencyServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetLottoResults</servlet-name>
+		<display-name>GetLottoResults</display-name>
+		<servlet-class>be.GetLottoResults</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>TemperatureServlet</servlet-name>
+		<display-name>TemperatureServlet</display-name>
+		<servlet-class>be.mySchool.TemperatureServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>Test</servlet-name>
+		<display-name>Test</display-name>
+		<description></description>
+		<servlet-class>be.mySchool.Test</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GetLottoResultsFromServlet</servlet-name>
+		<display-name>GetLottoResultsFromServlet</display-name>
+		<description></description>
+		<servlet-class>be.GetLottoResultsAndGenerateJSP</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>SQL</servlet-name>
+		<display-name>
+			This is the display name of my J2EE component
+		</display-name>
+		<description>
+			This is the description of my J2EE component
+		</description>
+		<servlet-class>be.mySchool.DBServlet</servlet-class>
+	</servlet>
+
+
+	<!-- Servlet mappings -->
+	<servlet-mapping>
+		<servlet-name>SQL</servlet-name>
+		<url-pattern>/DBServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>welcome</servlet-name>
+		<url-pattern>/welcome</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>welcome2</servlet-name>
+		<url-pattern>/welcome2</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>welcome3</servlet-name>
+		<url-pattern>/welcome3</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>redirect</servlet-name>
+		<url-pattern>/redirect</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>animalsurvey</servlet-name>
+		<url-pattern>/animalsurvey</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>lotto</servlet-name>
+		<url-pattern>/lotto</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>CurrencyServlet</servlet-name>
+		<url-pattern>/CurrencyServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>TemperatureServlet</servlet-name>
+		<url-pattern>/TemperatureServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetLottoResults</servlet-name>
+		<url-pattern>/GetLottoResults</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>Test</servlet-name>
+		<url-pattern>/Test</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GetLottoResultsFromServlet</servlet-name>
+		<url-pattern>/GetLottoResultsFromServlet</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+</web-app>

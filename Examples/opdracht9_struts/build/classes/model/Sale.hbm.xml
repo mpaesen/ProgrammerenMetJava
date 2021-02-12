@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="model.Sale" table ="sales">
+      <id name="saleID" column="sale_id">
+    	<generator class="native"/>
+    </id>
+  	<property name="dateString" column="datum"></property>
+  	<property name="klantID" column ="customer"></property>
+  	<property name="kassierID" column ="employee"></property>
+  	<property name="totalCost" column ="totalprice"></property>
+  	<property name="totalTax" column ="totaltax"></property>
+  	
+  	  	
+  	
+  	<!--
+  	
+  	<bag name="salelines" cascade="all" inverse="true">
+		<key column="saleline_id"/>
+    	<one-to-many class="SalesLineItem"/>
+	</bag>
+  
+  
+  
+ 	--></class>
+</hibernate-mapping>

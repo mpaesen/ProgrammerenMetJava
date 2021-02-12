@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.15" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 2.2.2.r222_v20071226 Build &lt;2.2.2.v20080227-1131></property>
+    <property name="units">in</property>
+    <property name="comments">Copyright (c) 2007 &lt;&lt;Your Company Name here>></property>
+    <html-property name="description">Creates a blank report with no predefined content.</html-property>
+    <text-property name="displayName">Blank Report</text-property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">Library.rptlibrary</property>
+            <property name="namespace">Library</property>
+        </structure>
+    </list-property>
+    <parameters>
+        <scalar-parameter name="prmMonth" id="217" extends="Library.prmMonth"/>
+        <scalar-parameter name="prmQuarter" id="218" extends="Library.prmQuarter"/>
+        <scalar-parameter name="prmYear" id="219" extends="Library.prmYear"/>
+        <scalar-parameter name="prmPeriod" id="220" extends="Library.prmPeriod"/>
+        <scalar-parameter name="prmLanguage" id="221" extends="Library.prmLanguage"/>
+    </parameters>
+    <data-sources>
+        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Data Source" id="6"
+ extends="Library.Data Source"/>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="dsEuroInvestedInLeads" id="7">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">PROJ_ID</property>
+                    <property name="displayName">PROJ_ID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">PROJ_ORGID</property>
+                    <property name="displayName">PROJ_ORGID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">Budget</property>
+                    <property name="displayName">Budget</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LEAD_ID</property>
+                    <property name="displayName">LEAD_ID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LEAD_PROJID</property>
+                    <property name="displayName">LEAD_PROJID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">PERS_LASTNAME</property>
+                    <property name="displayName">PERS_LASTNAME</property>
+                </structure>
+                <structure>
+                    <property name="columnName">PERS_FIRSTNAME</property>
+                    <property name="displayName">PERS_FIRSTNAME</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">PROJ_ID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">PROJ_ORGID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">Budget</property>
+                        <property name="dataType">decimal</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">LEAD_ID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">LEAD_PROJID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">PERS_LASTNAME</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">PERS_FIRSTNAME</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">PROJ_ID</property>
+                    <property name="nativeName">PROJ_ID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">PROJ_ORGID</property>
+                    <property name="nativeName">PROJ_ORGID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">Budget</property>
+                    <property name="nativeName">Budget</property>
+                    <property name="dataType">decimal</property>
+                    <property name="nativeDataType">3</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">LEAD_ID</property>
+                    <property name="nativeName">LEAD_ID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">LEAD_PROJID</property>
+                    <property name="nativeName">LEAD_PROJID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">PERS_LASTNAME</property>
+                    <property name="nativeName">PERS_LASTNAME</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">PERS_FIRSTNAME</property>
+                    <property name="nativeName">PERS_FIRSTNAME</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+            </list-property>
+            <property name="queryText">select PROJECT.PROJ_ID, PROJECT.PROJ_ORGID, PROJECT.PROJ_BUDGET as Budget, LEAD.LEAD_ID, LEAD.LEAD_PROJID, PERSON.PERS_LASTNAME, PERSON.PERS_FIRSTNAME 
+from PROJECT, LEAD, PERSON
+where LEAD.LEAD_PROJID = PROJECT.PROJ_ID
+and LEAD.LEAD_PERSID = PERSON.PERS_ID</property>
+        </oda-data-set>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="dsLanguages" id="215"
+ extends="Library.dsLanguages"/>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="ds_Periode_Title" id="216"
+ extends="Library.ds_Periode_Title"/>
+    </data-sets>
+    <cubes>
+        <tabular-cube name="dcEuroInvestedInLeads" id="159">
+            <property name="defaultMeasureGroup">Summary Field</property>
+            <property name="dimensions">
+                <tabular-dimension name="Group" id="160">
+                    <property name="defaultHierarchy">NewTabularHierarchy</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy" id="161">
+                            <property name="levels">
+                                <tabular-level name="PROJ_ID" id="162">
+                                    <property name="dataType">string</property>
+                                    <property name="columnName">PROJ_ID</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="Group1" id="163">
+                    <property name="defaultHierarchy">NewTabularHierarchy1</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy1" id="164">
+                            <property name="levels">
+                                <tabular-level name="PROJ_ORGID" id="165">
+                                    <property name="dataType">string</property>
+                                    <property name="columnName">PROJ_ORGID</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="Group2" id="166">
+                    <property name="defaultHierarchy">NewTabularHierarchy2</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy2" id="167">
+                            <property name="levels">
+                                <tabular-level name="Budget" id="168">
+                                    <property name="dataType">decimal</property>
+                                    <property name="columnName">Budget</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="Group3" id="169">
+                    <property name="defaultHierarchy">NewTabularHierarchy3</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy3" id="170">
+                            <property name="levels">
+                                <tabular-level name="LEAD_ID" id="171">
+                                    <property name="dataType">string</property>
+                                    <property name="columnName">LEAD_ID</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="Group4" id="172">
+                    <property name="defaultHierarchy">NewTabularHierarchy4</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy4" id="173">
+                            <property name="levels">
+                                <tabular-level name="LEAD_PROJID" id="174">
+                                    <property name="dataType">string</property>
+                                    <property name="columnName">LEAD_PROJID</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="Group5" id="175">
+                    <property name="defaultHierarchy">NewTabularHierarchy5</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy5" id="176">
+                            <property name="levels">
+                                <tabular-level name="PERS_LASTNAME" id="177">
+                                    <property name="dataType">string</property>
+                                    <property name="columnName">PERS_LASTNAME</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+                <tabular-dimension name="Group6" id="178">
+                    <property name="defaultHierarchy">NewTabularHierarchy6</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy6" id="179">
+                            <property name="levels">
+                                <tabular-level name="PERS_FIRSTNAME" id="180">
+                                    <property name="dataType">string</property>
+                                    <property name="columnName">PERS_FIRSTNAME</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+            </property>
+            <property name="measureGroups">
+                <tabular-measure-group name="Summary Field" id="181">
+                    <property name="measures">
+                        <tabular-measure name="Budget" id="182">
+                            <expression name="measureExpression">dataSetRow["Budget"]</expression>
+                            <property name="dataType">decimal</property>
+                        </tabular-measure>
+                    </property>
+                </tabular-measure-group>
+            </property>
+            <property name="dataSet">dsEuroInvestedInLeads</property>
+        </tabular-cube>
+    </cubes>
+    <styles>
+        <style name="crosstab" id="4">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab-cell" id="5">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+    </styles>
+    <page-setup>
+        <simple-master-page name="IBSPPage_Cube" id="116" extends="Library.IBSPPage_Cube">
+            <overridden-values>
+                <ref-entry baseId="49" name="NewGrid1" id="117"/>
+                <ref-entry baseId="50" id="118"/>
+                <ref-entry baseId="51" id="119"/>
+                <ref-entry baseId="52" id="120"/>
+                <ref-entry baseId="53" id="121"/>
+                <ref-entry baseId="54" id="122"/>
+                <ref-entry baseId="69" name="NewImage" id="123"/>
+                <ref-entry baseId="94" name="NewText2" id="94"/>
+                <ref-entry baseId="57" id="124"/>
+                <ref-entry baseId="58" id="125"/>
+                <ref-entry baseId="59" id="126"/>
+                <ref-entry baseId="60" id="127"/>
+                <ref-entry baseId="61" id="128"/>
+                <ref-entry baseId="62" id="129"/>
+                <ref-entry baseId="70" name="NewText1" id="130"/>
+                <ref-entry baseId="65" id="131"/>
+                <ref-entry baseId="66" id="132"/>
+                <ref-entry baseId="67" id="133"/>
+                <ref-entry baseId="68" id="134"/>
+            </overridden-values>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <grid id="60">
+            <property name="width">100%</property>
+            <column id="61"/>
+            <row id="62">
+                <cell id="63">
+                    <table id="64">
+                        <property name="width">100%</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">Period_Title</property>
+                                <expression name="expression">var Timespan = params["prmPeriod"];
+var tester = "";
+
+
+if ( Timespan == "Week")
+{
+	tester = dataSetRow["week"]
+}
+else if ( Timespan == "Month")
+{
+	tester =dataSetRow["month"]
+}
+else if( Timespan == "Quarter")
+{
+  tester = dataSetRow["quarter"]
+}
+else if( Timespan == "Year")
+{
+
+	tester = params["prmYear"];
+	}
+
+
+tester = "(" + tester + ")";
+tester;</expression>
+                                <property name="dataType">any</property>
+                            </structure>
+                        </list-property>
+                        <column id="71">
+                            <property name="width">75%</property>
+                        </column>
+                        <column id="213"/>
+                        <header>
+                            <row id="65">
+                                <property name="backgroundColor">#507295</property>
+                                <cell id="66">
+                                    <label id="72">
+                                        <property name="backgroundColor">#507295</property>
+                                        <property name="color">#FFFFFF</property>
+                                        <property name="textAlign">right</property>
+                                        <text-property name="text">€ Invested in leads</text-property>
+                                    </label>
+                                </cell>
+                                <cell id="210">
+                                    <data id="214">
+                                        <property name="color">#FFFFFF</property>
+                                        <property name="dataSet">ds_Periode_Title</property>
+                                        <list-property name="boundDataColumns">
+                                            <structure>
+                                                <property name="name">month</property>
+                                                <expression name="expression">dataSetRow["month"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">quarter</property>
+                                                <expression name="expression">dataSetRow["quarter"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">week</property>
+                                                <expression name="expression">dataSetRow["week"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">Period_Title</property>
+                                                <expression name="expression">var Timespan = params["prmPeriod"];
+var tester = "";
+
+
+if ( Timespan == "Week")
+{
+	tester = dataSetRow["week"]
+}
+else if ( Timespan == "Month")
+{
+	tester =dataSetRow["month"]
+}
+else if( Timespan == "Quarter")
+{
+  tester = dataSetRow["quarter"]
+}
+else if( Timespan == "Year")
+{
+
+	tester = params["prmYear"];
+	}
+
+
+tester = "(" + tester + ")";
+tester;</expression>
+                                                <property name="dataType">any</property>
+                                            </structure>
+                                        </list-property>
+                                        <property name="resultSetColumn">Period_Title</property>
+                                    </data>
+                                </cell>
+                            </row>
+                        </header>
+                        <detail>
+                            <row id="67">
+                                <cell id="68">
+                                    <property name="colSpan">2</property>
+                                    <property name="rowSpan">1</property>
+                                    <extended-item extensionName="Crosstab" id="183">
+                                        <property name="measures">
+                                            <extended-item extensionName="MeasureView" id="197">
+                                                <property name="measure">Budget</property>
+                                                <property name="detail">
+                                                    <extended-item extensionName="CrosstabCell" id="198">
+                                                        <property name="content">
+                                                            <data name="Budget" id="200">
+                                                                <property name="textAlign">right</property>
+                                                                <property name="orphans">2</property>
+                                                                <property name="widows">2</property>
+                                                                <property name="resultSetColumn">Budget</property>
+                                                            </data>
+                                                        </property>
+                                                    </extended-item>
+                                                </property>
+                                                <property name="aggregations">
+                                                    <extended-item extensionName="AggregationCell" id="203">
+                                                        <property name="backgroundColor">#969696</property>
+                                                        <property name="content">
+                                                            <data id="204">
+                                                                <property name="backgroundColor">#969696</property>
+                                                                <property name="fontWeight">bold</property>
+                                                                <property name="textAlign">right</property>
+                                                                <property name="resultSetColumn">Budget_1</property>
+                                                            </data>
+                                                        </property>
+                                                    </extended-item>
+                                                    <extended-item extensionName="AggregationCell" id="207">
+                                                        <property name="aggregationOnRow">Group3/LEAD_ID</property>
+                                                        <property name="backgroundColor">#C0C0C0</property>
+                                                        <property name="content">
+                                                            <data id="208">
+                                                                <property name="textAlign">right</property>
+                                                                <property name="resultSetColumn">Budget_Group3/LEAD_ID</property>
+                                                            </data>
+                                                        </property>
+                                                    </extended-item>
+                                                </property>
+                                                <property name="header">
+                                                    <extended-item extensionName="CrosstabCell" id="199">
+                                                        <property name="content">
+                                                            <label id="201">
+                                                                <text-property name="text">Budget</text-property>
+                                                            </label>
+                                                        </property>
+                                                    </extended-item>
+                                                </property>
+                                            </extended-item>
+                                        </property>
+                                        <property name="rows">
+                                            <extended-item extensionName="CrosstabView" id="184">
+                                                <property name="grandTotal">
+                                                    <extended-item extensionName="CrosstabCell" id="202">
+                                                        <property name="content">
+                                                            <label id="205">
+                                                                <property name="backgroundColor">#969696</property>
+                                                                <property name="fontWeight">bold</property>
+                                                                <text-property name="text">Grand Total</text-property>
+                                                            </label>
+                                                        </property>
+                                                        <property name="backgroundColor">#969696</property>
+                                                    </extended-item>
+                                                </property>
+                                                <property name="views">
+                                                    <extended-item extensionName="DimensionView" id="185">
+                                                        <property name="dimension">Group3</property>
+                                                        <property name="levels">
+                                                            <extended-item extensionName="LevelView" name="NewLevel View" id="186">
+                                                                <property name="level">Group3/LEAD_ID</property>
+                                                                <property name="member">
+                                                                    <extended-item extensionName="CrosstabCell" id="187">
+                                                                        <property name="content">
+                                                                            <data name="LEAD_ID" id="188">
+                                                                                <property name="resultSetColumn">LEAD_ID</property>
+                                                                            </data>
+                                                                        </property>
+                                                                    </extended-item>
+                                                                </property>
+                                                                <property name="aggregationHeader">
+                                                                    <extended-item extensionName="CrosstabCell" id="206">
+                                                                        <property name="content">
+                                                                            <label id="209">
+                                                                                <text-property name="text">Total</text-property>
+                                                                            </label>
+                                                                        </property>
+                                                                        <property name="backgroundColor">#C0C0C0</property>
+                                                                    </extended-item>
+                                                                </property>
+                                                            </extended-item>
+                                                        </property>
+                                                    </extended-item>
+                                                    <extended-item extensionName="DimensionView" id="189">
+                                                        <property name="dimension">Group6</property>
+                                                        <property name="levels">
+                                                            <extended-item extensionName="LevelView" name="NewLevel View1" id="190">
+                                                                <property name="level">Group6/PERS_FIRSTNAME</property>
+                                                                <property name="member">
+                                                                    <extended-item extensionName="CrosstabCell" id="191">
+                                                                        <property name="content">
+                                                                            <data name="PERS_FIRSTNAME" id="192">
+                                                                                <property name="resultSetColumn">PERS_FIRSTNAME</property>
+                                                                            </data>
+                                                                        </property>
+                                                                    </extended-item>
+                                                                </property>
+                                                            </extended-item>
+                                                        </property>
+                                                    </extended-item>
+                                                    <extended-item extensionName="DimensionView" id="193">
+                                                        <property name="dimension">Group5</property>
+                                                        <property name="levels">
+                                                            <extended-item extensionName="LevelView" name="NewLevel View2" id="194">
+                                                                <property name="level">Group5/PERS_LASTNAME</property>
+                                                                <property name="member">
+                                                                    <extended-item extensionName="CrosstabCell" id="195">
+                                                                        <property name="content">
+                                                                            <data name="PERS_LASTNAME" id="196">
+                                                                                <property name="resultSetColumn">PERS_LASTNAME</property>
+                                                                            </data>
+                                                                        </property>
+                                                                    </extended-item>
+                                                                </property>
+                                                            </extended-item>
+                                                        </property>
+                                                    </extended-item>
+                                                </property>
+                                            </extended-item>
+                                        </property>
+                                        <property name="cube">dcEuroInvestedInLeads</property>
+                                        <list-property name="boundDataColumns">
+                                            <structure>
+                                                <property name="name">LEAD_ID</property>
+                                                <expression name="expression">dimension["Group3"]["LEAD_ID"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">PERS_FIRSTNAME</property>
+                                                <expression name="expression">dimension["Group6"]["PERS_FIRSTNAME"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">PERS_LASTNAME</property>
+                                                <expression name="expression">dimension["Group5"]["PERS_LASTNAME"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">Budget</property>
+                                                <expression name="expression">measure["Budget"]</expression>
+                                                <property name="dataType">decimal</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">Budget_1</property>
+                                                <expression name="expression">measure["Budget"]</expression>
+                                                <property name="dataType">decimal</property>
+                                                <property name="aggregateFunction">sum</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">Budget_Group3/LEAD_ID</property>
+                                                <expression name="expression">measure["Budget"]</expression>
+                                                <property name="dataType">decimal</property>
+                                                <simple-property-list name="aggregateOn">
+                                                    <value>Group3/LEAD_ID</value>
+                                                </simple-property-list>
+                                                <property name="aggregateFunction">sum</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">Budget_Group6/PERS_FIRSTNAME</property>
+                                                <expression name="expression">measure["Budget"]</expression>
+                                                <property name="dataType">decimal</property>
+                                                <simple-property-list name="aggregateOn">
+                                                    <value>Group6/PERS_FIRSTNAME</value>
+                                                </simple-property-list>
+                                                <property name="aggregateFunction">sum</property>
+                                            </structure>
+                                        </list-property>
+                                    </extended-item>
+                                </cell>
+                            </row>
+                        </detail>
+                        <footer>
+                            <row id="69">
+                                <cell id="70"/>
+                                <cell id="212"/>
+                            </row>
+                        </footer>
+                    </table>
+                </cell>
+            </row>
+        </grid>
+    </body>
+</report>

@@ -1,0 +1,59 @@
+create table gebruikers
+(
+id integer not null constraint operators_PK primary key,
+gebruikersnaam varchar(50) not null,
+functie varchar(30) not null,
+paswoord varchar(30) not null
+);
+
+create table klanten
+(
+klantid integer not null constraint klanten_PK primary key,
+klantnaam varchar(50) not null
+);
+
+Create table calls
+(
+callid bigint not null constraint calls_PK primary key,
+gebruikerid integer not null,
+klantid integer not null,
+status smallint not null,
+datum varchar(10) not null,
+klachttoestel varchar(50),
+klachttype varchar(20),
+klachtbeschrijving varchar(10000),
+constraint calls_gebruikerid_FK foreign key (gebruikerid) references gebruikers (id),
+constraint calls_klantid_FK foreign key (klantid) references klanten (klantid)
+);
+
+
+create table callupdates
+(
+callid bigint,
+gebruikerid integer,
+klantid integer,
+status smallint,
+datum varchar(10),
+klachttoestel varchar(50),
+klachttype varchar(20),
+klachtbeschrijving varchar(10000),
+datumupdate date
+);
+
+Create trigger callupdatetrigger
+after update on calls 
+referencing new_table as updates
+for each statement mode db2sql
+insert into callupdates (callid, gebruikerid,klantid,status,datum,klachttoestel,klachttype,klachtbeschrijving,datumupdate) 
+values (
+(select callid from updates),
+(select gebruikerid from updates),
+(select klantid from updates),
+(select status from updates),
+(select datum from updates),
+(select klachttoestel from updates),
+(select klachttype from updates),
+(select klachtbeschrijving from updates),
+current_date
+)
+

@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.15" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 2.2.2.r222_v20071226 Build &lt;2.2.2.v20080227-1131></property>
+    <property name="units">in</property>
+    <property name="comments">Copyright (c) 2007 &lt;&lt;Your Company Name here>></property>
+    <html-property name="description">Creates a blank report with no predefined content.</html-property>
+    <list-property name="userProperties">
+        <structure>
+            <property name="name">dcNumberOfLeadsCounty.dsNumberOfLeadsCounty.x</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+        <structure>
+            <property name="name">dcNumberOfLeadsCounty.dsNumberOfLeadsCounty.y</property>
+            <property name="type">integer</property>
+            <property name="isVisible">false</property>
+        </structure>
+    </list-property>
+    <property name="dcNumberOfLeadsCounty.dsNumberOfLeadsCounty.x">135</property>
+    <property name="dcNumberOfLeadsCounty.dsNumberOfLeadsCounty.y">80</property>
+    <text-property name="displayName">Blank Report</text-property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">Library.rptlibrary</property>
+            <property name="namespace">Library</property>
+        </structure>
+    </list-property>
+    <parameters>
+        <scalar-parameter name="prmMonth" id="97" extends="Library.prmMonth"/>
+        <scalar-parameter name="prmQuarter" id="98" extends="Library.prmQuarter"/>
+        <scalar-parameter name="prmYear" id="99" extends="Library.prmYear"/>
+        <scalar-parameter name="prmPeriod" id="100" extends="Library.prmPeriod"/>
+        <scalar-parameter name="prmLanguage" id="101" extends="Library.prmLanguage"/>
+    </parameters>
+    <data-sources>
+        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Data Source" id="6"
+ extends="Library.Data Source"/>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="dsNumberOfLeadsCounty" id="7">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">County</property>
+                    <property name="displayName">County</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_MATCHCODE</property>
+                    <property name="displayName">ORG_MATCHCODE</property>
+                </structure>
+                <structure>
+                    <property name="columnName">PERS_LASTNAME</property>
+                    <property name="displayName">PERS_LASTNAME</property>
+                </structure>
+                <structure>
+                    <property name="columnName">PERS_FIRSTNAME</property>
+                    <property name="displayName">PERS_FIRSTNAME</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">County</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">ORG_MATCHCODE</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">PERS_LASTNAME</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">PERS_FIRSTNAME</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <list-property name="parameters">
+                <structure>
+                    <property name="name">prmLanguage1</property>
+                    <property name="paramName">prmLanguage</property>
+                    <property name="dataType">any</property>
+                    <property name="position">1</property>
+                    <property name="isInput">true</property>
+                    <property name="isOutput">false</property>
+                </structure>
+            </list-property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">County</property>
+                    <property name="nativeName">County</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">ORG_MATCHCODE</property>
+                    <property name="nativeName">ORG_MATCHCODE</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">PERS_LASTNAME</property>
+                    <property name="nativeName">PERS_LASTNAME</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">PERS_FIRSTNAME</property>
+                    <property name="nativeName">PERS_FIRSTNAME</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+            </list-property>
+            <property name="queryText">select (select sel_value
+from selectiontables
+where sel_ID like 'county'
+and sel_languser = ?
+and sel_subitem = ORGANISATION.ORG_COUNTY)
+ County, ORGANISATION.ORG_MATCHCODE, PERSON.PERS_LASTNAME, PERSON.PERS_FIRSTNAME
+from LEAD, ORGANISATION, PERSON
+where LEAD.LEAD_ORGID = ORGANISATION.ORG_ID
+and LEAD.LEAD_PERSID = PERSON.PERS_ID
+and not ORGANISATION.ORG_ZIP = ''
+group by ORGANISATION.ORG_COUNTY, ORGANISATION.ORG_MATCHCODE, PERSON.PERS_LASTNAME, PERSON.PERS_FIRSTNAME</property>
+        </oda-data-set>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="dsLanguages" id="95"
+ extends="Library.dsLanguages"/>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="ds_Periode_Title" id="96"
+ extends="Library.ds_Periode_Title"/>
+    </data-sets>
+    <cubes>
+        <tabular-cube name="dcNumberOfLeadsCounty" id="21">
+            <property name="defaultMeasureGroup">Summary Field</property>
+            <property name="dimensions">
+                <tabular-dimension name="Group" id="102">
+                    <property name="defaultHierarchy">NewTabularHierarchy</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy" id="103">
+                            <property name="levels">
+                                <tabular-level name="County" id="104">
+                                    <property name="dataType">string</property>
+                                    <property name="columnName">County</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+            </property>
+            <property name="measureGroups">
+                <tabular-measure-group name="Summary Field" id="34">
+                    <property name="measures">
+                        <tabular-measure name="County" id="158">
+                            <property name="function">count</property>
+                            <property name="dataType">string</property>
+                        </tabular-measure>
+                    </property>
+                </tabular-measure-group>
+            </property>
+            <property name="dataSet">dsNumberOfLeadsCounty</property>
+        </tabular-cube>
+    </cubes>
+    <styles>
+        <style name="crosstab" id="4">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab-cell" id="5">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+    </styles>
+    <page-setup>
+        <simple-master-page name="IBSPPage_Cube" id="84" extends="Library.IBSPPage_Cube">
+            <overridden-values>
+                <ref-entry baseId="49" name="NewGrid1" id="49"/>
+                <ref-entry baseId="50" id="50"/>
+                <ref-entry baseId="51" id="51"/>
+                <ref-entry baseId="52" id="52"/>
+                <ref-entry baseId="53" id="53"/>
+                <ref-entry baseId="54" id="54"/>
+                <ref-entry baseId="69" name="NewImage" id="85"/>
+                <ref-entry baseId="94" name="NewText2" id="94"/>
+                <ref-entry baseId="57" id="57"/>
+                <ref-entry baseId="58" id="58"/>
+                <ref-entry baseId="59" id="59"/>
+                <ref-entry baseId="60" id="60"/>
+                <ref-entry baseId="61" id="61"/>
+                <ref-entry baseId="62" id="62"/>
+                <ref-entry baseId="70" name="NewText1" id="86"/>
+                <ref-entry baseId="65" id="65"/>
+                <ref-entry baseId="66" id="66"/>
+                <ref-entry baseId="67" id="67"/>
+                <ref-entry baseId="68" id="87"/>
+            </overridden-values>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <grid id="8">
+            <property name="width">100%</property>
+            <column id="9"/>
+            <row id="10">
+                <cell id="11">
+                    <table id="12">
+                        <property name="width">100%</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">Period_Title</property>
+                                <expression name="expression">var Timespan = params["prmPeriod"];
+var tester = "";
+
+
+if ( Timespan == "Week")
+{
+	tester = dataSetRow["week"]
+}
+else if ( Timespan == "Month")
+{
+	tester =dataSetRow["month"]
+}
+else if( Timespan == "Quarter")
+{
+  tester = dataSetRow["quarter"]
+}
+else if( Timespan == "Year")
+{
+
+	tester = params["prmYear"];
+	}
+
+
+tester = "(" + tester + ")";
+tester;</expression>
+                                <property name="dataType">any</property>
+                            </structure>
+                        </list-property>
+                        <column id="19">
+                            <property name="width">75%</property>
+                        </column>
+                        <column id="177"/>
+                        <header>
+                            <row id="13">
+                                <property name="backgroundColor">#507295</property>
+                                <cell id="14">
+                                    <label id="83">
+                                        <property name="color">#FFFFFF</property>
+                                        <property name="textAlign">right</property>
+                                        <text-property name="text">Number of leads/County</text-property>
+                                    </label>
+                                </cell>
+                                <cell id="174">
+                                    <data id="178">
+                                        <property name="color">white</property>
+                                        <property name="dataSet">ds_Periode_Title</property>
+                                        <list-property name="boundDataColumns">
+                                            <structure>
+                                                <property name="name">month</property>
+                                                <expression name="expression">dataSetRow["month"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">quarter</property>
+                                                <expression name="expression">dataSetRow["quarter"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">week</property>
+                                                <expression name="expression">dataSetRow["week"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">Period_Title</property>
+                                                <expression name="expression">var Timespan = params["prmPeriod"];
+var tester = "";
+
+
+if ( Timespan == "Week")
+{
+	tester = dataSetRow["week"]
+}
+else if ( Timespan == "Month")
+{
+	tester =dataSetRow["month"]
+}
+else if( Timespan == "Quarter")
+{
+  tester = dataSetRow["quarter"]
+}
+else if( Timespan == "Year")
+{
+
+	tester = params["prmYear"];
+	}
+
+
+tester = "(" + tester + ")";
+tester;</expression>
+                                                <property name="dataType">any</property>
+                                            </structure>
+                                        </list-property>
+                                        <property name="resultSetColumn">Period_Title</property>
+                                    </data>
+                                </cell>
+                            </row>
+                        </header>
+                        <detail>
+                            <row id="15">
+                                <cell id="16">
+                                    <property name="colSpan">2</property>
+                                    <property name="rowSpan">1</property>
+                                    <extended-item extensionName="Crosstab" id="159">
+                                        <property name="measures">
+                                            <extended-item extensionName="MeasureView" id="165">
+                                                <property name="measure">County</property>
+                                                <property name="detail">
+                                                    <extended-item extensionName="CrosstabCell" id="166">
+                                                        <property name="content">
+                                                            <data name="County1" id="168">
+                                                                <property name="textAlign">right</property>
+                                                                <property name="resultSetColumn">County_1</property>
+                                                            </data>
+                                                        </property>
+                                                    </extended-item>
+                                                </property>
+                                                <property name="aggregations">
+                                                    <extended-item extensionName="AggregationCell" id="171">
+                                                        <property name="fontWeight">bold</property>
+                                                        <property name="backgroundColor">#969696</property>
+                                                        <property name="textAlign">right</property>
+                                                        <property name="content">
+                                                            <data id="172">
+                                                                <property name="resultSetColumn">County_2</property>
+                                                            </data>
+                                                        </property>
+                                                    </extended-item>
+                                                </property>
+                                                <property name="header">
+                                                    <extended-item extensionName="CrosstabCell" id="167">
+                                                        <property name="content">
+                                                            <label id="169">
+                                                                <text-property name="text">County</text-property>
+                                                            </label>
+                                                        </property>
+                                                    </extended-item>
+                                                </property>
+                                            </extended-item>
+                                        </property>
+                                        <property name="rows">
+                                            <extended-item extensionName="CrosstabView" id="160">
+                                                <property name="grandTotal">
+                                                    <extended-item extensionName="CrosstabCell" id="170">
+                                                        <property name="content">
+                                                            <label id="173">
+                                                                <text-property name="text">Grand Total</text-property>
+                                                            </label>
+                                                        </property>
+                                                        <property name="fontWeight">bold</property>
+                                                        <property name="backgroundColor">#969696</property>
+                                                    </extended-item>
+                                                </property>
+                                                <property name="views">
+                                                    <extended-item extensionName="DimensionView" id="161">
+                                                        <property name="dimension">Group</property>
+                                                        <property name="levels">
+                                                            <extended-item extensionName="LevelView" name="NewLevel View" id="162">
+                                                                <property name="level">Group/County</property>
+                                                                <property name="member">
+                                                                    <extended-item extensionName="CrosstabCell" id="163">
+                                                                        <property name="content">
+                                                                            <data name="County" id="164">
+                                                                                <property name="resultSetColumn">County</property>
+                                                                            </data>
+                                                                        </property>
+                                                                    </extended-item>
+                                                                </property>
+                                                            </extended-item>
+                                                        </property>
+                                                    </extended-item>
+                                                </property>
+                                            </extended-item>
+                                        </property>
+                                        <property name="cube">dcNumberOfLeadsCounty</property>
+                                        <list-property name="boundDataColumns">
+                                            <structure>
+                                                <property name="name">County</property>
+                                                <expression name="expression">dimension["Group"]["County"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">County_1</property>
+                                                <expression name="expression">measure["County"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">County_2</property>
+                                                <expression name="expression">measure["County"]</expression>
+                                                <property name="dataType">string</property>
+                                                <property name="aggregateFunction">SUM</property>
+                                            </structure>
+                                        </list-property>
+                                    </extended-item>
+                                </cell>
+                            </row>
+                        </detail>
+                        <footer>
+                            <row id="17">
+                                <cell id="18"/>
+                                <cell id="176"/>
+                            </row>
+                        </footer>
+                    </table>
+                </cell>
+            </row>
+        </grid>
+    </body>
+</report>

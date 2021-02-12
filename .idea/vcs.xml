@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JHTP11" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Opdrachten" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/invoicing" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn-spring" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn-spring/ProgrammerenMetJava" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/testWeb" vcs="Git" />
+  </component>
+</project>

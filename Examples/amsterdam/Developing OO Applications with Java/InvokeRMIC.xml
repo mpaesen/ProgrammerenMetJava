@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project basedir="" default="rmic" name="rmic">
+<target name="rmic" description="Invoke RMIC on TestService">
+<exec executable="rmic" dir="">
+<arg line="-d . lab9.server.TestService"/>
+</exec>
+</target>
+<target name="createBat">
+<delete file="C:\Documents and Settings\bempn\My Documents\IBM\Courses\JA34\ja3411labfiles\devwjava\rmireg.bat" quiet="true"/>
+<echo file="C:\Documents and Settings\bempn\My Documents\IBM\Courses\JA34\ja3411labfiles\devwjava\rmireg.bat">
+@echo off
+cd "${basedir}"
+rmiregistry
+</echo>
+</target>
+</project>

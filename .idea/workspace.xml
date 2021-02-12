@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab191905-ed25-4cae-b470-e9ede11bd9f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/JHTP11" beforeDir="false" afterPath="$PROJECT_DIR$/JHTP11" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MyWebApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebApplication/out/artifacts/mobyus/WEB-INF/classes/temperature/model/Celcius.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyWebApplication/out/production/MyWebApplication/temperature/model/Celcius.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Opdrachten" beforeDir="false" afterPath="$PROJECT_DIR$/Opdrachten" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examens/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examens/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examensJava/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examensJava/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examensJava/examen2013/SchipInNood/Actor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examensJava/examen2013/SchipInNood/ActorFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examensJava/examen2013/SchipInNood/ActorFactory$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examensJava/examen2013/SchipInNood/ActorFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examensJava/examen2013/SchipInNood/BasisFuncties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examensJava/examen2013/SchipInNood/BasisFunctiesFactory$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examensJava/examen2013/SchipInNood/BasisFunctiesFactory$Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examensJava/examen2013/SchipInNood/BasisFunctiesFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examensJava/examen2013/SchipInNood/Bericht.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoices/invoices.xcodeproj/project.xcworkspace/xcuserdata/mpaesen.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/invoices/invoices.xcodeproj/project.xcworkspace/xcuserdata/mpaesen.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/invoicing" beforeDir="false" afterPath="$PROJECT_DIR$/invoicing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myFirstWebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/myFirstWebApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myFirstWebApplication/out/artifacts/myFirstWebApplication.war/WEB-INF/classes/temperature/model/Celcius.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myFirstWebApplication/out/artifacts/myFirstWebApplication_war_exploded/WEB-INF/classes/temperature/model/Celcius.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myFirstWebApplication/out/production/myFirstWebApplication/be/mobyus/TemperatureServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/myFirstWebApplication/out/production/myFirstWebApplication/be/mobyus/TemperatureServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myFirstWebApplication/out/production/myFirstWebApplication/temperature/model/Conversion.class" beforeDir="false" afterPath="$PROJECT_DIR$/myFirstWebApplication/out/production/myFirstWebApplication/temperature/model/Conversion.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iyW6W4YQafzjsPxVbCLbkXVxpr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab191905-ed25-4cae-b470-e9ede11bd9f1" name="Default Changelist" comment="" />
+      <created>1602880136293</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602880136293</updated>
+      <workItem from="1602880137411" duration="2000" />
+    </task>
+    <servers />
+  </component>
+</project>

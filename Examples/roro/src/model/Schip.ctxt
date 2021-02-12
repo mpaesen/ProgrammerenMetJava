@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Schip()
+comment0.text=\nConstructor\ for\ objects\ of\ class\ Schip\n\n
+comment1.params=cars
+comment1.target=void\ addSmallCars(int)
+comment1.text=\nAdd\ Small\ cars\n\n@param\ \ y\ \ \ number\ of\ cars\n@return\n\n
+comment2.params=cars
+comment2.target=void\ addBigCars(int)
+comment2.text=\nAdd\ Big\ cars\n\n@param\ \ y\ \ \ number\ of\ cars\n@return\n\n
+comment3.params=quantity\ vehicle
+comment3.target=void\ addVehicles(int,\ int)
+comment3.text=\nAdd\ any\ car\n\n@param\ \ quantity\ \ \ number\ of\ cars,\ vehicle\ type\ \n@return\n\n
+comment4.params=cars
+comment4.target=void\ removeSmallCars(int)
+comment4.text=\nRemove\ Small\ cars\ \n\n@param\ \ y\ \ \ number\ of\ cars\n@return\n\n
+comment5.params=cars
+comment5.target=void\ removeBigCars(int)
+comment5.text=\nRemove\ Big\ cars\ \n\n@param\ \ y\ \ \ number\ of\ cars\n@return\n\n
+comment6.params=quantity\ vehicle
+comment6.target=void\ removeVehicles(int,\ int)
+comment6.text=\nRemove\ any\ car\n\n@param\ \ quantity\ \ \ number\ of\ cars,\ vehicle\ type\ \n@return\n\n
+comment7.target=int\ totalWeight()
+comment7.text=\nCalculate\ the\ total\ weight\ of\ the\ boat\n\n@param\ \ \n@return\ total\ weight\n\n
+comment8.target=String\ toString()
+numComments=9

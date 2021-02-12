@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence>
+    <jsp-scripting/>
+    <beanData>
+        <bean id="/advantage/WebContent/Result.jsp" type="view.ResultBean">
+            <collectionProperty name="list">
+                <contains type="model.AdvantageCard"/>
+            </collectionProperty>
+        </bean>
+    </beanData>
+</persistence>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.rational.xtools.umlvisualizer.emfnotation:Pack xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.rational.xtools.umlvisualizer.emfnotation="http:///com/rational/xtools/umlvisualizer/emfnotation.ecore" Id="380d78b1-0104-fd9a-2e6a-ac150c1baa77" version="8">
+  <Diagram DiagramId="380d78b2-0104-fa60-4dda-ac150c1baa77">
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="380e11e2-0104-f2e1-47f7-ac150c1baa77" PositionX="3650" PositionY="2950" ExtentX="5300" ExtentY="4775" Autosize="false" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab7.view.DEDSApplet})" Name="DEDSApplet" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="380e11f6-0104-e5fc-4ba4-ac150c1baa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab7.view.DEDSApplet})" Name="DEDSApplet" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="380e120a-0104-f72a-0d39-ac150c1baa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab7.view.DEDSApplet})" Name="DEDSApplet" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="380e120b-0104-f83d-1e2b-ac150c1baa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab7.view.DEDSApplet})" Name="DEDSApplet" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="380e120c-0104-fd9d-34de-ac150c1baa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab7.view.DEDSApplet})" Name="DEDSApplet" Kind="29"/>
+      </children>
+    </children>
+  </Diagram>
+</com.rational.xtools.umlvisualizer.emfnotation:Pack>

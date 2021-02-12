@@ -1,0 +1,7 @@
+META-INF/
+.settings/
+bin/
+.project
+.classpath
+*.jar
+*.class

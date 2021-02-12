@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<faces-config
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd"
+    version="1.2">
+	<managed-bean>
+		<managed-bean-name>calculatorBean</managed-bean-name>
+		<managed-bean-class>beans.CalculatorBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>muntBean</managed-bean-name>
+		<managed-bean-class>beans.MuntBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>tempBean</managed-bean-name>
+		<managed-bean-class>beans.TempBean</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<managed-bean>
+		<managed-bean-name>test</managed-bean-name>
+		<managed-bean-class>beans.test</managed-bean-class>
+		<managed-bean-scope>session</managed-bean-scope>
+	</managed-bean>
+	<navigation-rule>
+		<display-name>StartPage</display-name>
+		<from-view-id>/StartPage.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>B</from-outcome>
+			<to-view-id>/Munt.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>StartPage</display-name>
+		<from-view-id>/StartPage.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>A</from-outcome>
+			<to-view-id>/Calc.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>StartPage</display-name>
+		<from-view-id>/StartPage.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>C</from-outcome>
+			<to-view-id>/Temp.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>Temp</display-name>
+		<from-view-id>/Temp.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>Verlaat</from-outcome>
+			<to-view-id>/StartPage.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>Munt</display-name>
+		<from-view-id>/Munt.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>Verlaat</from-outcome>
+			<to-view-id>/StartPage.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+	<navigation-rule>
+		<display-name>Calc</display-name>
+		<from-view-id>/Calc.jsp</from-view-id>
+		<navigation-case>
+			<from-outcome>Verlaat</from-outcome>
+			<to-view-id>/StartPage.jsp</to-view-id>
+		</navigation-case>
+	</navigation-rule>
+
+</faces-config>

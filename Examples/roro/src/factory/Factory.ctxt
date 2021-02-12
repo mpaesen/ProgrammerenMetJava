@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=i
+comment0.target=Vehicle\ getVehicle(int)
+comment0.text=\nGenerates\ a\ Vehicle\n@return\ \ \ \ \ the\ vehicle\ \n\n
+numComments=1

@@ -1,0 +1,18 @@
+Basic Java2 Syntax
+Application Development
+DEVELOPMENT
+Java Servlets
+Application Development
+PRODUCTION
+Java Applets
+Application Development
+PRODUCTION
+XML Tags
+XML
+DEVELOPMENT
+XML Parsers
+XML
+PRODUCTION
+Beginning HTML
+Web Development
+PRODUCTION

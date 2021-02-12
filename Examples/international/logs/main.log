@@ -1,0 +1,54 @@
+2018-01-07 21:58:38,847 +0100 [main] INFO  (Person.java:53) - Bonjour, je m'appelle John, mon capital est 	 10000.00€
+2018-01-07 21:58:38,859 +0100 [main] INFO  (Person.java:53) - Hello my Name Is John, my capital is: 	 12401.10$
+2018-01-07 21:58:38,862 +0100 [main] INFO  (Person.java:53) - Hallo, mijn naam is John, mijn kapitaal is: 	 10000.00€
+2018-01-07 21:58:38,863 +0100 [main] INFO  (Person.java:53) - Hallo, mein Name ist John, mein Kapital ist 	 10000.00€
+2018-01-07 21:58:38,866 +0100 [main] INFO  (Person.java:53) - Hallo, mein Name ist John, mein Kapital ist 	 12025.51Fr
+2018-01-07 21:58:38,868 +0100 [main] INFO  (Person.java:53) - Hello my Name Is John, my capital is: 	100090.00SEK
+2018-01-07 21:58:38,879 +0100 [main] INFO  (Person.java:53) - Hola, el meu nom és John, mi capital es 	 10000.00€
+2018-01-07 21:58:38,881 +0100 [main] INFO  (Person.java:53) - Ciao, mi chiamo John, la mia capitale è	 10000.00€
+2018-01-07 21:58:38,883 +0100 [main] INFO  (Person.java:53) - Hello my Name Is John, my capital is: 	  7924.50£
+2018-01-07 21:58:38,885 +0100 [main] INFO  (Person.java:53) - Ciao, mi chiamo John, la mia capitale è	 12025.51Fr
+2018-01-07 22:02:53,859 +0100 [main] INFO  (Person.java:53) - Bonjour, je m'appelle John, mon capital est 	 10000.00€
+2018-01-07 22:02:53,873 +0100 [main] INFO  (Person.java:53) - Hello my Name Is John, my capital is: 	 12401.10$
+2018-01-07 22:02:53,877 +0100 [main] INFO  (Person.java:53) - Hallo, mijn naam is John, mijn kapitaal is: 	 10000.00€
+2018-01-07 22:02:53,878 +0100 [main] INFO  (Person.java:53) - Hallo, mein Name ist John, mein Kapital ist 	 10000.00€
+2018-01-07 22:02:53,880 +0100 [main] INFO  (Person.java:53) - Hallo, mein Name ist John, mein Kapital ist 	 12025.51Fr
+2018-01-07 22:02:53,883 +0100 [main] INFO  (Person.java:53) - Hello my Name Is John, my capital is: 	100090.00SEK
+2018-01-07 22:02:53,893 +0100 [main] INFO  (Person.java:53) - Hola, el meu nom és John, mi capital es 	 10000.00€
+2018-01-07 22:02:53,895 +0100 [main] INFO  (Person.java:53) - Ciao, mi chiamo John, la mia capitale è	 10000.00€
+2018-01-07 22:02:53,897 +0100 [main] INFO  (Person.java:53) - Hello my Name Is John, my capital is: 	  7924.50£
+2018-01-07 22:02:53,899 +0100 [main] INFO  (Person.java:53) - Ciao, mi chiamo John, la mia capitale è	 12025.51Fr
+2018-01-08 20:41:29,283 +0100 [main] INFO  (Person.java:53) - Bonjour, je m'appelle John, mon capital est 	 10000.00€
+2018-01-08 20:41:29,287 +0100 [main] INFO  (Person.java:53) - Hello my Name Is John, my capital is: 	 12401.10$
+2018-01-08 20:41:29,288 +0100 [main] INFO  (Person.java:53) - Hallo, mijn naam is John, mijn kapitaal is: 	 10000.00€
+2018-01-08 20:41:29,289 +0100 [main] INFO  (Person.java:53) - Hallo, mein Name ist John, mein Kapital ist 	 10000.00€
+2018-01-08 20:41:29,290 +0100 [main] INFO  (Person.java:53) - Hallo, mein Name ist John, mein Kapital ist 	 12025.51Fr
+2018-01-08 20:41:29,291 +0100 [main] INFO  (Person.java:53) - Hello my Name Is John, my capital is: 	100090.00SEK
+2018-01-08 20:41:29,294 +0100 [main] INFO  (Person.java:53) - Hola, el meu nom és John, mi capital es 	 10000.00€
+2018-01-08 20:41:29,295 +0100 [main] INFO  (Person.java:53) - Ciao, mi chiamo John, la mia capitale è	 10000.00€
+2018-01-08 20:41:29,296 +0100 [main] INFO  (Person.java:53) - Hello my Name Is John, my capital is: 	  7924.50£
+2018-01-08 20:41:29,296 +0100 [main] INFO  (Person.java:53) - Ciao, mi chiamo John, la mia capitale è	 12025.51Fr
+2018-01-08 20:41:53,069 +0100 [main] INFO  (Person.java:53) - Bonjour, je m'appelle John, mon capital est 	 10000.00€
+2018-01-08 20:41:53,072 +0100 [main] INFO  (Person.java:53) - Hello my Name Is John, my capital is: 	 12401.10$
+2018-01-08 20:41:53,073 +0100 [main] INFO  (Person.java:53) - Hallo, mijn naam is John, mijn kapitaal is: 	 10000.00€
+2018-01-08 20:41:53,074 +0100 [main] INFO  (Person.java:53) - Hallo, mein Name ist John, mein Kapital ist 	 10000.00€
+2018-01-08 20:41:53,074 +0100 [main] INFO  (Person.java:53) - Hallo, mein Name ist John, mein Kapital ist 	 12025.51Fr
+2018-01-08 20:41:53,075 +0100 [main] INFO  (Person.java:53) - Hello my Name Is John, my capital is: 	100090.00SEK
+2018-01-08 20:41:53,078 +0100 [main] INFO  (Person.java:53) - Hola, el meu nom és John, mi capital es 	 10000.00€
+2018-01-08 20:41:53,078 +0100 [main] INFO  (Person.java:53) - Ciao, mi chiamo John, la mia capitale è	 10000.00€
+2018-01-08 20:41:53,079 +0100 [main] INFO  (Person.java:53) - Hello my Name Is John, my capital is: 	  7924.50£
+2018-01-08 20:41:53,080 +0100 [main] INFO  (Person.java:53) - Ciao, mi chiamo John, la mia capitale è	 12025.51Fr
+2018-01-08 21:24:31,404 +0100 [main] INFO  (Person.java:53) - Bonjour, je m'appelle John, mon capital est 	 10000.00€
+2018-01-08 21:24:31,407 +0100 [main] INFO  (Person.java:53) - Hello my Name Is John, my capital is: 	 12401.10$
+2018-01-08 21:24:31,408 +0100 [main] INFO  (Person.java:53) - Hallo, mijn naam is John, mijn kapitaal is: 	 10000.00€
+2018-01-08 21:24:31,408 +0100 [main] INFO  (Person.java:53) - Hallo, mein Name ist John, mein Kapital ist 	 10000.00€
+2018-01-08 21:24:31,409 +0100 [main] INFO  (Person.java:53) - Hallo, mein Name ist John, mein Kapital ist 	 12025.51Fr
+2018-01-08 21:24:31,410 +0100 [main] ERROR (AmountAdaptor.java:49) - Exchange rate for SEK not found!
+2018-01-08 21:24:31,412 +0100 [main] INFO  (Person.java:53) - Hello my Name Is John, my capital is: 	     0.00SEK
+2018-01-08 21:24:31,412 +0100 [main] ERROR (AmountAdaptor.java:49) - Exchange rate for SEK not found!
+2018-01-08 21:24:31,412 +0100 [main] INFO  (Person.java:53) - Hola, el meu nom és John, mi capital es 	 10000.00€
+2018-01-08 21:24:31,413 +0100 [main] INFO  (Person.java:53) - Ciao, mi chiamo John, la mia capitale è	 10000.00€
+2018-01-08 21:24:31,414 +0100 [main] INFO  (Person.java:53) - Hello my Name Is John, my capital is: 	  7924.50£
+2018-01-08 21:24:31,414 +0100 [main] INFO  (Person.java:53) - Ciao, mi chiamo John, la mia capitale è	 12025.51Fr
+2018-01-08 21:24:56,541 +0100 [main] ERROR (AmountAdaptor.java:49) - Exchange rate for SEK not found!
+2018-01-08 21:24:56,544 +0100 [main] ERROR (AmountAdaptor.java:49) - Exchange rate for SEK not found!

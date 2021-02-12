@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.rational.xtools.umlvisualizer.emfnotation:Pack xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.rational.xtools.umlvisualizer.emfnotation="http:///com/rational/xtools/umlvisualizer/emfnotation.ecore" Id="384f9a8b-0104-edda-1dac-ac150c1baa77" version="8">
+  <Diagram DiagramId="384f9a8c-0104-f33a-20bb-ac150c1baa77">
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="384fa832-0104-ed85-1a8a-ac150c1baa77" PositionX="625" PositionY="1850" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab8.control.TestController})" Name="TestController" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="384fa83c-0104-fc91-2cff-ac150c1baa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab8.control.TestController})" Name="TestController" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="384fa83d-0104-fda4-3613-ac150c1baa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab8.control.TestController})" Name="TestController" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="384fa83e-0104-fa6a-3df6-ac150c1baa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab8.control.TestController})" Name="TestController" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="384fa83f-0104-fb7e-47a6-ac150c1baa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab8.control.TestController})" Name="TestController" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="38508faa-0104-fab5-2c5e-ac150c1baa77" PositionX="5475" PositionY="1850" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab8.control.TimeLimitThreadImpl})" Name="TimeLimitThreadImpl" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="38508fab-0104-fbc8-3a4e-ac150c1baa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab8.control.TimeLimitThreadImpl})" Name="TimeLimitThreadImpl" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="38508fac-0104-e128-4371-ac150c1baa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab8.control.TimeLimitThreadImpl})" Name="TimeLimitThreadImpl" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="38508fad-0104-e23b-4b35-ac150c1baa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab8.control.TimeLimitThreadImpl})" Name="TimeLimitThreadImpl" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="38508fb4-0104-e75e-54e6-ac150c1baa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%Developing OO Applications with Java}{%lab8.control.TimeLimitThreadImpl})" Name="TimeLimitThreadImpl" Kind="29"/>
+      </children>
+    </children>
+  </Diagram>
+</com.rational.xtools.umlvisualizer.emfnotation:Pack>

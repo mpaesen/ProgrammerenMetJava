@@ -1,0 +1,2553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.15" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 2.2.2.r222_v20071226 Build &lt;2.2.2.v20080227-1131></property>
+    <property name="units">in</property>
+    <property name="comments">Copyright (c) 2007 &lt;&lt;Your Company Name here>></property>
+    <html-property name="description">Creates a blank report with no predefined content.</html-property>
+    <text-property name="displayName">Blank Report</text-property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <parameters>
+        <scalar-parameter name="prmMonth" id="203">
+            <property name="hidden">false</property>
+            <property name="valueType">static</property>
+            <property name="dataType">string</property>
+            <property name="paramType">simple</property>
+            <property name="isRequired">false</property>
+            <property name="controlType">list-box</property>
+            <property name="mustMatch">true</property>
+            <property name="fixedOrder">true</property>
+            <property name="defaultValue">3</property>
+            <property name="distinct">true</property>
+            <structure name="format">
+                <property name="category">Unformatted</property>
+            </structure>
+            <list-property name="selectionList">
+                <structure>
+                    <property name="value">0</property>
+                    <property name="label">0</property>
+                </structure>
+                <structure>
+                    <property name="value">1</property>
+                    <property name="label">1</property>
+                </structure>
+                <structure>
+                    <property name="value">2</property>
+                    <property name="label">2</property>
+                </structure>
+                <structure>
+                    <property name="value">3</property>
+                    <property name="label">3</property>
+                </structure>
+                <structure>
+                    <property name="value">4</property>
+                    <property name="label">4</property>
+                </structure>
+                <structure>
+                    <property name="value">5</property>
+                    <property name="label">5</property>
+                </structure>
+                <structure>
+                    <property name="value">6</property>
+                    <property name="label">6</property>
+                </structure>
+                <structure>
+                    <property name="value">7</property>
+                    <property name="label">7</property>
+                </structure>
+                <structure>
+                    <property name="value">8</property>
+                    <property name="label">8</property>
+                </structure>
+                <structure>
+                    <property name="value">9</property>
+                    <property name="label">9</property>
+                </structure>
+                <structure>
+                    <property name="value">10</property>
+                    <property name="label">10</property>
+                </structure>
+                <structure>
+                    <property name="value">11</property>
+                    <property name="label">11</property>
+                </structure>
+            </list-property>
+        </scalar-parameter>
+        <scalar-parameter name="prmQuarter" id="275">
+            <property name="valueType">static</property>
+            <property name="dataType">string</property>
+            <property name="paramType">simple</property>
+            <property name="isRequired">false</property>
+            <property name="controlType">list-box</property>
+            <property name="mustMatch">true</property>
+            <property name="fixedOrder">true</property>
+            <property name="defaultValue">3</property>
+            <property name="distinct">true</property>
+            <structure name="format">
+                <property name="category">Unformatted</property>
+            </structure>
+            <list-property name="selectionList">
+                <structure>
+                    <property name="value">0</property>
+                    <property name="label">Q1</property>
+                </structure>
+                <structure>
+                    <property name="value">3</property>
+                    <property name="label">Q2</property>
+                </structure>
+                <structure>
+                    <property name="value">6</property>
+                    <property name="label">Q3</property>
+                </structure>
+                <structure>
+                    <property name="value">9</property>
+                    <property name="label">Q4</property>
+                </structure>
+            </list-property>
+        </scalar-parameter>
+        <scalar-parameter name="prmTimeSpan" id="281">
+            <property name="valueType">static</property>
+            <property name="dataType">string</property>
+            <property name="paramType">simple</property>
+            <property name="controlType">list-box</property>
+            <property name="mustMatch">true</property>
+            <property name="fixedOrder">true</property>
+            <property name="defaultValue">Maand</property>
+            <property name="distinct">true</property>
+            <structure name="format">
+                <property name="category">Unformatted</property>
+            </structure>
+            <list-property name="selectionList">
+                <structure>
+                    <property name="value">Week</property>
+                    <property name="label">Week</property>
+                </structure>
+                <structure>
+                    <property name="value">Maand</property>
+                    <property name="label">Maand</property>
+                </structure>
+                <structure>
+                    <property name="value">Kwartaal</property>
+                    <property name="label">Kwartaal</property>
+                </structure>
+                <structure>
+                    <property name="value">Jaar</property>
+                    <property name="label">Jaar</property>
+                </structure>
+            </list-property>
+        </scalar-parameter>
+        <scalar-parameter name="prmYear" id="282">
+            <property name="valueType">static</property>
+            <property name="dataType">string</property>
+            <property name="paramType">simple</property>
+            <property name="controlType">list-box</property>
+            <property name="mustMatch">true</property>
+            <property name="fixedOrder">true</property>
+            <property name="distinct">true</property>
+            <structure name="format">
+                <property name="category">Unformatted</property>
+            </structure>
+            <list-property name="selectionList">
+                <structure>
+                    <property name="value">2008</property>
+                    <property name="label">2008</property>
+                </structure>
+                <structure>
+                    <property name="value">2007</property>
+                    <property name="label">2007</property>
+                </structure>
+                <structure>
+                    <property name="value">2006</property>
+                    <property name="label">2006</property>
+                </structure>
+                <structure>
+                    <property name="value">2009</property>
+                    <property name="label">2009</property>
+                </structure>
+            </list-property>
+        </scalar-parameter>
+        <scalar-parameter name="prmPicUp" id="458">
+            <property name="hidden">false</property>
+            <property name="valueType">static</property>
+            <property name="dataType">string</property>
+            <property name="paramType">simple</property>
+            <property name="isRequired">false</property>
+            <property name="controlType">text-box</property>
+            <property name="defaultValue">up.gif</property>
+            <property name="distinct">true</property>
+            <structure name="format">
+                <property name="category">Unformatted</property>
+            </structure>
+        </scalar-parameter>
+        <scalar-parameter name="prmPicDown" id="459">
+            <property name="valueType">static</property>
+            <property name="dataType">string</property>
+            <property name="paramType">simple</property>
+            <property name="isRequired">false</property>
+            <property name="controlType">text-box</property>
+            <property name="defaultValue">down.gif</property>
+            <property name="distinct">true</property>
+            <structure name="format">
+                <property name="category">Unformatted</property>
+            </structure>
+        </scalar-parameter>
+        <scalar-parameter name="prmPicEqual" id="460">
+            <property name="valueType">static</property>
+            <property name="dataType">string</property>
+            <property name="paramType">simple</property>
+            <property name="isRequired">false</property>
+            <property name="controlType">text-box</property>
+            <property name="defaultValue">equal.gif</property>
+            <property name="distinct">true</property>
+            <structure name="format">
+                <property name="category">Unformatted</property>
+            </structure>
+        </scalar-parameter>
+    </parameters>
+    <data-sources>
+        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Data Source" id="94">
+            <property name="odaDriverClass">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+            <property name="odaURL">jdbc:sqlserver://beibssel:1433;database=beblt</property>
+            <property name="odaUser">sysadm</property>
+            <encrypted-property name="odaPassword" encryptionID="base64">YWRtcHJvZA==</encrypted-property>
+        </oda-data-source>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Data Set" id="95">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">LEAD_ID</property>
+                    <property name="displayName">LEAD_ID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LEAD_ORGID</property>
+                    <property name="displayName">LEAD_ORGID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LEAD_PERSID</property>
+                    <property name="displayName">LEAD_PERSID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LEAD_CREATORID</property>
+                    <property name="displayName">LEAD_CREATORID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LEAD_RESPONSABLEID</property>
+                    <property name="displayName">LEAD_RESPONSABLEID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LEAD_STATUS</property>
+                    <property name="displayName">LEAD_STATUS</property>
+                </structure>
+                <structure>
+                    <property name="columnName">LEAD_PROJID</property>
+                    <property name="displayName">LEAD_PROJID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_ID</property>
+                    <property name="displayName">ORG_ID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_ISACTIVE</property>
+                    <property name="displayName">ORG_ISACTIVE</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_MATCHCODE</property>
+                    <property name="displayName">ORG_MATCHCODE</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_PHONE</property>
+                    <property name="displayName">ORG_PHONE</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_FAX</property>
+                    <property name="displayName">ORG_FAX</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_EMAIL</property>
+                    <property name="displayName">ORG_EMAIL</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_EMAIL1</property>
+                    <property name="displayName">ORG_EMAIL1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_STREETNUMBER</property>
+                    <property name="displayName">ORG_STREETNUMBER</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_BOX</property>
+                    <property name="displayName">ORG_BOX</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_ZIP</property>
+                    <property name="displayName">ORG_ZIP</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_COUNTY</property>
+                    <property name="displayName">ORG_COUNTY</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_COUNTRY</property>
+                    <property name="displayName">ORG_COUNTRY</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_SECURITYKEY</property>
+                    <property name="displayName">ORG_SECURITYKEY</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_SECURITYKEY1</property>
+                    <property name="displayName">ORG_SECURITYKEY1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_SECURITYKEY2</property>
+                    <property name="displayName">ORG_SECURITYKEY2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_SECURITYKEY3</property>
+                    <property name="displayName">ORG_SECURITYKEY3</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_URL</property>
+                    <property name="displayName">ORG_URL</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_TYPE</property>
+                    <property name="displayName">ORG_TYPE</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_CUSTCODE</property>
+                    <property name="displayName">ORG_CUSTCODE</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_JURENTITY</property>
+                    <property name="displayName">ORG_JURENTITY</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_VAT</property>
+                    <property name="displayName">ORG_VAT</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_ISPRODMANUFACT</property>
+                    <property name="displayName">ORG_ISPRODMANUFACT</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_FIELD1</property>
+                    <property name="displayName">ORG_FIELD1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_FIELD2</property>
+                    <property name="displayName">ORG_FIELD2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_FIELD3</property>
+                    <property name="displayName">ORG_FIELD3</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_FIELD4</property>
+                    <property name="displayName">ORG_FIELD4</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_FIELD5</property>
+                    <property name="displayName">ORG_FIELD5</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_FIELD6</property>
+                    <property name="displayName">ORG_FIELD6</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_FIELD7</property>
+                    <property name="displayName">ORG_FIELD7</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_FIELD8</property>
+                    <property name="displayName">ORG_FIELD8</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_FIELD9</property>
+                    <property name="displayName">ORG_FIELD9</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_FIELD10</property>
+                    <property name="displayName">ORG_FIELD10</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_HASACTIVITIES</property>
+                    <property name="displayName">ORG_HASACTIVITIES</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_LOCKNR</property>
+                    <property name="displayName">ORG_LOCKNR</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_STATUS</property>
+                    <property name="displayName">ORG_STATUS</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_VERSIONNR</property>
+                    <property name="displayName">ORG_VERSIONNR</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_VERSIONTYPE</property>
+                    <property name="displayName">ORG_VERSIONTYPE</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_VERSIONSTATUS</property>
+                    <property name="displayName">ORG_VERSIONSTATUS</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_NATURE</property>
+                    <property name="displayName">ORG_NATURE</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ENTERPRISE_ID</property>
+                    <property name="displayName">ENTERPRISE_ID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYACCOUNT</property>
+                    <property name="displayName">CYACCOUNT</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYSOLVABILITY</property>
+                    <property name="displayName">CYSOLVABILITY</property>
+                </structure>
+                <structure>
+                    <property name="columnName">SYSECTOR</property>
+                    <property name="displayName">SYSECTOR</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYNACE</property>
+                    <property name="displayName">CYNACE</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYCODEFED1</property>
+                    <property name="displayName">CYCODEFED1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYCODEFED2</property>
+                    <property name="displayName">CYCODEFED2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYCODEFED3</property>
+                    <property name="displayName">CYCODEFED3</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYCODEFED4</property>
+                    <property name="displayName">CYCODEFED4</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYCODEFED5</property>
+                    <property name="displayName">CYCODEFED5</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYCLIVBONET</property>
+                    <property name="displayName">CYCLIVBONET</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYCOMPNR</property>
+                    <property name="displayName">CYCOMPNR</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYTVA</property>
+                    <property name="displayName">CYTVA</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYFID</property>
+                    <property name="displayName">CYFID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYABBREV</property>
+                    <property name="displayName">CYABBREV</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYMEMBERFEB</property>
+                    <property name="displayName">CYMEMBERFEB</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYMEMBERSECTOR</property>
+                    <property name="displayName">CYMEMBERSECTOR</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYCREATED</property>
+                    <property name="displayName">CYCREATED</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYUPDATED</property>
+                    <property name="displayName">CYUPDATED</property>
+                </structure>
+                <structure>
+                    <property name="columnName">CYDISCOUNT</property>
+                    <property name="displayName">CYDISCOUNT</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_ASWDATALIBRARY</property>
+                    <property name="displayName">ORG_ASWDATALIBRARY</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_ASWHOST</property>
+                    <property name="displayName">ORG_ASWHOST</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_DOSSIERCODE</property>
+                    <property name="displayName">ORG_DOSSIERCODE</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_COMMENTID</property>
+                    <property name="displayName">ORG_COMMENTID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_CURRENCY</property>
+                    <property name="displayName">ORG_CURRENCY</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_ORIGIN</property>
+                    <property name="displayName">ORG_ORIGIN</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_PRODPRICECAT</property>
+                    <property name="displayName">ORG_PRODPRICECAT</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_TRANSACTIONNUMBER</property>
+                    <property name="displayName">ORG_TRANSACTIONNUMBER</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_FEDCODE</property>
+                    <property name="displayName">ORG_FEDCODE</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_UPDATESTATUS</property>
+                    <property name="displayName">ORG_UPDATESTATUS</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_POSTBUS_NR</property>
+                    <property name="displayName">ORG_POSTBUS_NR</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_POSTBUS_CODE</property>
+                    <property name="displayName">ORG_POSTBUS_CODE</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_POSTBUS_LIVINGPLACE</property>
+                    <property name="displayName">ORG_POSTBUS_LIVINGPLACE</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_UPDATETIME</property>
+                    <property name="displayName">ORG_UPDATETIME</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_EXPORTTIME</property>
+                    <property name="displayName">ORG_EXPORTTIME</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_ISUPDATED_FOR_EXPORT</property>
+                    <property name="displayName">ORG_ISUPDATED_FOR_EXPORT</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_UPDATE_TS</property>
+                    <property name="displayName">ORG_UPDATE_TS</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_BOOLEAN1</property>
+                    <property name="displayName">ORG_BOOLEAN1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_BOOLEAN2</property>
+                    <property name="displayName">ORG_BOOLEAN2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_BOOLEAN3</property>
+                    <property name="displayName">ORG_BOOLEAN3</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_BOOLEAN4</property>
+                    <property name="displayName">ORG_BOOLEAN4</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_BOOLEAN5</property>
+                    <property name="displayName">ORG_BOOLEAN5</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_DATE1</property>
+                    <property name="displayName">ORG_DATE1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_DATE2</property>
+                    <property name="displayName">ORG_DATE2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_COMBO1</property>
+                    <property name="displayName">ORG_COMBO1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_COMBO2</property>
+                    <property name="displayName">ORG_COMBO2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_COMBO3</property>
+                    <property name="displayName">ORG_COMBO3</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_COMBO4</property>
+                    <property name="displayName">ORG_COMBO4</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_COMBO5</property>
+                    <property name="displayName">ORG_COMBO5</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_READONLY1</property>
+                    <property name="displayName">ORG_READONLY1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_READONLY2</property>
+                    <property name="displayName">ORG_READONLY2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_READONLY3</property>
+                    <property name="displayName">ORG_READONLY3</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_READONLY4</property>
+                    <property name="displayName">ORG_READONLY4</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_READONLY5</property>
+                    <property name="displayName">ORG_READONLY5</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_READONLY6</property>
+                    <property name="displayName">ORG_READONLY6</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_READONLY7</property>
+                    <property name="displayName">ORG_READONLY7</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_READONLY8</property>
+                    <property name="displayName">ORG_READONLY8</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_READONLY9</property>
+                    <property name="displayName">ORG_READONLY9</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_READONLY10</property>
+                    <property name="displayName">ORG_READONLY10</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_RESPONSIBLEPERSID1</property>
+                    <property name="displayName">ORG_RESPONSIBLEPERSID1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_RESPONSIBLEPERSID2</property>
+                    <property name="displayName">ORG_RESPONSIBLEPERSID2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_RESPONSIBLEPERSID3</property>
+                    <property name="displayName">ORG_RESPONSIBLEPERSID3</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_RESPONSIBLEPERSID4</property>
+                    <property name="displayName">ORG_RESPONSIBLEPERSID4</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_RESPONSIBLEPERSID5</property>
+                    <property name="displayName">ORG_RESPONSIBLEPERSID5</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_ACCOUNTNR1</property>
+                    <property name="displayName">ORG_ACCOUNTNR1</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_ACCOUNTNR2</property>
+                    <property name="displayName">ORG_ACCOUNTNR2</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_ACCOUNTNR3</property>
+                    <property name="displayName">ORG_ACCOUNTNR3</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">LEAD_ID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">LEAD_ORGID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">LEAD_PERSID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">4</property>
+                        <property name="name">LEAD_CREATORID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">5</property>
+                        <property name="name">LEAD_RESPONSABLEID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">6</property>
+                        <property name="name">LEAD_STATUS</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">7</property>
+                        <property name="name">LEAD_PROJID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">8</property>
+                        <property name="name">ORG_ID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">9</property>
+                        <property name="name">ORG_ISACTIVE</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">10</property>
+                        <property name="name">ORG_MATCHCODE</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">11</property>
+                        <property name="name">ORG_PHONE</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">12</property>
+                        <property name="name">ORG_FAX</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">13</property>
+                        <property name="name">ORG_EMAIL</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">14</property>
+                        <property name="name">ORG_EMAIL1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">15</property>
+                        <property name="name">ORG_STREETNUMBER</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">16</property>
+                        <property name="name">ORG_BOX</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">17</property>
+                        <property name="name">ORG_ZIP</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">18</property>
+                        <property name="name">ORG_COUNTY</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">19</property>
+                        <property name="name">ORG_COUNTRY</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">20</property>
+                        <property name="name">ORG_SECURITYKEY</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">21</property>
+                        <property name="name">ORG_SECURITYKEY1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">22</property>
+                        <property name="name">ORG_SECURITYKEY2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">23</property>
+                        <property name="name">ORG_SECURITYKEY3</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">24</property>
+                        <property name="name">ORG_URL</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">25</property>
+                        <property name="name">ORG_TYPE</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">26</property>
+                        <property name="name">ORG_CUSTCODE</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">27</property>
+                        <property name="name">ORG_JURENTITY</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">28</property>
+                        <property name="name">ORG_VAT</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">29</property>
+                        <property name="name">ORG_ISPRODMANUFACT</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">30</property>
+                        <property name="name">ORG_FIELD1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">31</property>
+                        <property name="name">ORG_FIELD2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">32</property>
+                        <property name="name">ORG_FIELD3</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">33</property>
+                        <property name="name">ORG_FIELD4</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">34</property>
+                        <property name="name">ORG_FIELD5</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">35</property>
+                        <property name="name">ORG_FIELD6</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">36</property>
+                        <property name="name">ORG_FIELD7</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">37</property>
+                        <property name="name">ORG_FIELD8</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">38</property>
+                        <property name="name">ORG_FIELD9</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">39</property>
+                        <property name="name">ORG_FIELD10</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">40</property>
+                        <property name="name">ORG_HASACTIVITIES</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">41</property>
+                        <property name="name">ORG_LOCKNR</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">42</property>
+                        <property name="name">ORG_STATUS</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">43</property>
+                        <property name="name">ORG_VERSIONNR</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">44</property>
+                        <property name="name">ORG_VERSIONTYPE</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">45</property>
+                        <property name="name">ORG_VERSIONSTATUS</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">46</property>
+                        <property name="name">ORG_NATURE</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">47</property>
+                        <property name="name">ENTERPRISE_ID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">48</property>
+                        <property name="name">CYACCOUNT</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">49</property>
+                        <property name="name">CYSOLVABILITY</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">50</property>
+                        <property name="name">SYSECTOR</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">51</property>
+                        <property name="name">CYNACE</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">52</property>
+                        <property name="name">CYCODEFED1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">53</property>
+                        <property name="name">CYCODEFED2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">54</property>
+                        <property name="name">CYCODEFED3</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">55</property>
+                        <property name="name">CYCODEFED4</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">56</property>
+                        <property name="name">CYCODEFED5</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">57</property>
+                        <property name="name">CYCLIVBONET</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">58</property>
+                        <property name="name">CYCOMPNR</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">59</property>
+                        <property name="name">CYTVA</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">60</property>
+                        <property name="name">CYFID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">61</property>
+                        <property name="name">CYABBREV</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">62</property>
+                        <property name="name">CYMEMBERFEB</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">63</property>
+                        <property name="name">CYMEMBERSECTOR</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">64</property>
+                        <property name="name">CYCREATED</property>
+                        <property name="dataType">date-time</property>
+                    </structure>
+                    <structure>
+                        <property name="position">65</property>
+                        <property name="name">CYUPDATED</property>
+                        <property name="dataType">date-time</property>
+                    </structure>
+                    <structure>
+                        <property name="position">66</property>
+                        <property name="name">CYDISCOUNT</property>
+                        <property name="dataType">decimal</property>
+                    </structure>
+                    <structure>
+                        <property name="position">67</property>
+                        <property name="name">ORG_ASWDATALIBRARY</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">68</property>
+                        <property name="name">ORG_ASWHOST</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">69</property>
+                        <property name="name">ORG_DOSSIERCODE</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">70</property>
+                        <property name="name">ORG_COMMENTID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">71</property>
+                        <property name="name">ORG_CURRENCY</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">72</property>
+                        <property name="name">ORG_ORIGIN</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">73</property>
+                        <property name="name">ORG_PRODPRICECAT</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">74</property>
+                        <property name="name">ORG_TRANSACTIONNUMBER</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">75</property>
+                        <property name="name">ORG_FEDCODE</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">76</property>
+                        <property name="name">ORG_UPDATESTATUS</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">77</property>
+                        <property name="name">ORG_POSTBUS_NR</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">78</property>
+                        <property name="name">ORG_POSTBUS_CODE</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">79</property>
+                        <property name="name">ORG_POSTBUS_LIVINGPLACE</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">80</property>
+                        <property name="name">ORG_UPDATETIME</property>
+                        <property name="dataType">date-time</property>
+                    </structure>
+                    <structure>
+                        <property name="position">81</property>
+                        <property name="name">ORG_EXPORTTIME</property>
+                        <property name="dataType">date-time</property>
+                    </structure>
+                    <structure>
+                        <property name="position">82</property>
+                        <property name="name">ORG_ISUPDATED_FOR_EXPORT</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">83</property>
+                        <property name="name">ORG_UPDATE_TS</property>
+                        <property name="dataType">date-time</property>
+                    </structure>
+                    <structure>
+                        <property name="position">84</property>
+                        <property name="name">ORG_BOOLEAN1</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">85</property>
+                        <property name="name">ORG_BOOLEAN2</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">86</property>
+                        <property name="name">ORG_BOOLEAN3</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">87</property>
+                        <property name="name">ORG_BOOLEAN4</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">88</property>
+                        <property name="name">ORG_BOOLEAN5</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">89</property>
+                        <property name="name">ORG_DATE1</property>
+                        <property name="dataType">date-time</property>
+                    </structure>
+                    <structure>
+                        <property name="position">90</property>
+                        <property name="name">ORG_DATE2</property>
+                        <property name="dataType">date-time</property>
+                    </structure>
+                    <structure>
+                        <property name="position">91</property>
+                        <property name="name">ORG_COMBO1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">92</property>
+                        <property name="name">ORG_COMBO2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">93</property>
+                        <property name="name">ORG_COMBO3</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">94</property>
+                        <property name="name">ORG_COMBO4</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">95</property>
+                        <property name="name">ORG_COMBO5</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">96</property>
+                        <property name="name">ORG_READONLY1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">97</property>
+                        <property name="name">ORG_READONLY2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">98</property>
+                        <property name="name">ORG_READONLY3</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">99</property>
+                        <property name="name">ORG_READONLY4</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">100</property>
+                        <property name="name">ORG_READONLY5</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">101</property>
+                        <property name="name">ORG_READONLY6</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">102</property>
+                        <property name="name">ORG_READONLY7</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">103</property>
+                        <property name="name">ORG_READONLY8</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">104</property>
+                        <property name="name">ORG_READONLY9</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">105</property>
+                        <property name="name">ORG_READONLY10</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">106</property>
+                        <property name="name">ORG_RESPONSIBLEPERSID1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">107</property>
+                        <property name="name">ORG_RESPONSIBLEPERSID2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">108</property>
+                        <property name="name">ORG_RESPONSIBLEPERSID3</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">109</property>
+                        <property name="name">ORG_RESPONSIBLEPERSID4</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">110</property>
+                        <property name="name">ORG_RESPONSIBLEPERSID5</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">111</property>
+                        <property name="name">ORG_ACCOUNTNR1</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">112</property>
+                        <property name="name">ORG_ACCOUNTNR2</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">113</property>
+                        <property name="name">ORG_ACCOUNTNR3</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">LEAD_ID</property>
+                    <property name="nativeName">LEAD_ID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">LEAD_ORGID</property>
+                    <property name="nativeName">LEAD_ORGID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">LEAD_PERSID</property>
+                    <property name="nativeName">LEAD_PERSID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">4</property>
+                    <property name="name">LEAD_CREATORID</property>
+                    <property name="nativeName">LEAD_CREATORID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">5</property>
+                    <property name="name">LEAD_RESPONSABLEID</property>
+                    <property name="nativeName">LEAD_RESPONSABLEID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">6</property>
+                    <property name="name">LEAD_STATUS</property>
+                    <property name="nativeName">LEAD_STATUS</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">7</property>
+                    <property name="name">LEAD_PROJID</property>
+                    <property name="nativeName">LEAD_PROJID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">8</property>
+                    <property name="name">ORG_ID</property>
+                    <property name="nativeName">ORG_ID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">9</property>
+                    <property name="name">ORG_ISACTIVE</property>
+                    <property name="nativeName">ORG_ISACTIVE</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">5</property>
+                </structure>
+                <structure>
+                    <property name="position">10</property>
+                    <property name="name">ORG_MATCHCODE</property>
+                    <property name="nativeName">ORG_MATCHCODE</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">11</property>
+                    <property name="name">ORG_PHONE</property>
+                    <property name="nativeName">ORG_PHONE</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">12</property>
+                    <property name="name">ORG_FAX</property>
+                    <property name="nativeName">ORG_FAX</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">13</property>
+                    <property name="name">ORG_EMAIL</property>
+                    <property name="nativeName">ORG_EMAIL</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">14</property>
+                    <property name="name">ORG_EMAIL1</property>
+                    <property name="nativeName">ORG_EMAIL1</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">15</property>
+                    <property name="name">ORG_STREETNUMBER</property>
+                    <property name="nativeName">ORG_STREETNUMBER</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">16</property>
+                    <property name="name">ORG_BOX</property>
+                    <property name="nativeName">ORG_BOX</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">17</property>
+                    <property name="name">ORG_ZIP</property>
+                    <property name="nativeName">ORG_ZIP</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">18</property>
+                    <property name="name">ORG_COUNTY</property>
+                    <property name="nativeName">ORG_COUNTY</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">19</property>
+                    <property name="name">ORG_COUNTRY</property>
+                    <property name="nativeName">ORG_COUNTRY</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">20</property>
+                    <property name="name">ORG_SECURITYKEY</property>
+                    <property name="nativeName">ORG_SECURITYKEY</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">21</property>
+                    <property name="name">ORG_SECURITYKEY1</property>
+                    <property name="nativeName">ORG_SECURITYKEY1</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">22</property>
+                    <property name="name">ORG_SECURITYKEY2</property>
+                    <property name="nativeName">ORG_SECURITYKEY2</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">23</property>
+                    <property name="name">ORG_SECURITYKEY3</property>
+                    <property name="nativeName">ORG_SECURITYKEY3</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">24</property>
+                    <property name="name">ORG_URL</property>
+                    <property name="nativeName">ORG_URL</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">25</property>
+                    <property name="name">ORG_TYPE</property>
+                    <property name="nativeName">ORG_TYPE</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">26</property>
+                    <property name="name">ORG_CUSTCODE</property>
+                    <property name="nativeName">ORG_CUSTCODE</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">27</property>
+                    <property name="name">ORG_JURENTITY</property>
+                    <property name="nativeName">ORG_JURENTITY</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">28</property>
+                    <property name="name">ORG_VAT</property>
+                    <property name="nativeName">ORG_VAT</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">29</property>
+                    <property name="name">ORG_ISPRODMANUFACT</property>
+                    <property name="nativeName">ORG_ISPRODMANUFACT</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">5</property>
+                </structure>
+                <structure>
+                    <property name="position">30</property>
+                    <property name="name">ORG_FIELD1</property>
+                    <property name="nativeName">ORG_FIELD1</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">31</property>
+                    <property name="name">ORG_FIELD2</property>
+                    <property name="nativeName">ORG_FIELD2</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">32</property>
+                    <property name="name">ORG_FIELD3</property>
+                    <property name="nativeName">ORG_FIELD3</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">33</property>
+                    <property name="name">ORG_FIELD4</property>
+                    <property name="nativeName">ORG_FIELD4</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">34</property>
+                    <property name="name">ORG_FIELD5</property>
+                    <property name="nativeName">ORG_FIELD5</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">35</property>
+                    <property name="name">ORG_FIELD6</property>
+                    <property name="nativeName">ORG_FIELD6</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">36</property>
+                    <property name="name">ORG_FIELD7</property>
+                    <property name="nativeName">ORG_FIELD7</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">37</property>
+                    <property name="name">ORG_FIELD8</property>
+                    <property name="nativeName">ORG_FIELD8</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">38</property>
+                    <property name="name">ORG_FIELD9</property>
+                    <property name="nativeName">ORG_FIELD9</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">39</property>
+                    <property name="name">ORG_FIELD10</property>
+                    <property name="nativeName">ORG_FIELD10</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">40</property>
+                    <property name="name">ORG_HASACTIVITIES</property>
+                    <property name="nativeName">ORG_HASACTIVITIES</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">5</property>
+                </structure>
+                <structure>
+                    <property name="position">41</property>
+                    <property name="name">ORG_LOCKNR</property>
+                    <property name="nativeName">ORG_LOCKNR</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">42</property>
+                    <property name="name">ORG_STATUS</property>
+                    <property name="nativeName">ORG_STATUS</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">43</property>
+                    <property name="name">ORG_VERSIONNR</property>
+                    <property name="nativeName">ORG_VERSIONNR</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">44</property>
+                    <property name="name">ORG_VERSIONTYPE</property>
+                    <property name="nativeName">ORG_VERSIONTYPE</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">45</property>
+                    <property name="name">ORG_VERSIONSTATUS</property>
+                    <property name="nativeName">ORG_VERSIONSTATUS</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">46</property>
+                    <property name="name">ORG_NATURE</property>
+                    <property name="nativeName">ORG_NATURE</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">47</property>
+                    <property name="name">ENTERPRISE_ID</property>
+                    <property name="nativeName">ENTERPRISE_ID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">48</property>
+                    <property name="name">CYACCOUNT</property>
+                    <property name="nativeName">CYACCOUNT</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">49</property>
+                    <property name="name">CYSOLVABILITY</property>
+                    <property name="nativeName">CYSOLVABILITY</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">50</property>
+                    <property name="name">SYSECTOR</property>
+                    <property name="nativeName">SYSECTOR</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">51</property>
+                    <property name="name">CYNACE</property>
+                    <property name="nativeName">CYNACE</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">52</property>
+                    <property name="name">CYCODEFED1</property>
+                    <property name="nativeName">CYCODEFED1</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">53</property>
+                    <property name="name">CYCODEFED2</property>
+                    <property name="nativeName">CYCODEFED2</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">54</property>
+                    <property name="name">CYCODEFED3</property>
+                    <property name="nativeName">CYCODEFED3</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">55</property>
+                    <property name="name">CYCODEFED4</property>
+                    <property name="nativeName">CYCODEFED4</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">56</property>
+                    <property name="name">CYCODEFED5</property>
+                    <property name="nativeName">CYCODEFED5</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">57</property>
+                    <property name="name">CYCLIVBONET</property>
+                    <property name="nativeName">CYCLIVBONET</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">58</property>
+                    <property name="name">CYCOMPNR</property>
+                    <property name="nativeName">CYCOMPNR</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">59</property>
+                    <property name="name">CYTVA</property>
+                    <property name="nativeName">CYTVA</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">60</property>
+                    <property name="name">CYFID</property>
+                    <property name="nativeName">CYFID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">61</property>
+                    <property name="name">CYABBREV</property>
+                    <property name="nativeName">CYABBREV</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">62</property>
+                    <property name="name">CYMEMBERFEB</property>
+                    <property name="nativeName">CYMEMBERFEB</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">5</property>
+                </structure>
+                <structure>
+                    <property name="position">63</property>
+                    <property name="name">CYMEMBERSECTOR</property>
+                    <property name="nativeName">CYMEMBERSECTOR</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">5</property>
+                </structure>
+                <structure>
+                    <property name="position">64</property>
+                    <property name="name">CYCREATED</property>
+                    <property name="nativeName">CYCREATED</property>
+                    <property name="dataType">date-time</property>
+                    <property name="nativeDataType">93</property>
+                </structure>
+                <structure>
+                    <property name="position">65</property>
+                    <property name="name">CYUPDATED</property>
+                    <property name="nativeName">CYUPDATED</property>
+                    <property name="dataType">date-time</property>
+                    <property name="nativeDataType">93</property>
+                </structure>
+                <structure>
+                    <property name="position">66</property>
+                    <property name="name">CYDISCOUNT</property>
+                    <property name="nativeName">CYDISCOUNT</property>
+                    <property name="dataType">decimal</property>
+                    <property name="nativeDataType">3</property>
+                </structure>
+                <structure>
+                    <property name="position">67</property>
+                    <property name="name">ORG_ASWDATALIBRARY</property>
+                    <property name="nativeName">ORG_ASWDATALIBRARY</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">68</property>
+                    <property name="name">ORG_ASWHOST</property>
+                    <property name="nativeName">ORG_ASWHOST</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">69</property>
+                    <property name="name">ORG_DOSSIERCODE</property>
+                    <property name="nativeName">ORG_DOSSIERCODE</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">70</property>
+                    <property name="name">ORG_COMMENTID</property>
+                    <property name="nativeName">ORG_COMMENTID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">71</property>
+                    <property name="name">ORG_CURRENCY</property>
+                    <property name="nativeName">ORG_CURRENCY</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">72</property>
+                    <property name="name">ORG_ORIGIN</property>
+                    <property name="nativeName">ORG_ORIGIN</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">73</property>
+                    <property name="name">ORG_PRODPRICECAT</property>
+                    <property name="nativeName">ORG_PRODPRICECAT</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">74</property>
+                    <property name="name">ORG_TRANSACTIONNUMBER</property>
+                    <property name="nativeName">ORG_TRANSACTIONNUMBER</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+                <structure>
+                    <property name="position">75</property>
+                    <property name="name">ORG_FEDCODE</property>
+                    <property name="nativeName">ORG_FEDCODE</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">76</property>
+                    <property name="name">ORG_UPDATESTATUS</property>
+                    <property name="nativeName">ORG_UPDATESTATUS</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">77</property>
+                    <property name="name">ORG_POSTBUS_NR</property>
+                    <property name="nativeName">ORG_POSTBUS_NR</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">78</property>
+                    <property name="name">ORG_POSTBUS_CODE</property>
+                    <property name="nativeName">ORG_POSTBUS_CODE</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">79</property>
+                    <property name="name">ORG_POSTBUS_LIVINGPLACE</property>
+                    <property name="nativeName">ORG_POSTBUS_LIVINGPLACE</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">80</property>
+                    <property name="name">ORG_UPDATETIME</property>
+                    <property name="nativeName">ORG_UPDATETIME</property>
+                    <property name="dataType">date-time</property>
+                    <property name="nativeDataType">93</property>
+                </structure>
+                <structure>
+                    <property name="position">81</property>
+                    <property name="name">ORG_EXPORTTIME</property>
+                    <property name="nativeName">ORG_EXPORTTIME</property>
+                    <property name="dataType">date-time</property>
+                    <property name="nativeDataType">93</property>
+                </structure>
+                <structure>
+                    <property name="position">82</property>
+                    <property name="name">ORG_ISUPDATED_FOR_EXPORT</property>
+                    <property name="nativeName">ORG_ISUPDATED_FOR_EXPORT</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">5</property>
+                </structure>
+                <structure>
+                    <property name="position">83</property>
+                    <property name="name">ORG_UPDATE_TS</property>
+                    <property name="nativeName">ORG_UPDATE_TS</property>
+                    <property name="dataType">date-time</property>
+                    <property name="nativeDataType">93</property>
+                </structure>
+                <structure>
+                    <property name="position">84</property>
+                    <property name="name">ORG_BOOLEAN1</property>
+                    <property name="nativeName">ORG_BOOLEAN1</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">5</property>
+                </structure>
+                <structure>
+                    <property name="position">85</property>
+                    <property name="name">ORG_BOOLEAN2</property>
+                    <property name="nativeName">ORG_BOOLEAN2</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">5</property>
+                </structure>
+                <structure>
+                    <property name="position">86</property>
+                    <property name="name">ORG_BOOLEAN3</property>
+                    <property name="nativeName">ORG_BOOLEAN3</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">5</property>
+                </structure>
+                <structure>
+                    <property name="position">87</property>
+                    <property name="name">ORG_BOOLEAN4</property>
+                    <property name="nativeName">ORG_BOOLEAN4</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">5</property>
+                </structure>
+                <structure>
+                    <property name="position">88</property>
+                    <property name="name">ORG_BOOLEAN5</property>
+                    <property name="nativeName">ORG_BOOLEAN5</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">5</property>
+                </structure>
+                <structure>
+                    <property name="position">89</property>
+                    <property name="name">ORG_DATE1</property>
+                    <property name="nativeName">ORG_DATE1</property>
+                    <property name="dataType">date-time</property>
+                    <property name="nativeDataType">93</property>
+                </structure>
+                <structure>
+                    <property name="position">90</property>
+                    <property name="name">ORG_DATE2</property>
+                    <property name="nativeName">ORG_DATE2</property>
+                    <property name="dataType">date-time</property>
+                    <property name="nativeDataType">93</property>
+                </structure>
+                <structure>
+                    <property name="position">91</property>
+                    <property name="name">ORG_COMBO1</property>
+                    <property name="nativeName">ORG_COMBO1</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">92</property>
+                    <property name="name">ORG_COMBO2</property>
+                    <property name="nativeName">ORG_COMBO2</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">93</property>
+                    <property name="name">ORG_COMBO3</property>
+                    <property name="nativeName">ORG_COMBO3</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">94</property>
+                    <property name="name">ORG_COMBO4</property>
+                    <property name="nativeName">ORG_COMBO4</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">95</property>
+                    <property name="name">ORG_COMBO5</property>
+                    <property name="nativeName">ORG_COMBO5</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">96</property>
+                    <property name="name">ORG_READONLY1</property>
+                    <property name="nativeName">ORG_READONLY1</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">97</property>
+                    <property name="name">ORG_READONLY2</property>
+                    <property name="nativeName">ORG_READONLY2</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">98</property>
+                    <property name="name">ORG_READONLY3</property>
+                    <property name="nativeName">ORG_READONLY3</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">99</property>
+                    <property name="name">ORG_READONLY4</property>
+                    <property name="nativeName">ORG_READONLY4</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">100</property>
+                    <property name="name">ORG_READONLY5</property>
+                    <property name="nativeName">ORG_READONLY5</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">101</property>
+                    <property name="name">ORG_READONLY6</property>
+                    <property name="nativeName">ORG_READONLY6</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">102</property>
+                    <property name="name">ORG_READONLY7</property>
+                    <property name="nativeName">ORG_READONLY7</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">103</property>
+                    <property name="name">ORG_READONLY8</property>
+                    <property name="nativeName">ORG_READONLY8</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">104</property>
+                    <property name="name">ORG_READONLY9</property>
+                    <property name="nativeName">ORG_READONLY9</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">105</property>
+                    <property name="name">ORG_READONLY10</property>
+                    <property name="nativeName">ORG_READONLY10</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">106</property>
+                    <property name="name">ORG_RESPONSIBLEPERSID1</property>
+                    <property name="nativeName">ORG_RESPONSIBLEPERSID1</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">107</property>
+                    <property name="name">ORG_RESPONSIBLEPERSID2</property>
+                    <property name="nativeName">ORG_RESPONSIBLEPERSID2</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">108</property>
+                    <property name="name">ORG_RESPONSIBLEPERSID3</property>
+                    <property name="nativeName">ORG_RESPONSIBLEPERSID3</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">109</property>
+                    <property name="name">ORG_RESPONSIBLEPERSID4</property>
+                    <property name="nativeName">ORG_RESPONSIBLEPERSID4</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">110</property>
+                    <property name="name">ORG_RESPONSIBLEPERSID5</property>
+                    <property name="nativeName">ORG_RESPONSIBLEPERSID5</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">111</property>
+                    <property name="name">ORG_ACCOUNTNR1</property>
+                    <property name="nativeName">ORG_ACCOUNTNR1</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">112</property>
+                    <property name="name">ORG_ACCOUNTNR2</property>
+                    <property name="nativeName">ORG_ACCOUNTNR2</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">113</property>
+                    <property name="name">ORG_ACCOUNTNR3</property>
+                    <property name="nativeName">ORG_ACCOUNTNR3</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+            </list-property>
+            <property name="queryText">select *
+from dbo.LEAD,dbo.ORGANISATION
+where dbo.LEAD.LEAD_ORGID = ORGANISATION.ORG_ID
+</property>
+        </oda-data-set>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="RegionPicker" id="461">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">Region_Id</property>
+                    <property name="displayName">Region_Id</property>
+                </structure>
+                <structure>
+                    <property name="columnName">Region_EndValue</property>
+                    <property name="displayName">Region_EndValue</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">Region_Id</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">Region_Period</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">Region_Id</property>
+                    <property name="nativeName">Region_Id</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+            </list-property>
+            <property name="queryText">select Region_Id , Region_Period
+from CHART_REGION
+where Region_ChartId = 1</property>
+        </oda-data-set>
+    </data-sets>
+    <styles>
+        <style name="crosstab" id="4">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab-cell" id="5">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+    </styles>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="2">
+            <page-footer>
+                <text id="3">
+                    <property name="contentType">html</property>
+                    <text-property name="content"><![CDATA[<value-of>new Date()</value-of>]]></text-property>
+                </text>
+            </page-footer>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <table name="TrendComponent" id="437">
+            <property name="width">100%</property>
+            <property name="dataSet">Data Set</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">CYUPDATED</property>
+                    <expression name="expression">dataSetRow["CYUPDATED"]</expression>
+                    <property name="dataType">date-time</property>
+                </structure>
+                <structure>
+                    <property name="name">TrendHuidig</property>
+                    <property name="dataType">any</property>
+                    <property name="aggregateFunction">COUNT</property>
+                    <expression name="filterExpr">var DataField = row["CYUPDATED"] ;
+var Timespan = params["prmTimeSpan"];
+
+if ( Timespan == "Week")
+{
+	DateTimeSpan.days(DataField, new Date() ) &lt;= 6;
+}
+else if ( Timespan == "Maand")
+{
+	DataField.getMonth() == (params["prmMonth"]  ) &amp;&amp; DataField.getFullYear() == params["prmYear"]
+}
+else if( Timespan == "Kwartaal")
+{
+	DataField.getMonth() >= params["prmQuarter"] &amp;&amp; DataField.getMonth() &lt; (params["prmQuarter"] + 3)  &amp;&amp; DataField.getFullYear() == params["prmYear"]
+}
+else if( Timespan == "Jaar")
+{
+	 DataField.getFullYear() == (params["prmYear"]  )
+}
+else
+{
+DataField == "null";
+}</expression>
+                </structure>
+                <structure>
+                    <property name="name">TrendVorig</property>
+                    <property name="dataType">any</property>
+                    <property name="aggregateFunction">COUNT</property>
+                    <expression name="filterExpr">var DataField = row["CYUPDATED"] ;
+var Timespan = params["prmTimeSpan"];
+var Year;
+
+
+if ( Timespan == "Week")
+{
+	DateTimeSpan.days(DataField , new Date() ) > 6 &amp;&amp; DateTimeSpan.days(DataField , new Date() ) &lt;= 13;
+}
+else if ( Timespan == "Maand")
+{
+	var maand;
+
+	if (DataField.getMonth() == 0)
+	{    
+    		maand = 11;    
+    		Year =  params["prmYear"] - 1;
+	}
+	else
+	{
+ 	maand = params["prmMonth"] - 1;
+ 	Year =  params["prmYear"];
+	}	
+
+	DataField.getMonth() == maand &amp;&amp; DataField.getFullYear() == Year;
+}
+else if( Timespan == "Kwartaal")
+{
+	var kwartaal;
+	if (kwartaal == 0)
+	{  
+		kwartaal = 9;	
+		Year =  params["prmYear"] - 1;
+	}
+	else
+	{
+		kwartaal = params["prmQuarter"] - 3; 
+		Year =  params["prmYear"];
+	}
+	DataField.getMonth() >= (kwartaal) &amp;&amp; DataField.getMonth() &lt; (kwartaal + 3) &amp;&amp; DataField.getFullYear() == Year;
+}
+else if( Timespan == "Jaar")
+{
+	 DataField.getFullYear() == (params["prmYear"] - 1 )
+}
+else
+{
+DataField == "null";
+}</expression>
+                </structure>
+                <structure>
+                    <property name="name">TrendVorig2</property>
+                    <property name="dataType">any</property>
+                    <property name="aggregateFunction">COUNT</property>
+                    <expression name="filterExpr">var DataField = row["CYUPDATED"] ;
+var Timespan = params["prmTimeSpan"];
+
+if ( Timespan == "Week")
+{
+	DateTimeSpan.days(DataField , new Date() ) > 13 &amp;&amp; DateTimeSpan.days(DataField , new Date() ) &lt;= 20;
+}
+else if ( Timespan == "Maand")
+{
+	var maand;
+
+	if (DataField.getMonth() == 0)
+	{    
+    		maand = 10;    
+	}
+	else if(DataField.getMonth() == 1)
+	{
+    		maand = 11;
+	}
+	else
+	{
+ 		maand = params["prmMonth"] - 2;
+	}	
+
+	DataField.getMonth() == maand;
+}
+else if( Timespan == "Kwartaal")
+{
+	var kwartaal;
+	if (kwartaal == 0)
+	{  
+		kwartaal = 6;	
+	}
+	else if (kwartaal == 3)
+	{  
+		kwartaal = 9;	
+	}
+	else
+	{
+		kwartaal = params["prmQuarter"] - 6 
+	}
+	DataField.getMonth() >= (kwartaal) &amp;&amp; DataField.getMonth() &lt; (kwartaal + 3)
+}
+
+else if( Timespan == "Jaar")
+{
+	 DataField.getFullYear() == (params["prmYear"] - 2 )
+}
+
+else
+{
+DataField == "null";
+}</expression>
+                </structure>
+            </list-property>
+            <column id="450"/>
+            <column id="451"/>
+            <column id="452"/>
+            <header>
+                <row id="438">
+                    <cell id="439"/>
+                    <cell id="440"/>
+                    <cell id="441"/>
+                </row>
+            </header>
+            <detail>
+                <row id="442">
+                    <list-property name="visibility">
+                        <structure>
+                            <property name="format">all</property>
+                            <expression name="valueExpr">true</expression>
+                        </structure>
+                    </list-property>
+                    <cell id="443"/>
+                    <cell id="444">
+                        <data id="454">
+                            <property name="resultSetColumn">CYUPDATED</property>
+                        </data>
+                    </cell>
+                    <cell id="445"/>
+                </row>
+            </detail>
+            <footer>
+                <row id="446">
+                    <cell id="447">
+                        <image id="190">
+                            <method name="onRender"><![CDATA[if( row["TrendHuidig"] >  ((row["TrendVorig"]+ row["TrendVorig2"])/2) )
+		this.file = this.file.replace( "down.gif" , reportContext.getParameterValue("prmPicUp"));
+else if( row["TrendHuidig"] ==  ((row["TrendVorig"]+ row["TrendVorig2"])/2) )
+		this.file = this.file.replace( "down.gif" , reportContext.getParameterValue("prmPicEqual"));
+else
+		this.file = this.file.replace( "down.gif" , reportContext.getParameterValue("prmPicDown"));]]></method>
+                            <property name="size">scale-to-item</property>
+                            <property name="source">file</property>
+                            <expression name="uri">"down.gif"</expression>
+                        </image>
+                    </cell>
+                    <cell id="448">
+                        <data id="455">
+                            <property name="marginTop">0pt</property>
+                            <property name="paddingTop">1pt</property>
+                            <property name="resultSetColumn">TrendHuidig</property>
+                        </data>
+                        <data id="456">
+                            <property name="resultSetColumn">TrendVorig</property>
+                        </data>
+                        <data id="457">
+                            <property name="resultSetColumn">TrendVorig2</property>
+                        </data>
+                    </cell>
+                    <cell id="449"/>
+                </row>
+            </footer>
+        </table>
+        <table name="TrendComponent1" id="462">
+            <property name="width">100%</property>
+            <property name="dataSet">ds_Transferrate_Lead_To_Opp</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">CYUPDATED</property>
+                    <expression name="expression">dataSetRow["VER_CREATEDATE"]</expression>
+                    <property name="dataType">date-time</property>
+                </structure>
+                <structure>
+                    <property name="name">TrendHuidig</property>
+                    <property name="dataType">any</property>
+                    <property name="aggregateFunction">COUNT</property>
+                    <expression name="filterExpr">var DataField = row["CYUPDATED"] ;
+var Timespan = params["prmPeriod"];
+
+
+if ( Timespan == "Week")
+{
+	DateTimeSpan.days(DataField, new Date() ) &lt;= 6;
+}
+else if ( Timespan == "Month")
+{
+	DataField.getMonth() == (params["prmMonth"]  ) &amp;&amp; DataField.getFullYear() == params["prmYear"]
+}
+else if( Timespan == "Quarter")
+{
+	DataField.getMonth() >= params["prmQuarter"] &amp;&amp; DataField.getMonth() &lt; (params["prmQuarter"] + 3)  &amp;&amp; DataField.getFullYear() == params["prmYear"]
+}
+else if( Timespan == "Year")
+{
+	 DataField.getFullYear() == (params["prmYear"]  )
+}
+else
+{
+DataField == "null";
+}</expression>
+                </structure>
+                <structure>
+                    <property name="name">TrendVorig</property>
+                    <property name="dataType">any</property>
+                    <property name="aggregateFunction">COUNT</property>
+                    <expression name="filterExpr">var DataField = row["CYUPDATED"] ;
+var Timespan = params["prmPeriod"];
+var Year;
+
+
+if ( Timespan == "Week")
+{
+	DateTimeSpan.days(DataField , new Date() ) > 6 &amp;&amp; DateTimeSpan.days(DataField , new Date() ) &lt;= 13;
+}
+else if ( Timespan == "Month")
+{
+	var maand;
+
+	if (DataField.getMonth() == 0)
+	{    
+    		maand = 11;    
+    		Year =  params["prmYear"] - 1;
+	}
+	else
+	{
+ 	maand = params["prmMonth"] - 1;
+ 	Year =  params["prmYear"];
+	}	
+
+	DataField.getMonth() == maand &amp;&amp; DataField.getFullYear() == Year;
+}
+else if( Timespan == "Quarter")
+{
+	var kwartaal;
+	if (kwartaal == 0)
+	{  
+		kwartaal = 9;	
+		Year =  params["prmYear"] - 1;
+	}
+	else
+	{
+		kwartaal = params["prmQuarter"] - 3; 
+		Year =  params["prmYear"];
+	}
+	DataField.getMonth() >= (kwartaal) &amp;&amp; DataField.getMonth() &lt; (kwartaal + 3) &amp;&amp; DataField.getFullYear() == Year;
+}
+else if( Timespan == "Year")
+{
+	 DataField.getFullYear() == (params["prmYear"] - 1 )
+}
+else
+{
+DataField == "null";
+}</expression>
+                </structure>
+                <structure>
+                    <property name="name">TrendVorig2</property>
+                    <property name="dataType">any</property>
+                    <property name="aggregateFunction">COUNT</property>
+                    <expression name="filterExpr">var DataField = row["CYUPDATED"] ;
+var Timespan = params["prmPeriod"];
+
+if ( Timespan == "Week")
+{
+	DateTimeSpan.days(DataField , new Date() ) > 13 &amp;&amp; DateTimeSpan.days(DataField , new Date() ) &lt;= 20;
+}
+else if ( Timespan == "Month")
+{
+	var maand;
+
+	if (DataField.getMonth() == 0)
+	{    
+    		maand = 10;    
+	}
+	else if(DataField.getMonth() == 1)
+	{
+    		maand = 11;
+	}
+	else
+	{
+ 		maand = params["prmMonth"] - 2;
+	}	
+
+	DataField.getMonth() == maand;
+}
+else if( Timespan == "Quarter")
+{
+	var kwartaal;
+	if (kwartaal == 0)
+	{  
+		kwartaal = 6;	
+	}
+	else if (kwartaal == 3)
+	{  
+		kwartaal = 9;	
+	}
+	else
+	{
+		kwartaal = params["prmQuarter"] - 6 
+	}
+	DataField.getMonth() >= (kwartaal) &amp;&amp; DataField.getMonth() &lt; (kwartaal + 3)
+}
+
+else if( Timespan == "Year")
+{
+	 DataField.getFullYear() == (params["prmYear"] - 2 )
+}
+
+else
+{
+DataField == "null";
+}</expression>
+                </structure>
+                <structure>
+                    <property name="name">VER_ID</property>
+                    <expression name="expression">dataSetRow["VER_ID"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ORG_TYPE</property>
+                    <expression name="expression">dataSetRow["ORG_TYPE"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ORG_TYPE_3</property>
+                    <expression name="expression">dataSetRow["ORG_TYPE_3"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">VER_CREATEDATE</property>
+                    <expression name="expression">dataSetRow["VER_CREATEDATE"]</expression>
+                    <property name="dataType">date-time</property>
+                </structure>
+            </list-property>
+            <column id="480"/>
+            <column id="481"/>
+            <column id="482"/>
+            <header>
+                <row id="463">
+                    <cell id="464"/>
+                    <cell id="465"/>
+                    <cell id="466"/>
+                </row>
+            </header>
+            <detail>
+                <row id="467">
+                    <cell id="468"/>
+                    <cell id="469">
+                        <data id="470">
+                            <property name="resultSetColumn">CYUPDATED</property>
+                        </data>
+                    </cell>
+                    <cell id="471"/>
+                </row>
+            </detail>
+            <footer>
+                <row id="472">
+                    <cell id="473">
+                        <image id="474">
+                            <method name="onRender"><![CDATA[if( row["TrendHuidig"] >  ((row["TrendVorig"]+ row["TrendVorig2"])/2) )
+		this.file = this.file.replace( "down.gif" , reportContext.getParameterValue("prmPicUp"));
+else if( row["TrendHuidig"] ==  ((row["TrendVorig"]+ row["TrendVorig2"])/2) )
+		this.file = this.file.replace( "down.gif" , reportContext.getParameterValue("prmPicEqual"));
+else
+		this.file = this.file.replace( "down.gif" , reportContext.getParameterValue("prmPicDown"));]]></method>
+                            <property name="size">scale-to-item</property>
+                            <property name="source">file</property>
+                            <expression name="uri">"down.gif"</expression>
+                        </image>
+                    </cell>
+                    <cell id="475">
+                        <data id="476">
+                            <property name="marginTop">0pt</property>
+                            <property name="paddingTop">1pt</property>
+                            <property name="resultSetColumn">TrendHuidig</property>
+                        </data>
+                        <data id="477">
+                            <property name="resultSetColumn">TrendVorig</property>
+                        </data>
+                        <data id="478">
+                            <property name="resultSetColumn">TrendVorig2</property>
+                        </data>
+                    </cell>
+                    <cell id="479"/>
+                </row>
+            </footer>
+        </table>
+    </body>
+</report>

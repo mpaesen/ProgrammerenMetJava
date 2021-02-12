@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" name="Oefening 4" comment="Oefening 4" id="pf12684292344334" configfile="/Oefening4/WebContent/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="Calc" x="300" y="132" id="pf126850972683016" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" outlinks="pf126887049329911" inlinks="pf12688689003486" path="/Calc.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="Munt" x="480" y="264" id="pf12688270427624" outlinks="pf126887049329912" inlinks="pf12688689003487" path="/Munt.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="Temp" x="108" y="264" id="pf12688270427625" outlinks="pf126886946506810" inlinks="pf12688689003488" path="/Temp.jsp"/>
+  <nodes xsi:type="pageflow:PFPage" name="StartPage" x="299" y="264" id="pf12688689003499" outlinks="pf12688689003487 pf12688689003486 pf12688689003488" inlinks="pf126886946506810 pf126887049329912 pf126887049329911" path="/StartPage.jsp"/>
+  <links id="pf12688689003487" target="pf12688270427624" source="pf12688689003499" outcome="B"/>
+  <links id="pf12688689003486" target="pf126850972683016" source="pf12688689003499" outcome="A"/>
+  <links id="pf12688689003488" target="pf12688270427625" source="pf12688689003499" outcome="C"/>
+  <links id="pf126886946506810" target="pf12688689003499" source="pf12688270427625" outcome="Verlaat"/>
+  <links id="pf126887049329912" target="pf12688689003499" source="pf12688270427624" outcome="Verlaat"/>
+  <links id="pf126887049329911" target="pf12688689003499" source="pf126850972683016" outcome="Verlaat"/>
+</pageflow:Pageflow>

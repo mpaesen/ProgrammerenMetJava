@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webSphere-memento-map
+   CONFIG_MEMENTO_MAP_FILE_KEY_ID="WebSphere V5.1 Configuration Memento Map File"
+   CONFIG_NAME_KEY_ID="WebSphere Server Configuration" server-type="14">
+   <memento-map>
+      <memento-map-entry key="WebExcercises.war" value="com.ibm.etools.webtools.server:WebExcercises"/>
+      <memento-map-entry key="WebExcercisesEAR" value="com.ibm.etools.server.j2ee.ear13:WebExcercisesEAR"/>
+   </memento-map>
+</webSphere-memento-map>

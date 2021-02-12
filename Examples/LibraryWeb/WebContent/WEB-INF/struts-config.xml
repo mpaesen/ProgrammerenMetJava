@@ -1,0 +1,50 @@
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+   <data-sources />
+   <form-beans >
+      <form-bean name="bookListForm" type="de.laliluna.tutorial.library.struts.form.BookListForm" />
+      <form-bean name="bookEditForm" type="de.laliluna.tutorial.library.struts.form.BookEditForm" />
+   </form-beans>
+   <global-exceptions />
+   <global-forwards>
+      <forward
+         name="welcome"
+         path="/default.do"
+         redirect="true" />
+
+   </global-forwards>
+
+   <action-mappings>
+      <action forward="/jsp/index.jsp" path="/default" unknown="true" />
+      <action
+         attribute="bookListForm"
+         input="/jsp/bookList.jsp"
+         name="bookListForm"
+         parameter="step"
+         path="/bookList"
+         scope="request"
+         type="de.laliluna.tutorial.library.struts.action.BookListAction"
+         validate="false">
+         <forward name="showList" path="/jsp/bookList.jsp" />
+      </action>
+      <action
+         attribute="bookEditForm"
+         name="bookEditForm"
+         parameter="do"
+         path="/bookEdit"
+         scope="request"
+         type="de.laliluna.tutorial.library.struts.action.BookEditAction">
+         <forward name="showEdit" path="/jsp/bookEdit.jsp" />
+         <forward
+            name="showList"
+            path="/bookList.do"
+            redirect="true" />
+         <forward name="showAdd" path="/jsp/bookAdd.jsp" />
+      </action>
+      
+   </action-mappings>
+
+
+   <controller bufferSize="4096" debug="0" />
+   <message-resources parameter="de.laliluna.tutorial.library.struts.ApplicationResources" />
+</struts-config>

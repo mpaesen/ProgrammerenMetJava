@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workbench progressCount="48" version="2.0">
+<workbenchAdvisor/>
+<window height="768" maximized="true" width="1024" x="22" y="22">
+<fastViewData fastViewLocation="1024"/>
+<perspectiveBar>
+<itemSize x="160"/>
+</perspectiveBar>
+<coolbarLayout locked="0">
+<coolItem id="group.file" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="com.ibm.team.workitem.ide" itemType="typeToolBarContribution" x="74" y="22"/>
+<coolItem id="com.ibm.team.workitem.ide.ShowFeeds" itemType="typeToolBarContribution" x="50" y="22"/>
+<coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="161" y="22"/>
+<coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="98" y="22"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="74" y="22"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="group.nav" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="185" y="22"/>
+<coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="group.help" itemType="typeGroupMarker"/>
+<coolItem id="com.ibm.cic.licensing.common.ui.controlContribution" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
+</coolbarLayout>
+<page aggregateWorkingSetId="Aggregate for window 1238429903877" focus="true" label="Workspace - Java">
+<editors>
+<editorArea activeWorkbook="DefaultEditorWorkbook">
+<info part="DefaultEditorWorkbook">
+<folder appearance="1" expanded="2">
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</editorArea>
+</editors>
+<views>
+<view id="com.ibm.magnolia.TeamCentral" partName="Team Central"/>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="com.ibm.etools.iseries.rse.ui.view.cmdlog" partName="Commands Log"/>
+<view id="com.ibm.etools.iseries.rse.ui.ObjectTableView" partName="Object Table"/>
+<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Hierarchy"/>
+<view id="org.eclipse.rse.ui.view.scratchpad.SystemScratchpadViewPart" partName="Remote Scratchpad"/>
+<view id="org.eclipse.rse.ui.view.teamView" partName="Team"/>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
+<viewState group_libraries="1" isWindowWorkingSet="false" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
+<customFilters userDefinedPatternsEnabled="false">
+<xmlDefinedFilters>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LocalTypesFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.CuAndClassFileFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_.*" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.PackageDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.SyntheticMembersFilter" isEnabled="true"/>
+<child filterId="org.eclipse.pde.ui.BinaryProjectFilter1" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ImportDeclarationFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsTempFiles" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonPublicFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.HideInnerClassFilesFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyInnerPackageFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jet.javafilter" isEnabled="true"/>
+<child filterId="org.eclipse.gmf.codegen.ui.hide_generated" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer_patternFilterId_RemoteSystemsConnections" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaElementFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonJavaProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.NonSharedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.internal.ui.PackageExplorer.EmptyPackageFilter" isEnabled="false"/>
+<child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.EmptyLibraryContainerFilter" isEnabled="true"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.FieldsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ClosedProjectsFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.ContainedLibraryFilter" isEnabled="false"/>
+<child filterId="org.eclipse.jdt.ui.PackageExplorer.StaticsFilter" isEnabled="false"/>
+</xmlDefinedFilters>
+</customFilters>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
+<view id="com.ibm.etools.annotations.ui.views.AnnotationView" partName="Annotations"/>
+<view id="com.ibm.team.process.rcp.ui.teamArtifactsNavigator" partName="Team Artifacts"/>
+<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
+<view id="com.ibm.magnolia.workItemExplorer" partName="Work Items"/>
+<view id="org.eclipse.rse.ui.view.systemTableView" partName="Remote System Details">
+<viewState/>
+</view>
+<view id="org.eclipse.ui.views.ProblemView" partName="Problems">
+<viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
+<columnWidths org.eclipse.ui.ide.locationField="54" org.eclipse.ui.ide.markerType="79" org.eclipse.ui.ide.pathField="104" org.eclipse.ui.ide.resourceField="79" org.eclipse.ui.ide.severityAndDescriptionField="250"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
+<visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
+</viewState>
+</view>
+<view id="com.ibm.team.apt.internal.ui.myWorkView" partName="My Work"/>
+<view id="org.eclipse.rse.ui.view.systemView" partName="Remote Systems">
+<viewState horizontalPosition="0" linkWithEditor="f" release="2.0.0" showFilterPools="f" verticalPosition="0">
+<expanded/>
+<selection>
+<element path="Conn///BELBR165.Local"/>
+</selection>
+</viewState>
+</view>
+</views>
+<perspectives activePart="org.eclipse.jdt.ui.PackageExplorer" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.rse.internal.ui.view.SystemPerspectiveLayout" id="org.eclipse.rse.ui.view.SystemPerspective" label="Remote System Explorer"/>
+<alwaysOnActionSet id="com.ibm.rational.welcome.core.helpSearchActionSet"/>
+<alwaysOnActionSet id="com.ibm.ccl.help.preferenceharvester.actionSet1"/>
+<alwaysOnActionSet id="com.ibm.help.gallery.sampleGalleryActionSet"/>
+<alwaysOnActionSet id="com.ibm.01.help.gallery.cat.tutorialGalleryActionSet"/>
+<alwaysOnActionSet id="com.ibm.rational.welcome.core.webResourcesActionSet"/>
+<alwaysOnActionSet id="com.ibm.cic.licensing.common.ui.actionSet"/>
+<alwaysOnActionSet id="com.ibm.etools.iseries.rse.ui.search.searchActionSet"/>
+<alwaysOnActionSet id="com.ibm.etools.iseries.rse.ui.actionSet"/>
+<alwaysOnActionSet id="com.ibm.etools.miniwelcome.miniWelcomeActionSet"/>
+<alwaysOnActionSet id="com.ibm.rational.llc.ui.actionSet"/>
+<alwaysOnActionSet id="com.ibm.team.filesystem.shortcuts"/>
+<alwaysOnActionSet id="com.ibm.team.fulltext.ide.ui.JazzArtifactsSearch"/>
+<alwaysOnActionSet id="com.ibm.team.process.ui.actionSet"/>
+<alwaysOnActionSet id="com.ibm.team.workitem.ide"/>
+<alwaysOnActionSet id="com.ibm.magnolia.workitems.searchActionSet"/>
+<alwaysOnActionSet id="com.ibm.team.workitem.rcp.ui.OpenFavoriteSet"/>
+<alwaysOnActionSet id="org.eclipse.jst.servlet.ui.internal.actions.ConvertToWebModuleTypeActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="com.ibm.etools.iseries.core.rseintro.actionSet"/>
+<show_view_action id="org.eclipse.rse.ui.view.systemView"/>
+<show_view_action id="org.eclipse.rse.ui.view.systemTableView"/>
+<show_view_action id="org.eclipse.ui.views.PropertySheet"/>
+<show_view_action id="com.ibm.etools.iseries.rse.ui.ObjectTableView"/>
+<show_view_action id="com.ibm.etools.iseries.rse.ui.view.cmdlog"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="com.ibm.etools.iseries.rse.ui.wizard.remote.newlibrary"/>
+<new_wizard_action id="com.ibm.etools.iseries.rse.ui.wizard.remote.newsrcpf"/>
+<new_wizard_action id="com.ibm.etools.iseries.rse.ui.wizard.remote.newmember"/>
+<new_wizard_action id="com.ibm.etools.iseries.rse.ui.wizard.remote.newmsgf"/>
+<new_wizard_action id="com.ibm.etools.iseries.rse.ui.wizard.remote.newdtaq"/>
+<new_wizard_action id="com.ibm.etools.iseries.rse.ui.wizard.remote.newdtaara"/>
+<perspective_action id="org.eclipse.rse.ui.view.SystemPerspective"/>
+<perspective_action id="com.ibm.etools.iseries.perspective.iseriesperspectiveid"/>
+<perspective_action id="com.ibm.magnolia.ui.workItemPerspective"/>
+<view id="org.eclipse.rse.ui.view.systemView"/>
+<view id="org.eclipse.rse.ui.view.teamView"/>
+<view id="org.eclipse.rse.ui.view.systemTableView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="com.ibm.etools.iseries.rse.ui.ObjectTableView"/>
+<view id="com.ibm.etools.iseries.rse.ui.view.cmdlog"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.PropertySheet"/>
+<view id="org.eclipse.rse.ui.view.scratchpad.SystemScratchpadViewPart"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="org.eclipse.rse.ui.view.NavFolder">
+<folder activePageID="org.eclipse.rse.ui.view.systemView" appearance="2" expanded="2">
+<page content="org.eclipse.rse.ui.view.systemView" label="Remote Systems"/>
+<page content="org.eclipse.rse.ui.view.teamView" label="Team"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@58ba58ba" ratio="0.75" ratioLeft="756" ratioRight="252" relationship="2" relative="org.eclipse.rse.ui.view.NavFolder">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="252" ratioRight="756" relationship="2" relative="org.eclipse.rse.ui.view.NavFolder"/>
+<info folder="true" part="org.eclipse.rse.ui.view.MiscFolder" ratio="0.59874606" ratioLeft="382" ratioRight="256" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.rse.ui.view.systemTableView" appearance="2" expanded="2">
+<page content="org.eclipse.rse.ui.view.systemTableView" label="Remote System Details"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="com.ibm.etools.iseries.rse.ui.ObjectTableView" label="Object Table"/>
+<page content="com.ibm.etools.iseries.rse.ui.view.cmdlog" label="Commands Log"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.rse.ui.view.OutlineFolder" ratio="0.7989418" ratioLeft="604" ratioRight="152" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.rse.ui.view.PropertiesFolder" ratio="0.7492163" ratioLeft="478" ratioRight="160" relationship="4" relative="org.eclipse.rse.ui.view.NavFolder">
+<folder activePageID="org.eclipse.ui.views.PropertySheet" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
+<page content="org.eclipse.rse.ui.view.scratchpad.SystemScratchpadViewPart" label="Remote Scratchpad"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
+<alwaysOnActionSet id="com.ibm.rational.welcome.core.helpSearchActionSet"/>
+<alwaysOnActionSet id="com.ibm.ccl.help.preferenceharvester.actionSet1"/>
+<alwaysOnActionSet id="com.ibm.help.gallery.sampleGalleryActionSet"/>
+<alwaysOnActionSet id="com.ibm.01.help.gallery.cat.tutorialGalleryActionSet"/>
+<alwaysOnActionSet id="com.ibm.rational.welcome.core.webResourcesActionSet"/>
+<alwaysOnActionSet id="com.ibm.cic.licensing.common.ui.actionSet"/>
+<alwaysOnActionSet id="com.ibm.etools.iseries.rse.ui.search.searchActionSet"/>
+<alwaysOnActionSet id="com.ibm.etools.iseries.rse.ui.actionSet"/>
+<alwaysOnActionSet id="com.ibm.etools.miniwelcome.miniWelcomeActionSet"/>
+<alwaysOnActionSet id="com.ibm.rational.llc.ui.actionSet"/>
+<alwaysOnActionSet id="com.ibm.team.filesystem.shortcuts"/>
+<alwaysOnActionSet id="com.ibm.team.fulltext.ide.ui.JazzArtifactsSearch"/>
+<alwaysOnActionSet id="com.ibm.team.process.ui.actionSet"/>
+<alwaysOnActionSet id="com.ibm.team.workitem.ide"/>
+<alwaysOnActionSet id="com.ibm.magnolia.workitems.searchActionSet"/>
+<alwaysOnActionSet id="com.ibm.team.workitem.rcp.ui.OpenFavoriteSet"/>
+<alwaysOnActionSet id="org.eclipse.jst.servlet.ui.internal.actions.ConvertToWebModuleTypeActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.rse.core.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="com.ibm.team.workitem.ide.ShowFeeds"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.profileActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.debug.ui.JDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.junit.JUnitActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackageExplorer"/>
+<show_view_action id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<show_view_action id="org.eclipse.jdt.ui.SourceView"/>
+<show_view_action id="org.eclipse.jdt.ui.JavadocView"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ProgressView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.texteditor.TemplatesView"/>
+<show_view_action id="com.ibm.team.apt.internal.ui.myWorkView"/>
+<show_view_action id="com.ibm.team.process.rcp.ui.teamArtifactsNavigator"/>
+<show_view_action id="com.ibm.magnolia.workItemExplorer"/>
+<show_view_action id="com.ibm.magnolia.TeamCentral"/>
+<show_view_action id="org.eclipse.ant.ui.views.AntView"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewEnumCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewAnnotationCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSnippetFileCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewJavaWorkingSetWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.editors.wizards.UntitledTextFileWizard"/>
+<new_wizard_action id="com.ibm.team.workitem.wizards.NewWorkItemWizard"/>
+<new_wizard_action id="org.eclipse.birt.report.designer.ui.ide.wizards.NewReportWizard"/>
+<new_wizard_action id="org.eclipse.birt.report.designer.ui.ide.wizards.NewTemplateWizard"/>
+<new_wizard_action id="org.eclipse.birt.report.designer.ui.wizards.NewLibraryWizard"/>
+<new_wizard_action id="org.eclipse.jdt.junit.wizards.NewTestCaseCreationWizard"/>
+<perspective_action id="com.ibm.datatools.core.internal.ui.perspective"/>
+<perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
+<perspective_action id="com.ibm.magnolia.ui.workItemPerspective"/>
+<perspective_action id="org.eclipse.birt.report.designer.ui.ReportPerspective"/>
+<perspective_action id="org.eclipse.hyades.ui.perspective.TestPerspective"/>
+<perspective_action id="org.eclipse.hyades.trace.internal.ui.tracePerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.jdt.ui.TypeHierarchy"/>
+<view id="com.ibm.team.apt.internal.ui.myWorkView"/>
+<view id="com.ibm.team.process.rcp.ui.teamArtifactsNavigator"/>
+<view id="com.ibm.magnolia.TeamCentral"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.jdt.ui.JavadocView"/>
+<view id="org.eclipse.jdt.ui.SourceView"/>
+<view id="com.ibm.etools.annotations.ui.views.AnnotationView"/>
+<view id="com.ibm.magnolia.workItemExplorer"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">
+<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="Hierarchy"/>
+<page content="com.ibm.team.apt.internal.ui.myWorkView" label="My Work"/>
+<page content="com.ibm.team.process.rcp.ui.teamArtifactsNavigator" label="Team Artifacts"/>
+<page content="com.ibm.magnolia.TeamCentral" label="Team Central"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
+<page content="com.ibm.team.process.projectAreaExplorer" label="LabelNotFound"/>
+<page content="com.ibm.team.process.processTemplateExplorer" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="stickyFolderRight" ratio="0.75" ratioLeft="1254" ratioRight="418" relationship="2" relative="left">
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="418" ratioRight="1254" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.74972796" ratioLeft="689" ratioRight="230" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<page content="com.ibm.etools.annotations.ui.views.AnnotationView" label="Annotations"/>
+<page content="com.ibm.magnolia.workItemExplorer" label="Work Items"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<page content="com.ibm.team.collaboration.ui.internal.chatView" label="LabelNotFound"/>
+<page content="com.ibm.team.process.operationAdviceView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+<part id="4"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.7496013" ratioLeft="940" ratioRight="314" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+</perspectives>
+<workingSets/>
+<navigationHistory/>
+<input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
+</page>
+<workbenchWindowAdvisor/>
+<actionBarAdvisor/>
+<trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
+<trimArea IMemento.internal.id="1024">
+<trimItem IMemento.internal.id="com.ibm.team.workitem.rcp.ui.SearchBarGroup"/>
+<trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
+<trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.intro.impl.presentations.IntroLaunchBar"/>
+<trimItem IMemento.internal.id="com.ibm.team.collaboration.rcp.ui.ChangePresenceGroup"/>
+<trimItem IMemento.internal.id="com.ibm.team.metronome.group"/>
+<trimItem IMemento.internal.id="com.ibm.team.workitem.rcp.ui.WorkitemActivationGroup"/>
+</trimArea>
+</trimLayout>
+</window>
+<mruList/>
+</workbench>

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.15" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 2.2.2.r222_v20071226 Build &lt;2.2.2.v20080227-1131></property>
+    <property name="units">in</property>
+    <property name="comments">Copyright (c) 2007 &lt;&lt;Your Company Name here>></property>
+    <html-property name="description">Creates a blank report with no predefined content.</html-property>
+    <text-property name="displayName">Blank Report</text-property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">Library.rptlibrary</property>
+            <property name="namespace">Library</property>
+        </structure>
+    </list-property>
+    <parameters>
+        <scalar-parameter name="prmMonth" id="134" extends="Library.prmMonth"/>
+        <scalar-parameter name="prmQuarter" id="135" extends="Library.prmQuarter"/>
+        <scalar-parameter name="prmYear" id="136" extends="Library.prmYear"/>
+        <scalar-parameter name="prmPeriod" id="137" extends="Library.prmPeriod"/>
+        <scalar-parameter name="prmLanguage" id="138" extends="Library.prmLanguage"/>
+    </parameters>
+    <data-sources>
+        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Data Source" id="95"
+ extends="Library.Data Source"/>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="dsLanguages" id="6"
+ extends="Library.dsLanguages"/>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="dsOrganisation_county" id="98">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">County</property>
+                    <property name="displayName">County</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">County</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <list-property name="parameters">
+                <structure>
+                    <property name="name">prmLanguage1</property>
+                    <property name="paramName">prmLanguage</property>
+                    <property name="dataType">any</property>
+                    <property name="position">1</property>
+                    <property name="isInput">true</property>
+                    <property name="isOutput">false</property>
+                </structure>
+            </list-property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">County</property>
+                    <property name="nativeName">County</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+            </list-property>
+            <property name="queryText">select SEL2.sel_value County
+from ORGANISATION , SELECTIONTABLES SEL2
+where not ORGANISATION.ORG_COUNTY = ''
+and ORGANISATION.ORG_VERSIONSTATUS = 'primary'
+and SEL2.sel_languser = ?
+and SEL2.sel_id = 'county'
+and SEL2.sel_subitem = ORGANISATION.ORG_COUNTY</property>
+        </oda-data-set>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="ds_Periode_Title" id="133"
+ extends="Library.ds_Periode_Title"/>
+    </data-sets>
+    <cubes>
+        <tabular-cube name="dsOrganisation_county" id="112">
+            <property name="defaultMeasureGroup">Summary Field</property>
+            <property name="dimensions">
+                <tabular-dimension name="Group" id="113">
+                    <property name="defaultHierarchy">NewTabularHierarchy</property>
+                    <property name="hierarchies">
+                        <tabular-hierarchy name="NewTabularHierarchy" id="114">
+                            <property name="levels">
+                                <tabular-level name="County" id="115">
+                                    <property name="dataType">string</property>
+                                    <property name="columnName">County</property>
+                                </tabular-level>
+                            </property>
+                        </tabular-hierarchy>
+                    </property>
+                </tabular-dimension>
+            </property>
+            <property name="measureGroups">
+                <tabular-measure-group name="Summary Field" id="116">
+                    <property name="measures">
+                        <tabular-measure name="County" id="139">
+                            <property name="function">count</property>
+                            <property name="dataType">string</property>
+                        </tabular-measure>
+                    </property>
+                </tabular-measure-group>
+            </property>
+            <property name="dataSet">dsOrganisation_county</property>
+        </tabular-cube>
+    </cubes>
+    <styles>
+        <style name="crosstab" id="4">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab-cell" id="5">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+    </styles>
+    <page-setup>
+        <simple-master-page name="IBSPPage_Cube" id="7" extends="Library.IBSPPage_Cube">
+            <overridden-values>
+                <ref-entry baseId="49" name="NewGrid1" id="49"/>
+                <ref-entry baseId="50" id="50"/>
+                <ref-entry baseId="51" id="51"/>
+                <ref-entry baseId="52" id="52"/>
+                <ref-entry baseId="53" id="53"/>
+                <ref-entry baseId="54" id="54"/>
+                <ref-entry baseId="69" name="NewImage" id="69"/>
+                <ref-entry baseId="94" name="NewText2" id="94"/>
+                <ref-entry baseId="57" id="57"/>
+                <ref-entry baseId="58" id="58"/>
+                <ref-entry baseId="59" id="59"/>
+                <ref-entry baseId="60" id="60"/>
+                <ref-entry baseId="61" id="61"/>
+                <ref-entry baseId="62" id="62"/>
+                <ref-entry baseId="70" name="NewText1" id="70"/>
+                <ref-entry baseId="65" id="65"/>
+                <ref-entry baseId="66" id="66"/>
+                <ref-entry baseId="67" id="67"/>
+                <ref-entry baseId="68" id="68"/>
+            </overridden-values>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <grid id="99">
+            <property name="width">100%</property>
+            <column id="100"/>
+            <row id="101">
+                <cell id="102">
+                    <table id="103">
+                        <property name="width">100%</property>
+                        <list-property name="boundDataColumns">
+                            <structure>
+                                <property name="name">Period_Title</property>
+                                <expression name="expression">var Timespan = params["prmPeriod"];
+var tester = "";
+
+
+if ( Timespan == "Week")
+{
+	tester = dataSetRow["week"]
+}
+else if ( Timespan == "Month")
+{
+	tester =dataSetRow["month"]
+}
+else if( Timespan == "Quarter")
+{
+  tester = dataSetRow["quarter"]
+}
+else if( Timespan == "Year")
+{
+
+	tester = params["prmYear"];
+	}
+
+
+tester = "(" + tester + ")";
+tester;</expression>
+                                <property name="dataType">any</property>
+                            </structure>
+                        </list-property>
+                        <column id="110">
+                            <property name="width">75%</property>
+                        </column>
+                        <column id="158"/>
+                        <header>
+                            <row id="104">
+                                <cell id="105">
+                                    <property name="backgroundColor">#507295</property>
+                                    <label id="128">
+                                        <property name="fontWeight">normal</property>
+                                        <property name="color">#FFFFFF</property>
+                                        <property name="textAlign">right</property>
+                                        <text-property name="text">Number of organisations / county</text-property>
+                                    </label>
+                                </cell>
+                                <cell id="155">
+                                    <property name="backgroundColor">#507295</property>
+                                    <data id="159">
+                                        <property name="color">#FFFFFF</property>
+                                        <property name="dataSet">ds_Periode_Title</property>
+                                        <list-property name="boundDataColumns">
+                                            <structure>
+                                                <property name="name">month</property>
+                                                <expression name="expression">dataSetRow["month"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">quarter</property>
+                                                <expression name="expression">dataSetRow["quarter"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">week</property>
+                                                <expression name="expression">dataSetRow["week"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">Period_Title</property>
+                                                <expression name="expression">var Timespan = params["prmPeriod"];
+var tester = "";
+
+
+if ( Timespan == "Week")
+{
+	tester = dataSetRow["week"]
+}
+else if ( Timespan == "Month")
+{
+	tester =dataSetRow["month"]
+}
+else if( Timespan == "Quarter")
+{
+  tester = dataSetRow["quarter"]
+}
+else if( Timespan == "Year")
+{
+
+	tester = params["prmYear"];
+	}
+
+
+tester = "(" + tester + ")";
+tester;</expression>
+                                                <property name="dataType">any</property>
+                                            </structure>
+                                        </list-property>
+                                        <property name="resultSetColumn">Period_Title</property>
+                                    </data>
+                                </cell>
+                            </row>
+                        </header>
+                        <detail>
+                            <row id="106">
+                                <cell id="107">
+                                    <property name="colSpan">2</property>
+                                    <property name="rowSpan">1</property>
+                                    <extended-item extensionName="Crosstab" id="140">
+                                        <property name="measures">
+                                            <extended-item extensionName="MeasureView" id="146">
+                                                <property name="measure">County</property>
+                                                <property name="detail">
+                                                    <extended-item extensionName="CrosstabCell" id="147">
+                                                        <property name="content">
+                                                            <data name="County1" id="149">
+                                                                <property name="textAlign">right</property>
+                                                                <property name="resultSetColumn">County_1</property>
+                                                            </data>
+                                                        </property>
+                                                    </extended-item>
+                                                </property>
+                                                <property name="aggregations">
+                                                    <extended-item extensionName="AggregationCell" id="152">
+                                                        <property name="backgroundColor">#969696</property>
+                                                        <property name="content">
+                                                            <data id="153">
+                                                                <property name="backgroundColor">#969696</property>
+                                                                <property name="fontWeight">bold</property>
+                                                                <property name="textAlign">right</property>
+                                                                <property name="resultSetColumn">County_2</property>
+                                                            </data>
+                                                        </property>
+                                                    </extended-item>
+                                                </property>
+                                                <property name="header">
+                                                    <extended-item extensionName="CrosstabCell" id="148">
+                                                        <property name="content">
+                                                            <label id="150">
+                                                                <text-property name="text">County</text-property>
+                                                            </label>
+                                                        </property>
+                                                    </extended-item>
+                                                </property>
+                                            </extended-item>
+                                        </property>
+                                        <property name="rows">
+                                            <extended-item extensionName="CrosstabView" id="141">
+                                                <property name="grandTotal">
+                                                    <extended-item extensionName="CrosstabCell" id="151">
+                                                        <property name="content">
+                                                            <label id="154">
+                                                                <property name="fontWeight">bold</property>
+                                                                <text-property name="text">Grand Total</text-property>
+                                                            </label>
+                                                        </property>
+                                                        <property name="backgroundColor">#969696</property>
+                                                    </extended-item>
+                                                </property>
+                                                <property name="views">
+                                                    <extended-item extensionName="DimensionView" id="142">
+                                                        <property name="dimension">Group</property>
+                                                        <property name="levels">
+                                                            <extended-item extensionName="LevelView" name="NewLevel View" id="143">
+                                                                <property name="level">Group/County</property>
+                                                                <property name="member">
+                                                                    <extended-item extensionName="CrosstabCell" id="144">
+                                                                        <property name="content">
+                                                                            <data name="County" id="145">
+                                                                                <property name="resultSetColumn">County</property>
+                                                                            </data>
+                                                                        </property>
+                                                                    </extended-item>
+                                                                </property>
+                                                            </extended-item>
+                                                        </property>
+                                                    </extended-item>
+                                                </property>
+                                            </extended-item>
+                                        </property>
+                                        <property name="cube">dsOrganisation_county</property>
+                                        <list-property name="boundDataColumns">
+                                            <structure>
+                                                <property name="name">County</property>
+                                                <expression name="expression">dimension["Group"]["County"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">County_1</property>
+                                                <expression name="expression">measure["County"]</expression>
+                                                <property name="dataType">string</property>
+                                            </structure>
+                                            <structure>
+                                                <property name="name">County_2</property>
+                                                <expression name="expression">measure["County"]</expression>
+                                                <property name="dataType">string</property>
+                                                <property name="aggregateFunction">SUM</property>
+                                            </structure>
+                                        </list-property>
+                                    </extended-item>
+                                </cell>
+                            </row>
+                        </detail>
+                        <footer>
+                            <row id="108">
+                                <cell id="109"/>
+                                <cell id="157"/>
+                            </row>
+                        </footer>
+                    </table>
+                </cell>
+            </row>
+        </grid>
+    </body>
+</report>

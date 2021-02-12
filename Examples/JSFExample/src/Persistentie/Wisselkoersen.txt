@@ -1,0 +1,61 @@
+#/** 
+ #*  Exercise : 		Opdracht3 : Ontwerpen met java
+ #*  FileName :   	Adres.java
+ #*  @author Pascal Sempels 
+ #*  @version Revision : 1.0  date : 06/02/2010
+ #*  
+ #*  Wisselkoersen.txt :Tekstbestand dat wordt gebruikt om wisselkoersen in te brengen 
+ #*/
+#
+#Wisselkoersen bestand voor oefening 3
+#
+#aantal munteenheden
+Wisselkoers.aantal=12
+#
+#Koers naar Euro
+#
+Wisselkoers.euro2.euro=1
+Wisselkoers.euro2.USD=1.3659
+Wisselkoers.euro2.GBP=0.9075
+Wisselkoers.euro2.CHF=1.463
+Wisselkoers.euro2.SEK=9.7945
+Wisselkoers.euro2.NOK=8.0672
+Wisselkoers.euro2.DKK=7.4424
+Wisselkoers.euro2.CAD=1.4112
+Wisselkoers.euro2.ZAR=10.2854
+Wisselkoers.euro2.AUD=1.5186
+Wisselkoers.euro2.NZD=1.9841
+Wisselkoers.euro2.JPY=120.6550
+#
+#
+#Benamingen van de munten
+#
+Wisselkoers.naam.euro=Euro
+Wisselkoers.naam.USD=Amerikaanse dollar
+Wisselkoers.naam.GBP=Britse pont
+Wisselkoers.naam.CHF=Zwitserse frank
+Wisselkoers.naam.SEK=Zweedse kroon
+Wisselkoers.naam.NOK=Noordse kroon
+Wisselkoers.naam.DKK=Deense kroon
+Wisselkoers.naam.CAD=Canadeense dollar
+Wisselkoers.naam.ZAR=Zuid Afrikaanse rand
+Wisselkoers.naam.AUD=Australische dollar
+Wisselkoers.naam.NZD=Nieuw Zeelandse dollar
+Wisselkoers.naam.JPY=Japanse yen
+#
+#
+#Munt codes
+#
+Wisselkoers.code.0=euro
+Wisselkoers.code.1=USD
+Wisselkoers.code.2=GBP
+Wisselkoers.code.3=CHF
+Wisselkoers.code.4=SEK
+Wisselkoers.code.5=NOK
+Wisselkoers.code.6=DKK
+Wisselkoers.code.7=CAD
+Wisselkoers.code.8=ZAR
+Wisselkoers.code.9=AUD
+Wisselkoers.code.10=NZD
+Wisselkoers.code.11=JPY
+

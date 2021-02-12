@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.rational.xtools.umlvisualizer.emfnotation:Pack xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.rational.xtools.umlvisualizer.emfnotation="http:///com/rational/xtools/umlvisualizer/emfnotation.ecore" Id="250d900e-0102-eca0-24d5-0a200123aa77" version="8">
+  <Diagram DiagramId="250d900f-0102-edb3-2908-0a200123aa77">
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="250da181-0102-fb19-5b0a-0a200123aa77" PositionX="625" PositionY="1850" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%view.AdvantageServlet})" Name="AdvantageServlet" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="250da18b-0102-e18c-79f0-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%view.AdvantageServlet})" Name="AdvantageServlet" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="250da18c-0102-e6eb-031f-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%view.AdvantageServlet})" Name="AdvantageServlet" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="250da18d-0102-e7fe-0acb-0a200123aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%view.AdvantageServlet})" Name="AdvantageServlet" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="250da18e-0102-e4c5-1451-0a200123aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%view.AdvantageServlet})" Name="AdvantageServlet" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="250da18f-0102-e5d8-2120-0a200123aa77" PositionX="6075" PositionY="1850" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%view.ResultBean})" Name="ResultBean" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="250da190-0102-e8d4-2da6-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%view.ResultBean})" Name="ResultBean" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="250da191-0102-e9e8-36a6-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%view.ResultBean})" Name="ResultBean" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="250da192-0102-e6ae-3e40-0a200123aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%view.ResultBean})" Name="ResultBean" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="250da193-0102-e7c1-4806-0a200123aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%view.ResultBean})" Name="ResultBean" Kind="29"/>
+      </children>
+    </children>
+  </Diagram>
+</com.rational.xtools.umlvisualizer.emfnotation:Pack>

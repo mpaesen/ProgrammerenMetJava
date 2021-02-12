@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="vfp-cashregister">
+  <test name="unit tests" annotations="JDK">
+    <packages>
+     	<package name="be.*"/>
+     </packages>
+  </test>
+</suite>

@@ -1,0 +1,144 @@
+!SESSION 2009-03-30 18:03:18.071 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=J2RE 1.6.0 IBM J9 2.4 Windows XP x86-32 jvmwi3260-20080816_22093 (JIT enabled, AOT enabled)
+J9VM - 20080816_022093_lHdSMr
+JIT  - r9_20080721_1330ifx2
+GC   - 20080724_AA
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=nl_BE
+Framework arguments:  -product com.ibm.etools.iseries.rdi.welcome.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.etools.iseries.rdi.welcome.ide
+
+!ENTRY org.eclipse.osgi 4 0 2009-03-30 18:03:28.633
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Another singleton version selected: org.eclipse.osgi_3.4.2.R34x_v20080826-1230
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.launch(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.SystemBundle.resume(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.Framework.launch(Unknown Source)
+	at org.eclipse.osgi.framework.internal.core.OSGi.launch(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.startup(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.main(Unknown Source)
+
+!ENTRY org.eclipse.emf.ecore 2 0 2009-03-30 18:07:29.632
+!MESSAGE Both 'com.ibm.etools.tpm.framework.ui' and 'com.ibm.xtools.uml.msl' register an extension parser for 'emx'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2009-03-30 18:07:29.632
+!MESSAGE Both 'com.ibm.etools.tpm.framework.ui' and 'org.eclipse.uml2.uml' register an extension parser for 'uml'
+
+!ENTRY org.eclipse.jface 2 0 2009-03-30 18:09:37.350
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2009-03-30 18:09:37.350
+!MESSAGE A conflict occurred for CTRL+SHIFT+A:
+Binding(CTRL+SHIFT+A,
+	ParameterizedCommand(Command(org.eclipse.pde.ui.openPluginArtifact,Open Plug-in Artifact,
+		Open a plug-in artifact in the manifest editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.pde.internal.ui.search.dialogs.PluginArtifactSearchHandler,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+A,
+	ParameterizedCommand(Command(com.ibm.etools.iseries.rse.ui.keybinding.openmbr,Open a member in Remote Systems LPEX Editor,
+		,
+		Category(com.ibm.etools.iseries.rse.ui.keybinding,IBM i,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.ibm.etools.annotations.core 1 0 2009-03-30 18:17:50.518
+!MESSAGE Search failed:
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.internal.core.search.matching.PatternLocator.patternLocator(Unknown Source)
+	at org.eclipse.jdt.internal.core.search.matching.MatchLocator.<init>(Unknown Source)
+	at org.eclipse.jdt.internal.core.search.JavaSearchParticipant.locateMatches(Unknown Source)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.findMatches(Unknown Source)
+	at org.eclipse.jdt.internal.core.search.BasicSearchEngine.search(Unknown Source)
+	at org.eclipse.jdt.core.search.SearchEngine.search(Unknown Source)
+	at com.ibm.etools.annotations.core.internal.search.JavaSearchUtils.findAnnotations(Unknown Source)
+	at com.ibm.etools.annotations.core.internal.listeners.TriggerAnnotationListenerImpl$IndexingJob.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2009-03-30 18:21:01.158
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Unknown Source)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Unknown Source)
+	at org.eclipse.core.internal.resources.Project.create(Unknown Source)
+	at org.eclipse.core.internal.resources.Project.create(Unknown Source)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.BuildPathsBlock.createProject(Unknown Source)
+	at org.eclipse.jdt.ui.wizards.JavaCapabilityConfigurationPage.createProject(Unknown Source)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageTwo.updateProject(Unknown Source)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageTwo.access$2(Unknown Source)
+	at org.eclipse.jdt.ui.wizards.NewJavaProjectWizardPageTwo$1$UpdateRunnable.run(Unknown Source)
+	at org.eclipse.ui.actions.WorkspaceModifyDelegatingOperation.execute(Unknown Source)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation$1.run(Unknown Source)
+	at org.eclipse.core.internal.resources.Workspace.run(Unknown Source)
+	at org.eclipse.ui.actions.WorkspaceModifyOperation.run(Unknown Source)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(Unknown Source)
+Contains: OK
+Contains: C:\j overlaps the workspace location: C:\j\JavaCourse
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2009-03-30 18:21:01.158
+!MESSAGE Invalid project description.
+!SUBENTRY 2 org.eclipse.core.runtime 0 0 2009-03-30 18:21:01.158
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2009-03-30 18:21:01.158
+!MESSAGE C:\j overlaps the workspace location: C:\j\JavaCourse
+
+!ENTRY org.eclipse.datatools.connectivity 4 10001 2009-03-30 18:21:32.345
+!MESSAGE Plug-in "com.ibm.datatools.migration.ui" was unable to execute setInitializationData on an instance of "com.ibm.datatools.migration.ui.util.ConnectionMigrationInitialization".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Plug-in "com.ibm.datatools.migration.ui" was unable to execute setInitializationData on an instance of "com.ibm.datatools.migration.ui.util.ConnectionMigrationInitialization".
+	at org.eclipse.core.internal.registry.ConfigurationElement.throwException(Unknown Source)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(Unknown Source)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.initializeLocalDatabase(Unknown Source)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadLocalRegisteredDatabases(Unknown Source)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadProfiles(Unknown Source)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfiles(Unknown Source)
+	at org.eclipse.datatools.connectivity.ProfileManager.getProfiles(Unknown Source)
+	at org.eclipse.datatools.sqltools.core.profile.ProfileUtil.getProfiles(Unknown Source)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin.register(Unknown Source)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin.access$0(Unknown Source)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin$1.configurationLoaded(Unknown Source)
+	at org.eclipse.datatools.sqltools.internal.core.SQLDevToolsConfigRegistryImpl$1.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at com.ibm.datatools.migration.ui.util.ConnectionMigration.loadDriverInformation(Unknown Source)
+	at com.ibm.datatools.migration.ui.util.ConnectionMigration.<init>(Unknown Source)
+	at com.ibm.datatools.migration.ui.util.ConnectionMigrationInitialization.setInitializationData(Unknown Source)
+	... 12 more
+!SUBENTRY 1 org.eclipse.equinox.registry 4 1 2009-03-30 18:21:32.345
+!MESSAGE Plug-in "com.ibm.datatools.migration.ui" was unable to execute setInitializationData on an instance of "com.ibm.datatools.migration.ui.util.ConnectionMigrationInitialization".
+!STACK 0
+java.lang.NullPointerException
+	at com.ibm.datatools.migration.ui.util.ConnectionMigration.loadDriverInformation(Unknown Source)
+	at com.ibm.datatools.migration.ui.util.ConnectionMigration.<init>(Unknown Source)
+	at com.ibm.datatools.migration.ui.util.ConnectionMigrationInitialization.setInitializationData(Unknown Source)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(Unknown Source)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(Unknown Source)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.initializeLocalDatabase(Unknown Source)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadLocalRegisteredDatabases(Unknown Source)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.loadProfiles(Unknown Source)
+	at org.eclipse.datatools.connectivity.internal.InternalProfileManager.getProfiles(Unknown Source)
+	at org.eclipse.datatools.connectivity.ProfileManager.getProfiles(Unknown Source)
+	at org.eclipse.datatools.sqltools.core.profile.ProfileUtil.getProfiles(Unknown Source)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin.register(Unknown Source)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin.access$0(Unknown Source)
+	at org.eclipse.datatools.sqltools.core.EditorCorePlugin$1.configurationLoaded(Unknown Source)
+	at org.eclipse.datatools.sqltools.internal.core.SQLDevToolsConfigRegistryImpl$1.run(Unknown Source)

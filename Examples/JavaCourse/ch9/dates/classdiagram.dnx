@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.rational.xtools.umlvisualizer.emfnotation:Pack xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.rational.xtools.umlvisualizer.emfnotation="http:///com/rational/xtools/umlvisualizer/emfnotation.ecore" Id="4a2e55bc-00ff-e720-455a-7f000001aa77" version="8">
+  <Diagram DiagramId="4a2e55bd-00ff-e833-49a1-7f000001aa77">
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="4a2e7485-00ff-e4b4-70d9-7f000001aa77" sourceConnectors="4a2e79cd-00ff-f9c7-500c-7f000001aa77" targetConnectors="4a2e79e1-00ff-ef45-1361-7f000001aa77 4a2e7a0b-00ff-f168-03f0-7f000001aa77" PositionX="8800" PositionY="7300" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt})" Name="ComFmt" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e7486-00ff-e17b-0315-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt})" Name="ComFmt" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e7487-00ff-e28e-0c19-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt})" Name="ComFmt" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="4a2e7488-00ff-e7ee-13b0-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt})" Name="ComFmt" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="4a2e748f-00ff-eb27-1d38-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt})" Name="ComFmt" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="4a2e7490-00ff-ee23-2a3f-7f000001aa77" PositionX="800" PositionY="1850" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.DateDelta})" Name="DateDelta" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e7491-00ff-ef36-36bc-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.DateDelta})" Name="DateDelta" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e7492-00ff-ebfd-3faa-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.DateDelta})" Name="DateDelta" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="4a2e7493-00ff-ed10-4743-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.DateDelta})" Name="DateDelta" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="4a2e7494-00ff-f270-50e6-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.DateDelta})" Name="DateDelta" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="4a2e7495-00ff-f383-5e0e-7f000001aa77" sourceConnectors="4a2e79e1-00ff-ef45-1361-7f000001aa77" targetConnectors="4a2e7a03-00ff-e8cf-07b2-7f000001aa77" PositionX="925" PositionY="13800" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt})" Name="DatFmt" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e7496-00ff-f04a-6a9b-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt})" Name="DatFmt" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e7497-00ff-f15d-7394-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt})" Name="DatFmt" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="4a2e7498-00ff-f6bc-7b41-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt})" Name="DatFmt" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="4a2e7499-00ff-f7cf-04e6-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt})" Name="DatFmt" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="4a2e749a-00ff-f496-1257-7f000001aa77" targetConnectors="4a2e79cd-00ff-f9c7-500c-7f000001aa77 4a2e79eb-00ff-f5b8-4c33-7f000001aa77 4a2e7a07-00ff-ed1b-44ff-7f000001aa77" PositionX="14075" PositionY="2475" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable})" Name="Formatable" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e749b-00ff-f5a9-1eeb-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable})" Name="Formatable" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e749c-00ff-fb09-27dc-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable})" Name="Formatable" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="4a2e749d-00ff-fc1c-2f87-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable})" Name="Formatable" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="4a2e749e-00ff-f8e2-3923-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable})" Name="Formatable" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="4a2e749f-00ff-f9f5-46bb-7f000001aa77" sourceConnectors="4a2e79eb-00ff-f5b8-4c33-7f000001aa77" targetConnectors="4a2e79f9-00ff-e6ac-0ff0-7f000001aa77" PositionX="9425" PositionY="4225" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt})" Name="FullFmt" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e74a0-00ff-e1b8-534d-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt})" Name="FullFmt" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e74a1-00ff-e2cb-5c9e-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt})" Name="FullFmt" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="4a2e74a2-00ff-ff92-6432-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt})" Name="FullFmt" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="4a2e74a3-00ff-e0a5-6dad-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt})" Name="FullFmt" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="4a2e74a4-00ff-e605-7b87-7f000001aa77" sourceConnectors="4a2e79f9-00ff-e6ac-0ff0-7f000001aa77 4a2e79ff-00ff-e8d3-4b45-7f000001aa77 4a2e7a03-00ff-e8cf-07b2-7f000001aa77 4a2e7a07-00ff-ed1b-44ff-7f000001aa77" PositionX="4375" PositionY="1850" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})" Name="TestFmts" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e74a5-00ff-e718-0819-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})" Name="TestFmts" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e74a6-00ff-e3de-1153-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})" Name="TestFmts" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="4a2e74a7-00ff-e4f1-1901-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})" Name="TestFmts" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="4a2e74a8-00ff-ea51-2282-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})" Name="TestFmts" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="4a2e74a9-00ff-eb64-30bd-7f000001aa77" sourceConnectors="4a2e7a0b-00ff-f168-03f0-7f000001aa77" targetConnectors="4a2e79ff-00ff-e8d3-4b45-7f000001aa77" PositionX="12975" PositionY="14225" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt})" Name="TimFmt" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e74aa-00ff-e82b-3d82-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt})" Name="TimFmt" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e74ab-00ff-e93e-4671-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt})" Name="TimFmt" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="4a2e74ac-00ff-ee9d-4e10-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt})" Name="TimFmt" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="4a2e74ad-00ff-efb0-578a-7f000001aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt})" Name="TimFmt" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="4a2e79cd-00ff-f9c7-500c-7f000001aa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="4a2e7485-00ff-e4b4-70d9-7f000001aa77" target="4a2e749a-00ff-f496-1257-7f000001aa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable}))" Name="" Kind="125"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e79ce-00ff-f68e-5ad1-7f000001aa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable}))" Name="" Kind="125"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e79cf-00ff-f7a1-64de-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable}))" Name="" Kind="125"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e79d0-00ff-fa9d-6e43-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable}))" Name="" Kind="125"/>
+        </children>
+      </Labels>
+      <Labels Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e79d1-00ff-fbb0-7934-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable}))" Name="" Kind="125"/>
+      </Labels>
+      <BendPoints x="4" y="-125"/>
+      <BendPoints x="4" y="81"/>
+      <BendPoints x="4" y="-157"/>
+      <BendPoints x="4" y="49"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="4a2e79e1-00ff-ef45-1361-7f000001aa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="4a2e7495-00ff-f383-5e0e-7f000001aa77" target="4a2e7485-00ff-e4b4-70d9-7f000001aa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt}))" Name="" Kind="76"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e79e2-00ff-ec0c-1e34-7f000001aa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt}))" Name="" Kind="76"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e79e3-00ff-ed1f-2845-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt}))" Name="" Kind="76"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e79e4-00ff-f27f-31c2-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt}))" Name="" Kind="76"/>
+        </children>
+      </Labels>
+      <BendPoints x="4" y="-182"/>
+      <BendPoints x="-205" y="165"/>
+      <BendPoints x="213" y="-214"/>
+      <BendPoints x="4" y="133"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="4a2e79eb-00ff-f5b8-4c33-7f000001aa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="4a2e749f-00ff-f9f5-46bb-7f000001aa77" target="4a2e749a-00ff-f496-1257-7f000001aa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable}))" Name="" Kind="125"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e79f5-00ff-e260-56df-7f000001aa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable}))" Name="" Kind="125"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e79f6-00ff-ff27-6115-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable}))" Name="" Kind="125"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e79f7-00ff-e03a-6a88-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable}))" Name="" Kind="125"/>
+        </children>
+      </Labels>
+      <Labels Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e79f8-00ff-e599-7580-7f000001aa77">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLRealization}(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable}))" Name="" Kind="125"/>
+      </Labels>
+      <BendPoints x="4" y="-41"/>
+      <BendPoints x="257" y="81"/>
+      <BendPoints x="-249" y="-73"/>
+      <BendPoints x="4" y="49"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="4a2e79f9-00ff-e6ac-0ff0-7f000001aa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="4a2e74a4-00ff-e605-7b87-7f000001aa77" target="4a2e749f-00ff-f9f5-46bb-7f000001aa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt}))" Name="" Kind="49"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e79fa-00ff-e373-1abd-7f000001aa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt}))" Name="" Kind="49"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e79fb-00ff-e486-24de-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt}))" Name="" Kind="49"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e79fc-00ff-e9e6-2e43-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.FullFmt}))" Name="" Kind="49"/>
+        </children>
+      </Labels>
+      <BendPoints x="67" y="11"/>
+      <BendPoints x="-438" y="-43"/>
+      <BendPoints x="313" y="54"/>
+      <BendPoints x="-192" y="0"/>
+      <BendPoints x="449" y="54"/>
+      <BendPoints x="-56" y="0"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="4a2e79ff-00ff-e8d3-4b45-7f000001aa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="4a2e74a4-00ff-e605-7b87-7f000001aa77" target="4a2e74a9-00ff-eb64-30bd-7f000001aa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt}))" Name="" Kind="49"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e7a00-00ff-e9e2-5634-7f000001aa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt}))" Name="" Kind="49"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e7a01-00ff-eaf5-6045-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt}))" Name="" Kind="49"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e7a02-00ff-e7bc-69c2-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt}))" Name="" Kind="49"/>
+        </children>
+      </Labels>
+      <BendPoints x="4" y="246"/>
+      <BendPoints x="-189" y="-597"/>
+      <BendPoints x="4" y="278"/>
+      <BendPoints x="-189" y="-565"/>
+      <BendPoints x="4" y="368"/>
+      <BendPoints x="-189" y="-475"/>
+      <BendPoints x="4" y="400"/>
+      <BendPoints x="-189" y="-443"/>
+      <BendPoints x="4" y="658"/>
+      <BendPoints x="-189" y="-185"/>
+      <BendPoints x="197" y="690"/>
+      <BendPoints x="4" y="-153"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="4a2e7a03-00ff-e8cf-07b2-7f000001aa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="4a2e74a4-00ff-e605-7b87-7f000001aa77" target="4a2e7495-00ff-f383-5e0e-7f000001aa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt}))" Name="" Kind="49"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e7a04-00ff-ee2e-1259-7f000001aa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt}))" Name="" Kind="49"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e7a05-00ff-ef42-1c6d-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt}))" Name="" Kind="49"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e7a06-00ff-ec08-25ef-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.DatFmt}))" Name="" Kind="49"/>
+        </children>
+      </Labels>
+      <BendPoints x="4" y="246"/>
+      <BendPoints x="20" y="-626"/>
+      <BendPoints x="-12" y="278"/>
+      <BendPoints x="4" y="-594"/>
+      <BendPoints x="-12" y="368"/>
+      <BendPoints x="4" y="-504"/>
+      <BendPoints x="-12" y="400"/>
+      <BendPoints x="4" y="-472"/>
+      <BendPoints x="-12" y="658"/>
+      <BendPoints x="4" y="-214"/>
+      <BendPoints x="-12" y="690"/>
+      <BendPoints x="4" y="-182"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="4a2e7a07-00ff-ed1b-44ff-7f000001aa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="4a2e74a4-00ff-e605-7b87-7f000001aa77" target="4a2e749a-00ff-f496-1257-7f000001aa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable}))" Name="" Kind="49"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e7a08-00ff-f27b-4fae-7f000001aa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable}))" Name="" Kind="49"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e7a09-00ff-f38e-59ef-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable}))" Name="" Kind="49"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e7a0a-00ff-f055-6359-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.TestFmts})(~jclass{!pid%JavaCourse}{%ch9.dates.Formatable}))" Name="" Kind="49"/>
+        </children>
+      </Labels>
+      <BendPoints x="4" y="246"/>
+      <BendPoints x="-189" y="-73"/>
+      <BendPoints x="197" y="278"/>
+      <BendPoints x="4" y="-41"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="4a2e7a0b-00ff-f168-03f0-7f000001aa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="4a2e74a9-00ff-eb64-30bd-7f000001aa77" target="4a2e7485-00ff-e4b4-70d9-7f000001aa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt}))" Name="" Kind="76"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e7a0c-00ff-f6c7-0e97-7f000001aa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt}))" Name="" Kind="76"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="4a2e7a0d-00ff-f7da-18de-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt}))" Name="" Kind="76"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="4a2e7a0e-00ff-f4a1-2243-7f000001aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLGeneralization}(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.TimFmt})(~jclass{!pid%JavaCourse}{%ch9.dates.ComFmt}))" Name="" Kind="76"/>
+        </children>
+      </Labels>
+      <BendPoints x="4" y="-153"/>
+      <BendPoints x="4" y="165"/>
+      <BendPoints x="4" y="-185"/>
+      <BendPoints x="4" y="133"/>
+    </children>
+  </Diagram>
+</com.rational.xtools.umlvisualizer.emfnotation:Pack>

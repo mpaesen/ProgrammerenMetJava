@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="ch3/|jSrc/appA/|jSrc/ch9/|jSrc/ch5/|jSrc/ch14/|jSrc/ch12b/|jSrc/ch10/|jSrc/ch1/|jSrc/ch6/|jSrc/ch11/|jSrc/ch3/|jSrc/ch4/|jSrc/ch13/|jSrc/ch12a/" kind="src" path=""/>
+	<classpathentry kind="src" path="ch3"/>
+	<classpathentry kind="src" path="jSrc/appA"/>
+	<classpathentry kind="src" path="jSrc/ch1"/>
+	<classpathentry kind="src" path="jSrc/ch10"/>
+	<classpathentry kind="src" path="jSrc/ch11"/>
+	<classpathentry kind="src" path="jSrc/ch12a"/>
+	<classpathentry kind="src" path="jSrc/ch12b"/>
+	<classpathentry kind="src" path="jSrc/ch13"/>
+	<classpathentry kind="src" path="jSrc/ch14"/>
+	<classpathentry kind="src" path="jSrc/ch3"/>
+	<classpathentry kind="src" path="jSrc/ch4"/>
+	<classpathentry kind="src" path="jSrc/ch5"/>
+	<classpathentry kind="src" path="jSrc/ch6"/>
+	<classpathentry kind="src" path="jSrc/ch9"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/jtopen_4_5/lib/jt400.jar"/>
+	<classpathentry kind="output" path="jSrc/ch14"/>
+</classpath>

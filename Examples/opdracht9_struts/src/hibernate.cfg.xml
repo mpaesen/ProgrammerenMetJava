@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory>
+  <!-- session factory heeft geen naam nodig 
+ Enable Hibernate's automatic session context management -->
+  
+  <property name="current_session_context_class">thread</property>
+  <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+  
+  
+  <!--<property name="hibernate.connection.url">jdbc:mysql://db4free.net/rundb</property>
+  <property name="hibernate.connection.username">rudy</property>
+  
+  --><property name="hibernate.connection.url">jdbc:mysql://localhost/rundb</property>
+  <property name="hibernate.connection.username">root</property>
+  <property name="hibernate.connection.password">Ann-Sophie</property>
+  <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+  <property name="hibernate.show_sql">true</property>
+  
+  
+  <mapping resource="model/Employee.hbm.xml"/> 
+  <mapping resource="model/Customer.hbm.xml"/>
+  <mapping resource="model/Product.hbm.xml"/>
+  <mapping resource="model/Sale.hbm.xml"/>
+  <mapping resource="model/SalesLineItem.hbm.xml"/>
+  
+
+ </session-factory>
+</hibernate-configuration>

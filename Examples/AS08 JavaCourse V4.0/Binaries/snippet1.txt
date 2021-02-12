@@ -1,0 +1,6 @@
+String sql =" SELECT p.projname AS PROJECT, e.lastname CONCAT ', '"
++ " CONCAT e.firstnme AS LEADER, d.deptname AS DEPARTMENT "
++ " FROM PROJECT p, EMPLOYEE e, DEPARTMENT d "
++ " WHERE e.EMPNO = '" + empID + "' AND p.respemp = e.empno "
++ " AND d.deptno = (SELECT em.WORKDEPT FROM EMPLOYEE em "
++ " WHERE em.EMPNO = e.EMPNO)";

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.15" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 2.2.2.r222_v20071226 Build &lt;2.2.2.v20080227-1131></property>
+    <property name="units">in</property>
+    <property name="comments">Copyright (c) 2007 &lt;&lt;Your Company Name here>></property>
+    <html-property name="description">Creates a blank report with no predefined content.</html-property>
+    <text-property name="displayName">Blank Report</text-property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">Library.rptlibrary</property>
+            <property name="namespace">Library</property>
+        </structure>
+    </list-property>
+    <data-sources>
+        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Data Source" id="6"
+ extends="Library.Data Source"/>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Data Set" id="95">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">ACT_ID</property>
+                    <property name="displayName">ACT_ID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ACT_TIMEFROM</property>
+                    <property name="displayName">ACT_TIMEFROM</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ACT_TIMEUNTILL</property>
+                    <property name="displayName">ACT_TIMEUNTILL</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">ACT_ID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">ACT_TIMEFROM</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">ACT_TIMEUNTILL</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">ACT_ID</property>
+                    <property name="nativeName">ACT_ID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">ACT_TIMEFROM</property>
+                    <property name="nativeName">ACT_TIMEFROM</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">ACT_TIMEUNTILL</property>
+                    <property name="nativeName">ACT_TIMEUNTILL</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+            </list-property>
+            <property name="queryText">select ACTIVITY.ACT_ID,ACTIVITY.ACT_TIMEFROM,ACTIVITY.ACT_TIMEUNTILL
+from ACTIVITY</property>
+            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>1.0</Version>
+  <design:ResultSets derivedMetaData="true">
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:name>ACT_ID</design:name>
+            <design:position>1</design:position>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>50</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>NotNullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>ACT_ID</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>ACT_ID</design:label>
+            <design:formattingHints>
+              <design:displaySize>50</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:name>ACT_TIMEFROM</design:name>
+            <design:position>2</design:position>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>6</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>ACT_TIMEFROM</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>ACT_TIMEFROM</design:label>
+            <design:formattingHints>
+              <design:displaySize>6</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:name>ACT_TIMEUNTILL</design:name>
+            <design:position>3</design:position>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>6</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>ACT_TIMEUNTILL</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>ACT_TIMEUNTILL</design:label>
+            <design:formattingHints>
+              <design:displaySize>6</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+        </oda-data-set>
+    </data-sets>
+    <styles>
+        <style name="crosstab" id="4">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab-cell" id="5">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+    </styles>
+    <page-setup>
+        <simple-master-page name="IBSPage3_Report" id="144" extends="Library.IBSPage3_Report">
+            <overridden-values>
+                <ref-entry baseId="120" name="NewGrid2" id="145"/>
+                <ref-entry baseId="121" id="146"/>
+                <ref-entry baseId="122" id="147"/>
+                <ref-entry baseId="123" id="148"/>
+                <ref-entry baseId="124" id="149"/>
+                <ref-entry baseId="125" id="125"/>
+                <ref-entry baseId="126" name="NewImage21" id="150"/>
+                <ref-entry baseId="127" id="151"/>
+                <ref-entry baseId="128" id="152"/>
+                <ref-entry baseId="129" id="153"/>
+                <ref-entry baseId="130" id="154"/>
+                <ref-entry baseId="131" id="155"/>
+                <ref-entry baseId="132" id="156"/>
+                <ref-entry baseId="133" id="157"/>
+                <ref-entry baseId="134" id="158"/>
+                <ref-entry baseId="135" name="NewLabel1" id="159"/>
+                <ref-entry baseId="136" id="160"/>
+                <ref-entry baseId="137" id="161"/>
+                <ref-entry baseId="138" id="162"/>
+                <ref-entry baseId="139" id="163"/>
+            </overridden-values>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <table id="98">
+            <property name="width">100%</property>
+            <property name="dataSet">Data Set</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">ACT_ID</property>
+                    <expression name="expression">dataSetRow["ACT_ID"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ACT_TIMEFROM</property>
+                    <expression name="expression">dataSetRow["ACT_TIMEFROM"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ACT_TIMEUNTILL</property>
+                    <expression name="expression">dataSetRow["ACT_TIMEUNTILL"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">UrenSub</property>
+                    <expression name="expression">var date = new Date();
+var date2 = new Date();
+
+date.setHours(row["ACT_TIMEFROM"].substring(0,2));
+date.setMinutes(row["ACT_TIMEFROM"].substring(3,5));
+
+date2.setHours(row["ACT_TIMEUNTILL"].substring(0,2));
+date2.setMinutes(row["ACT_TIMEUNTILL"].substring(3,5));
+
+DateTimeSpan.minutes(date,date2)</expression>
+                    <property name="dataType">any</property>
+                </structure>
+                <structure>
+                    <property name="name">somTijd</property>
+                    <expression name="expression">var date = new Date();
+var date2 = new Date();
+
+date.setHours(row["ACT_TIMEFROM"].substring(0,2));
+date.setMinutes(row["ACT_TIMEFROM"].substring(3,5));
+
+date2.setHours(row["ACT_TIMEUNTILL"].substring(0,2));
+date2.setMinutes(row["ACT_TIMEUNTILL"].substring(3,5));
+
+DateTimeSpan.minutes(date,date2)</expression>
+                    <property name="dataType">any</property>
+                    <property name="aggregateFunction">SUM</property>
+                </structure>
+                <structure>
+                    <property name="name">tijd</property>
+                    <expression name="expression">var date = new Date();
+var date2 = new Date();
+
+date.setHours(row["ACT_TIMEFROM"].substring(0,2));
+date.setMinutes(row["ACT_TIMEFROM"].substring(3,5));
+
+date2.setHours(row["ACT_TIMEUNTILL"].substring(0,2));
+date2.setMinutes(row["ACT_TIMEUNTILL"].substring(3,5));
+
+DateTimeSpan.minutes(date,date2)</expression>
+                    <property name="dataType">any</property>
+                    <property name="aggregateFunction">SUM</property>
+                </structure>
+            </list-property>
+            <column id="111"/>
+            <column id="112"/>
+            <column id="113"/>
+            <column id="123"/>
+            <header>
+                <row id="138">
+                    <cell id="139">
+                        <property name="backgroundColor">#E9DF1F</property>
+                        <property name="paddingTop">1pt</property>
+                        <label id="143">
+                            <property name="fontWeight">bold</property>
+                            <text-property name="text">DETAILS</text-property>
+                        </label>
+                    </cell>
+                    <cell id="140">
+                        <property name="backgroundColor">#E9DF1F</property>
+                        <property name="paddingTop">1pt</property>
+                    </cell>
+                    <cell id="141">
+                        <property name="backgroundColor">#E9DF1F</property>
+                        <property name="paddingTop">1pt</property>
+                    </cell>
+                    <cell id="142">
+                        <property name="backgroundColor">#E9DF1F</property>
+                        <property name="paddingTop">1pt</property>
+                    </cell>
+                </row>
+                <row id="99">
+                    <cell id="100">
+                        <label id="169"/>
+                    </cell>
+                    <cell id="101">
+                        <label id="170"/>
+                    </cell>
+                    <cell id="102">
+                        <label id="171"/>
+                    </cell>
+                    <cell id="120">
+                        <label id="172"/>
+                    </cell>
+                </row>
+                <row id="164">
+                    <cell id="165">
+                        <label id="114">
+                            <property name="fontWeight">bold</property>
+                            <text-property name="text">ACTIVITY ID</text-property>
+                        </label>
+                    </cell>
+                    <cell id="166">
+                        <label id="116">
+                            <property name="fontWeight">bold</property>
+                            <text-property name="text">START TIME</text-property>
+                        </label>
+                    </cell>
+                    <cell id="167">
+                        <label id="118">
+                            <property name="fontWeight">bold</property>
+                            <text-property name="text">END TIME</text-property>
+                        </label>
+                    </cell>
+                    <cell id="168">
+                        <label id="128">
+                            <property name="fontWeight">bold</property>
+                            <text-property name="text">ACTIVITY TIME</text-property>
+                        </label>
+                    </cell>
+                </row>
+            </header>
+            <detail>
+                <row id="129">
+                    <cell id="130">
+                        <label id="134"/>
+                    </cell>
+                    <cell id="131">
+                        <label id="135"/>
+                    </cell>
+                    <cell id="132">
+                        <label id="136"/>
+                    </cell>
+                    <cell id="133">
+                        <label id="137"/>
+                    </cell>
+                </row>
+                <row id="103">
+                    <cell id="104">
+                        <data id="115">
+                            <property name="resultSetColumn">ACT_ID</property>
+                        </data>
+                    </cell>
+                    <cell id="105">
+                        <data id="117">
+                            <property name="resultSetColumn">ACT_TIMEFROM</property>
+                        </data>
+                    </cell>
+                    <cell id="106">
+                        <data id="119">
+                            <property name="resultSetColumn">ACT_TIMEUNTILL</property>
+                        </data>
+                    </cell>
+                    <cell id="121">
+                        <data id="124">
+                            <property name="resultSetColumn">UrenSub</property>
+                        </data>
+                    </cell>
+                </row>
+            </detail>
+            <footer>
+                <row id="107">
+                    <cell id="108"/>
+                    <cell id="109"/>
+                    <cell id="110">
+                        <label id="127">
+                            <text-property name="text">TOTAAL</text-property>
+                        </label>
+                    </cell>
+                    <cell id="122">
+                        <data id="126">
+                            <property name="resultSetColumn">tijd</property>
+                        </data>
+                    </cell>
+                </row>
+            </footer>
+        </table>
+    </body>
+</report>

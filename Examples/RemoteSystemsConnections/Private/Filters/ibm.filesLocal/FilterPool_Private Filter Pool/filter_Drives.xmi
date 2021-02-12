@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filters:SystemFilter xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:filters="http:///filters.ecore" name="Drives" relativeOrder="1" stringsCaseSensitive="false" release="30">
+  <strings string="*"/>
+</filters:SystemFilter>

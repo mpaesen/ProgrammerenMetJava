@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localfilesubsys:LocalFileSubSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:filters="http:///filters.ecore" xmlns:localfilesubsys="http:///localfilesubsys.ecore" name="Local Files" port="0" factoryId="ibm.filesLocal">
+  <filterPoolReferenceManager name="Local Files">
+    <referencingObjectList xsi:type="filters:SystemFilterPoolReference" referencedObjectName="Private___Private Filter Pool"/>
+  </filterPoolReferenceManager>
+</localfilesubsys:LocalFileSubSystem>

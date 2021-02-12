@@ -1,0 +1,12 @@
+.CALCcenter {margin-left:auto;margin-right:auto;width:25%;background-color:#b0e0e6;}
+.CALCcenter1{margin-left:auto;margin-right:auto;width:25%;background-color:silver;text-align: center;color: red;font:bolder;}
+.CALCcenter2{margin-left:auto;margin-right:auto;width:15%;background-color:#3388ff;}
+.MUNTcenter {margin-left:auto;margin-right:auto;width:18%;background-color:#b0e0e6;}
+.MUNTcenter1{margin-left:auto;margin-right:auto;width:100%;background-color:silver;text-align: center;color: red;font:bolder;}
+.MUNTcenter2{margin-left:auto;margin-right:auto;width:100%;background-color:#3388ff;}
+.InfoStyle{background-color: Red; color: White; text-decoration: blink;}
+.WarnStyle{margin-left:auto;margin-right:auto;background-color:maroon;color:white;text-decoration: blink;}
+.ErrorStyle{background-color: Red; color: White; text-decoration: blink;}
+.FatalStyle{margin-left:auto;margin-right:auto;background-color:purple;color:white;text-decoration: blink;}
+                             
+

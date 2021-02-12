@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Birt 2_2_2/eclipse/plugins/org.eclipse.birt.report.model_2.2.2.r22x_v20071227.jar"/>
+	<classpathentry kind="lib" path="C:/Birt 2_2_2/eclipse/plugins/org.eclipse.birt.report.runtime_2.2.1.v20070710.jar"/>
+	<classpathentry kind="lib" path="C:/Birt 2_2_2/eclipse/plugins/org.eclipse.emf.common_2.3.2.v200802051830.jar"/>
+	<classpathentry kind="lib" path="C:/Birt 2_2_2/eclipse/plugins/org.eclipse.emf.ecore_2.3.2.v200802051830.jar"/>
+	<classpathentry kind="lib" path="C:/Birt 2_2_2/eclipse/plugins/com.ibm.icu_3.6.1.v20070906.jar"/>
+	<classpathentry kind="lib" path="C:/Birt 2_2_2/eclipse/plugins/org.eclipse.birt.chart.engine_2.2.2.r222_v20071221.jar"/>
+	<classpathentry kind="lib" path="C:/Birt 2_2_2/eclipse/plugins/org.eclipse.birt.core_2.2.2.r22x_v20080226.jar"/>
+	<classpathentry kind="lib" path="C:/Birt 2_2_2/eclipse/plugins/org.eclipse.birt.report.engine_2.2.2.r22x_v20080107.jar"/>
+	<classpathentry kind="lib" path="C:/DBDrivers/Microsoft SQL Server 2005 JDBC Driver/sqljdbc_1.0/enu/sqljdbc.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

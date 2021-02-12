@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.rational.xtools.umlvisualizer.emfnotation:Pack xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.rational.xtools.umlvisualizer.emfnotation="http:///com/rational/xtools/umlvisualizer/emfnotation.ecore" Id="250ca164-0102-e89c-648b-0a200123aa77" version="8">
+  <Diagram DiagramId="250ca165-0102-e9af-68c5-0a200123aa77">
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="250ce5b2-0102-f56f-0663-0a200123aa77" targetConnectors="3fb4a94e-0102-f7f7-30b9-0a200123aa77" PositionX="5575" PositionY="6925" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%model.AdvantageCard})" Name="AdvantageCard" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="250ce5b3-0102-f683-241d-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%model.AdvantageCard})" Name="AdvantageCard" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="250ce5b4-0102-fbe2-2d22-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%model.AdvantageCard})" Name="AdvantageCard" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="250ce5b5-0102-fcf5-34cb-0a200123aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%model.AdvantageCard})" Name="AdvantageCard" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="250ce5bc-0102-e47b-3e5b-0a200123aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%model.AdvantageCard})" Name="AdvantageCard" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="250ce5bd-0102-e58e-4b16-0a200123aa77" PositionX="2075" PositionY="1325" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%model.HandelRequest})" Name="HandelRequest" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="250ce5be-0102-e255-57bf-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%model.HandelRequest})" Name="HandelRequest" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="250ce5bf-0102-e368-60ae-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%model.HandelRequest})" Name="HandelRequest" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="250ce5c0-0102-eb2a-684d-0a200123aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%model.HandelRequest})" Name="HandelRequest" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="250ce5c1-0102-ec3e-71c7-0a200123aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%model.HandelRequest})" Name="HandelRequest" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="250ce5c2-0102-e904-7efa-0a200123aa77" sourceConnectors="3fb4a94e-0102-f7f7-30b9-0a200123aa77" PositionX="9075" PositionY="1000" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%model.HandelResponse})" Name="HandelResponse" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="250ce5c3-0102-ea17-0bbd-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%model.HandelResponse})" Name="HandelResponse" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="250ce5c4-0102-ef77-14ae-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%model.HandelResponse})" Name="HandelResponse" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="250ce5c5-0102-f08a-1c4d-0a200123aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%model.HandelResponse})" Name="HandelResponse" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="250ce5c6-0102-ed51-25c7-0a200123aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%model.HandelResponse})" Name="HandelResponse" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="3fb4a94e-0102-f7f7-30b9-0a200123aa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="250ce5c2-0102-e904-7efa-0a200123aa77" target="250ce5b2-0102-f56f-0663-0a200123aa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%model.HandelResponse})(~jclass{!pid%advantage}{%model.HandelResponse})(~jclass{!pid%advantage}{%model.AdvantageCard}))" Name="" Kind="49"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="3fb4a94f-0102-f90a-3b94-0a200123aa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%model.HandelResponse})(~jclass{!pid%advantage}{%model.HandelResponse})(~jclass{!pid%advantage}{%model.AdvantageCard}))" Name="" Kind="49"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="3fb4a950-0102-fc06-45d5-0a200123aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%model.HandelResponse})(~jclass{!pid%advantage}{%model.HandelResponse})(~jclass{!pid%advantage}{%model.AdvantageCard}))" Name="" Kind="49"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="3fb4a951-0102-fd19-4f3f-0a200123aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%model.HandelResponse})(~jclass{!pid%advantage}{%model.HandelResponse})(~jclass{!pid%advantage}{%model.AdvantageCard}))" Name="" Kind="49"/>
+        </children>
+      </Labels>
+      <BendPoints x="0" y="0"/>
+      <BendPoints x="0" y="0"/>
+      <BendPoints x="0" y="0"/>
+      <BendPoints x="0" y="0"/>
+    </children>
+  </Diagram>
+</com.rational.xtools.umlvisualizer.emfnotation:Pack>

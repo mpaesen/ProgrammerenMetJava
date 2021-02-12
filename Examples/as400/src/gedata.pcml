@@ -1,0 +1,24 @@
+<pcml version="4.0">
+   <]-- RPG program: GETDATA  -->
+   <]-- created: 2004-10-21-10.24.57 -->
+   <]-- source: WSSLAB01/QRPGLESRC(GETDATA) -->
+   <]-- 13 -->
+   <struct name="CSTRUC">
+      <data name="CUSTNO" type="char" length="7" usage="inherit" />
+      <data name="CUSTNA" type="char" length="40" usage="inherit" />
+      <data name="REPNO" type="char" length="5" usage="inherit" />
+      <data name="CONTAC" type="char" length="30" usage="inherit" />
+      <data name="CPHONE" type="char" length="17" usage="inherit" />
+      <data name="CFAX" type="char" length="17" usage="inherit" />
+      <data name="CADDR" type="char" length="40" usage="inherit" />
+      <data name="CCITY" type="char" length="30" usage="inherit" />
+      <data name="CCOUNT" type="char" length="20" usage="inherit" />
+      <data name="CZIP" type="char" length="10" usage="inherit" />
+      <data name="CZIPLO" type="char" length="1" usage="inherit" />
+   </struct>
+   <program name="GETDATA" path="/QSYS.LIB/WSSLAB01.LIB/GETDATA.PGM">
+      <data name="CUSTNOI" type="char" length="7" usage="inputoutput" />
+      <data name="CSTRUC" type="struct" struct="CSTRUC" usage="inputoutput" />
+      <data name="FEEDBACK" type="char" length="20" usage="inputoutput" />
+   </program>
+</pcml>

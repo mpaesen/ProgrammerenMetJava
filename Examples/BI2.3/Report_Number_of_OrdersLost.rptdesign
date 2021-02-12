@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.15" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 2.2.2.r222_v20071226 Build &lt;2.2.2.v20080227-1131></property>
+    <property name="units">in</property>
+    <property name="comments">Copyright (c) 2007 &lt;&lt;Your Company Name here>></property>
+    <html-property name="description">Creates a blank report with no predefined content.</html-property>
+    <text-property name="displayName">Blank Report</text-property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">Library.rptlibrary</property>
+            <property name="namespace">Library</property>
+        </structure>
+    </list-property>
+    <data-sources>
+        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Data Source" id="140"
+ extends="Library.Data Source"/>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="Data Set" id="141">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">ACT_ID</property>
+                    <property name="displayName">ACT_ID</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ACT_RESULT</property>
+                    <property name="displayName">ACT_RESULT</property>
+                </structure>
+                <structure>
+                    <property name="columnName">ORG_ID</property>
+                    <property name="displayName">ORG_ID</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">ACT_ID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">ACT_RESULT</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">3</property>
+                        <property name="name">ORG_ID</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">ACT_ID</property>
+                    <property name="nativeName">ACT_ID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">ACT_RESULT</property>
+                    <property name="nativeName">ACT_RESULT</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">3</property>
+                    <property name="name">ORG_ID</property>
+                    <property name="nativeName">ORG_ID</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+            </list-property>
+            <property name="queryText">select ACTIVITY.ACT_ID,ACTIVITY.ACT_RESULT, dbo.ORGANISATION.ORG_ID
+from ACTIVITY,ORGANISATION
+where ORGANISATION.ORG_ID = ACTIVITY.ACT_ORGID
+and ACTIVITY.ACT_RESULT = 'orderlost'</property>
+            <xml-property name="designerValues"><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<model:DesignValues xmlns:design="http://www.eclipse.org/datatools/connectivity/oda/design" xmlns:model="http://www.eclipse.org/birt/report/model/adapter/odaModel">
+  <Version>1.0</Version>
+  <design:ResultSets derivedMetaData="true">
+    <design:resultSetDefinitions>
+      <design:resultSetColumns>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:name>ACT_ID</design:name>
+            <design:position>1</design:position>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>50</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>NotNullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>ACT_ID</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>ACT_ID</design:label>
+            <design:formattingHints>
+              <design:displaySize>50</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:name>ACT_RESULT</design:name>
+            <design:position>2</design:position>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>50</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>Nullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>ACT_RESULT</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>ACT_RESULT</design:label>
+            <design:formattingHints>
+              <design:displaySize>50</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+        <design:resultColumnDefinitions>
+          <design:attributes>
+            <design:name>ORG_ID</design:name>
+            <design:position>3</design:position>
+            <design:nativeDataTypeCode>12</design:nativeDataTypeCode>
+            <design:precision>50</design:precision>
+            <design:scale>0</design:scale>
+            <design:nullability>NotNullable</design:nullability>
+            <design:uiHints>
+              <design:displayName>ORG_ID</design:displayName>
+            </design:uiHints>
+          </design:attributes>
+          <design:usageHints>
+            <design:label>ORG_ID</design:label>
+            <design:formattingHints>
+              <design:displaySize>50</design:displaySize>
+            </design:formattingHints>
+          </design:usageHints>
+        </design:resultColumnDefinitions>
+      </design:resultSetColumns>
+    </design:resultSetDefinitions>
+  </design:ResultSets>
+</model:DesignValues>]]></xml-property>
+        </oda-data-set>
+    </data-sets>
+    <styles>
+        <style name="crosstab" id="4">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab-cell" id="5">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+    </styles>
+    <page-setup>
+        <simple-master-page name="IBSPage3_Report" id="6" extends="Library.IBSPage3_Report">
+            <overridden-values>
+                <ref-entry baseId="120" name="NewGrid2" id="120"/>
+                <ref-entry baseId="121" id="121"/>
+                <ref-entry baseId="122" id="122"/>
+                <ref-entry baseId="123" id="123"/>
+                <ref-entry baseId="124" id="124"/>
+                <ref-entry baseId="125" id="125"/>
+                <ref-entry baseId="126" name="NewImage21" id="126"/>
+                <ref-entry baseId="127" id="127"/>
+                <ref-entry baseId="128" id="128"/>
+                <ref-entry baseId="129" id="129"/>
+                <ref-entry baseId="130" id="130"/>
+                <ref-entry baseId="131" id="131"/>
+                <ref-entry baseId="132" id="132"/>
+                <ref-entry baseId="133" id="133"/>
+                <ref-entry baseId="134" id="134"/>
+                <ref-entry baseId="135" name="NewLabel1" id="135"/>
+                <ref-entry baseId="136" id="136"/>
+                <ref-entry baseId="137" id="137"/>
+                <ref-entry baseId="138" id="138"/>
+                <ref-entry baseId="139" id="139"/>
+            </overridden-values>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <label id="166"/>
+        <label id="165">
+            <property name="backgroundColor">#F1EA8D</property>
+            <property name="fontSize">x-large</property>
+            <property name="fontWeight">bold</property>
+            <property name="color">#000000</property>
+            <text-property name="text">Orders Lost</text-property>
+        </label>
+        <table id="142">
+            <property name="width">100%</property>
+            <property name="dataSet">Data Set</property>
+            <list-property name="boundDataColumns">
+                <structure>
+                    <property name="name">ACT_ID</property>
+                    <expression name="expression">dataSetRow["ACT_ID"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ACT_RESULT</property>
+                    <expression name="expression">dataSetRow["ACT_RESULT"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">ORG_ID</property>
+                    <expression name="expression">dataSetRow["ORG_ID"]</expression>
+                    <property name="dataType">string</property>
+                </structure>
+                <structure>
+                    <property name="name">somOrdersLost</property>
+                    <property name="dataType">any</property>
+                    <property name="aggregateFunction">COUNT</property>
+                    <expression name="filterExpr">row["ACT_RESULT"] == "orderlost"</expression>
+                </structure>
+            </list-property>
+            <column id="155"/>
+            <column id="156"/>
+            <column id="157"/>
+            <header>
+                <row id="167">
+                    <cell id="168">
+                        <label id="179"/>
+                    </cell>
+                    <cell id="169">
+                        <label id="180"/>
+                    </cell>
+                    <cell id="170">
+                        <label id="181"/>
+                    </cell>
+                </row>
+                <row id="143">
+                    <cell id="144">
+                        <label id="160">
+                            <property name="fontWeight">bold</property>
+                            <property name="textAlign">left</property>
+                            <text-property name="text">OrganisationID</text-property>
+                        </label>
+                    </cell>
+                    <cell id="145">
+                        <label id="158">
+                            <property name="fontWeight">bold</property>
+                            <property name="textAlign">left</property>
+                            <text-property name="text">ActivityID</text-property>
+                        </label>
+                    </cell>
+                    <cell id="146">
+                        <label id="162">
+                            <property name="fontWeight">bold</property>
+                            <property name="textAlign">left</property>
+                            <text-property name="text">Result</text-property>
+                        </label>
+                    </cell>
+                </row>
+            </header>
+            <detail>
+                <row id="147">
+                    <cell id="148">
+                        <data id="161">
+                            <property name="resultSetColumn">ORG_ID</property>
+                        </data>
+                    </cell>
+                    <cell id="149">
+                        <data id="159">
+                            <property name="resultSetColumn">ACT_ID</property>
+                        </data>
+                    </cell>
+                    <cell id="150">
+                        <data id="163">
+                            <property name="resultSetColumn">ACT_RESULT</property>
+                        </data>
+                    </cell>
+                </row>
+                <row id="171">
+                    <cell id="172"/>
+                    <cell id="173">
+                        <label id="178"/>
+                    </cell>
+                    <cell id="174">
+                        <label id="177"/>
+                    </cell>
+                </row>
+            </detail>
+            <footer>
+                <row id="151">
+                    <cell id="152"/>
+                    <cell id="153">
+                        <label id="176">
+                            <property name="fontWeight">bold</property>
+                            <property name="fontStyle">italic</property>
+                            <property name="borderTopColor">#000000</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">medium</property>
+                            <text-property name="text">TOTAAL</text-property>
+                        </label>
+                    </cell>
+                    <cell id="154">
+                        <data id="175">
+                            <property name="fontWeight">bold</property>
+                            <property name="fontStyle">italic</property>
+                            <property name="textUnderline">none</property>
+                            <property name="borderTopColor">#000000</property>
+                            <property name="borderTopStyle">solid</property>
+                            <property name="borderTopWidth">medium</property>
+                            <property name="resultSetColumn">somOrdersLost</property>
+                        </data>
+                    </cell>
+                </row>
+            </footer>
+        </table>
+    </body>
+</report>

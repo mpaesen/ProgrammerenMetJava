@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.15" id="1">
+    <property name="createdBy">Eclipse BIRT Designer Version 2.2.2.r222_v20071226 Build &lt;2.2.2.v20080227-1131></property>
+    <property name="units">in</property>
+    <property name="comments">Copyright (c) 2007 &lt;&lt;Your Company Name here>></property>
+    <html-property name="description">Creates a blank report with no predefined content.</html-property>
+    <text-property name="displayName">Blank Report</text-property>
+    <property name="iconFile">/templates/blank_report.gif</property>
+    <list-property name="libraries">
+        <structure>
+            <property name="fileName">Funnel.rptlibrary</property>
+            <property name="namespace">Funnel</property>
+        </structure>
+        <structure>
+            <property name="fileName">Library.rptlibrary</property>
+            <property name="namespace">Library</property>
+        </structure>
+    </list-property>
+    <parameters>
+        <scalar-parameter name="pFunnel" id="50">
+            <property name="hidden">true</property>
+            <property name="valueType">dynamic</property>
+            <property name="dataType">string</property>
+            <property name="paramType">simple</property>
+            <property name="isRequired">false</property>
+            <property name="controlType">list-box</property>
+            <property name="dataSetName">dsProjectSuccessRate</property>
+            <expression name="valueExpr">dataSetRow["PROJ_SUCCESSRATE"]</expression>
+            <expression name="labelExpr">dataSetRow["UNNAMED_2"]</expression>
+            <property name="mustMatch">false</property>
+            <property name="fixedOrder">true</property>
+            <property name="defaultValue">35</property>
+            <property name="distinct">true</property>
+            <structure name="format">
+                <property name="category">Unformatted</property>
+            </structure>
+        </scalar-parameter>
+    </parameters>
+    <data-sources>
+        <oda-data-source extensionID="org.eclipse.birt.report.data.oda.jdbc" name="Data Source" id="14">
+            <property name="odaDriverClass">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+            <property name="odaURL">jdbc:sqlserver://beibssel:1433;database=beblt</property>
+            <property name="odaUser">sysadm</property>
+            <encrypted-property name="odaPassword" encryptionID="base64">YWRtcHJvZA==</encrypted-property>
+        </oda-data-source>
+    </data-sources>
+    <data-sets>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="dsOrganisations" id="15">
+            <property name="eventHandlerClass">DataSetEvent</property>
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">ORG_TYPE</property>
+                    <property name="displayName">ORG_TYPE</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">ORG_TYPE</property>
+                        <property name="dataType">string</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">UNNAMED_2</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">ORG_TYPE</property>
+                    <property name="nativeName">ORG_TYPE</property>
+                    <property name="dataType">string</property>
+                    <property name="nativeDataType">12</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">UNNAMED_2</property>
+                    <property name="nativeName">aantal</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+            </list-property>
+            <property name="queryText">select ORGANISATION.ORG_TYPE, count(*) as aantal
+from ORGANISATION
+where ORGANISATION.ORG_TYPE like 'customer' or ORGANISATION.ORG_TYPE like 'prospect' or ORGANISATION.ORG_TYPE like 'lead'
+group by ORGANISATION.ORG_TYPE
+order by aantal desc</property>
+        </oda-data-set>
+        <oda-data-set extensionID="org.eclipse.birt.report.data.oda.jdbc.JdbcSelectDataSet" name="dsProjectSuccessRate" id="468">
+            <list-property name="columnHints">
+                <structure>
+                    <property name="columnName">PROJ_SUCCESSRATE</property>
+                    <property name="displayName">PROJ_SUCCESSRATE</property>
+                </structure>
+            </list-property>
+            <structure name="cachedMetaData">
+                <list-property name="resultSet">
+                    <structure>
+                        <property name="position">1</property>
+                        <property name="name">PROJ_SUCCESSRATE</property>
+                        <property name="dataType">decimal</property>
+                    </structure>
+                    <structure>
+                        <property name="position">2</property>
+                        <property name="name">UNNAMED_2</property>
+                        <property name="dataType">integer</property>
+                    </structure>
+                </list-property>
+            </structure>
+            <property name="dataSource">Data Source</property>
+            <list-property name="resultSet">
+                <structure>
+                    <property name="position">1</property>
+                    <property name="name">PROJ_SUCCESSRATE</property>
+                    <property name="nativeName">PROJ_SUCCESSRATE</property>
+                    <property name="dataType">decimal</property>
+                    <property name="nativeDataType">3</property>
+                </structure>
+                <structure>
+                    <property name="position">2</property>
+                    <property name="name">UNNAMED_2</property>
+                    <property name="dataType">integer</property>
+                    <property name="nativeDataType">4</property>
+                </structure>
+            </list-property>
+            <property name="queryText">select PROJ_SUCCESSRATE, count(*)
+from dbo.PROJECT
+group by PROJ_SUCCESSRATE
+order by PROJ_SUCCESSRATE</property>
+        </oda-data-set>
+    </data-sets>
+    <styles>
+        <style name="crosstab" id="4">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+        <style name="crosstab-cell" id="5">
+            <property name="borderBottomColor">#CCCCCC</property>
+            <property name="borderBottomStyle">solid</property>
+            <property name="borderBottomWidth">1pt</property>
+            <property name="borderLeftColor">#CCCCCC</property>
+            <property name="borderLeftStyle">solid</property>
+            <property name="borderLeftWidth">1pt</property>
+            <property name="borderRightColor">#CCCCCC</property>
+            <property name="borderRightStyle">solid</property>
+            <property name="borderRightWidth">1pt</property>
+            <property name="borderTopColor">#CCCCCC</property>
+            <property name="borderTopStyle">solid</property>
+            <property name="borderTopWidth">1pt</property>
+        </style>
+    </styles>
+    <page-setup>
+        <simple-master-page name="Simple MasterPage" id="2">
+            <page-footer>
+                <text id="3">
+                    <property name="contentType">html</property>
+                    <text-property name="content"><![CDATA[<value-of>new Date()</value-of>]]></text-property>
+                </text>
+            </page-footer>
+        </simple-master-page>
+    </page-setup>
+    <body>
+        <grid name="grdFunnel" id="74" extends="Library.grdFunnel">
+            <overridden-values>
+                <ref-entry baseId="463" id="463"/>
+                <ref-entry baseId="71" id="71"/>
+                <ref-entry baseId="72" id="72"/>
+                <ref-entry baseId="464" name="tblFunnel" id="464">
+                    <property name="eventHandlerClass">FunnelCreator</property>
+                </ref-entry>
+                <ref-entry baseId="465" id="465"/>
+                <ref-entry baseId="466" id="466"/>
+                <ref-entry baseId="467" name="NewImage1" id="467"/>
+                <ref-entry baseId="64" id="64"/>
+            </overridden-values>
+        </grid>
+    </body>
+</report>

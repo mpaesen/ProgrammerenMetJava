@@ -1,0 +1,35 @@
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+
+<struts>
+  <!-- Configuration for the default package. -->
+  
+  <package name="default" namespace="/" extends="struts-default">
+
+    <action name="GetEmployee" class="action.GetManagerAction">
+      <result name="success">/Pages/DisplayEmployee.jsp</result>
+      <result name="none">/Pages/DisplayNoneFound.jsp</result>
+      <result name="error">/Pages/DisplayError.jsp</result>
+    </action>
+    
+    <action name="GetEmployee2" class="action.GetCashierAction">
+      <result name="success">/Pages/DisplayKassa.jsp</result>
+      <result name="none">/Pages/DisplayNoneFound.jsp</result>
+      <result name="error">/Pages/DisplayError.jsp</result>
+    </action>
+    
+    <action name="GetCustomer" class="action.GetCustomerAction">
+      <result name="success">/Pages/DisplayKassa.jsp</result>
+      <result name="none">/Pages/DisplayNoneFound.jsp</result>
+      <result name="error">/Pages/DisplayError.jsp</result>
+    </action>
+    
+  <action name="Order" class="action.OrderAction">
+      <result name="success">/Pages/DisplayKassa.jsp</result>
+      <result name="none">/Pages/UnderConstruction.jsp</result>
+      <result name="error">/Pages/UnderConstruction.jsp</result>
+    </action>
+ 
+    
+  </package>
+</struts>

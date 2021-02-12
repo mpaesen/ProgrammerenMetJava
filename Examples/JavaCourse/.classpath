@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/mpaesen/Dropbox/DBDrivers/jt400/lib/jt400.jar"/>
+	<classpathentry kind="con" path="org.eclipse.datatools.connectivity.jdt.DRIVERLIBRARY/DB2 Universal Driver"/>
+	<classpathentry kind="lib" path="/Users/mpaesen/Dropbox/DBDrivers/DB2/db2jcc.jar"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

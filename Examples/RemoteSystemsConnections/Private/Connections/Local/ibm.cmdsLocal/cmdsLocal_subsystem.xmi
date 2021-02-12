@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<localfilesubsys:LocalCmdSubSystem xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:localfilesubsys="http:///localfilesubsys.ecore" name="Local Commands" port="0" factoryId="ibm.cmdsLocal" hidden="true">
+  <filterPoolReferenceManager name="Local Commands"/>
+</localfilesubsys:LocalCmdSubSystem>

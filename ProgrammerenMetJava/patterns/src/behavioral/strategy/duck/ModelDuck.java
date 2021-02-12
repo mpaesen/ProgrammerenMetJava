@@ -1,0 +1,20 @@
+package behavioral.strategy.duck;
+
+public class ModelDuck extends Duck {
+
+    public ModelDuck() {
+        super();
+        setFlyBehavior(new FlyNoWay());
+        setQuackBehavior(new Quack());
+
+    }
+
+    public void display() {
+        System.out.println("Ik ben een model eend");
+    }
+
+    @Override
+    public String toString() {
+        return "ModelDuck{}";
+    }
+}

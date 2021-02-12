@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+  <class name="model.SalesLineItem" table ="salelines">
+      <id name="salesLineID" column="saleline_id">
+    	<generator class="native"/>
+    </id><!--
+    
+    <many-to-one name="saleID" column="sale" not-null="true"/>     
+    
+  	--><property name="saleID" column="sale"></property>
+  	<property name="productID" column="product"></property>
+  	<property name="aantal" column ="aantal"></property>
+  	
+  </class>
+</hibernate-mapping>

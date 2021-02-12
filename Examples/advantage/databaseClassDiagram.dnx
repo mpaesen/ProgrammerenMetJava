@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.rational.xtools.umlvisualizer.emfnotation:Pack xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.rational.xtools.umlvisualizer.emfnotation="http:///com/rational/xtools/umlvisualizer/emfnotation.ecore" Id="2505869b-0102-e643-1a73-0a200123aa77" version="8">
+  <Diagram DiagramId="250586a5-0102-f7b1-371e-0a200123aa77">
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="250815ba-0102-efc2-0880-0a200123aa77" sourceConnectors="2508163c-0102-f90f-49c6-0a200123aa77" targetConnectors="3fb27f62-0102-ee9e-368c-0a200123aa77" PositionX="4000" PositionY="1850" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.jdbc.DBController})" Name="DBController" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="250815bb-0102-f0d6-1545-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.jdbc.DBController})" Name="DBController" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="250815bc-0102-f635-1e42-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.jdbc.DBController})" Name="DBController" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="250815bd-0102-f748-25fc-0a200123aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.jdbc.DBController})" Name="DBController" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="250815be-0102-f40f-2f77-0a200123aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.jdbc.DBController})" Name="DBController" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="250815bf-0102-f522-3c57-0a200123aa77" PositionX="625" PositionY="1850" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.FINMAS})" Name="FINMAS" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="250815c0-0102-fce5-4918-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.FINMAS})" Name="FINMAS" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="250815c1-0102-fdf8-5211-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.FINMAS})" Name="FINMAS" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="250815c2-0102-fabe-59b3-0a200123aa77" Ratio="-1.0" Collapsed="true">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.FINMAS})" Name="FINMAS" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="250815c3-0102-fbd2-633b-0a200123aa77" Ratio="-1.0" Collapsed="true">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.FINMAS})" Name="FINMAS" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="250815c4-0102-e131-7080-0a200123aa77" targetConnectors="2508163c-0102-f90f-49c6-0a200123aa77 3fb27f58-0102-e5c8-5e2c-0a200123aa77" PositionX="10050" PositionY="10525" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.jdbc.DatabaseManagement})" Name="DatabaseManagement" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="250815c5-0102-e244-7d45-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.jdbc.DatabaseManagement})" Name="DatabaseManagement" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="250815c6-0102-ff0b-06a6-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.jdbc.DatabaseManagement})" Name="DatabaseManagement" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="250815c7-0102-e01e-0e51-0a200123aa77" Ratio="-1.0" Collapsed="true">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.jdbc.DatabaseManagement})" Name="DatabaseManagement" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="250815c8-0102-e57d-17e1-0a200123aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.jdbc.DatabaseManagement})" Name="DatabaseManagement" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="250815c9-0102-e691-2542-0a200123aa77" PositionX="10850" PositionY="1850" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.FSUMAS})" Name="FSUMAS" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="250815ca-0102-e357-31c6-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.FSUMAS})" Name="FSUMAS" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="250815cb-0102-e46a-3acf-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.FSUMAS})" Name="FSUMAS" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="250815cc-0102-e9ca-4271-0a200123aa77" Ratio="-1.0" Collapsed="true">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.FSUMAS})" Name="FSUMAS" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="250815cd-0102-eadd-4bf5-0a200123aa77" Ratio="-1.0" Collapsed="true">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.FSUMAS})" Name="FSUMAS" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="250815ce-0102-e7a4-598f-0a200123aa77" PositionX="14225" PositionY="1850" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.HRADV1P})" Name="HRADV1P" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="250815cf-0102-e8b7-6634-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.HRADV1P})" Name="HRADV1P" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="250815d0-0102-ebb3-6f2c-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.HRADV1P})" Name="HRADV1P" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="250815d1-0102-ecc6-76c8-0a200123aa77" Ratio="-1.0" Collapsed="true">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.HRADV1P})" Name="HRADV1P" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="250815d2-0102-e98d-0052-0a200123aa77" Ratio="-1.0" Collapsed="true">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.HRADV1P})" Name="HRADV1P" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="250815d3-0102-eaa0-0e5d-0a200123aa77" PositionX="17600" PositionY="1850" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.WHTEMPP})" Name="WHTEMPP" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="250815d4-0102-efff-1af4-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.WHTEMPP})" Name="WHTEMPP" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="250815d5-0102-f113-2461-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.WHTEMPP})" Name="WHTEMPP" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="250815d6-0102-edd9-2bff-0a200123aa77" Ratio="-1.0" Collapsed="true">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.WHTEMPP})" Name="WHTEMPP" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="250815d7-0102-eeec-357a-0a200123aa77" Ratio="-1.0" Collapsed="true">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.datastore.WHTEMPP})" Name="WHTEMPP" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="2508163c-0102-f90f-49c6-0a200123aa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="250815ba-0102-efc2-0880-0a200123aa77" target="250815c4-0102-e131-7080-0a200123aa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%database.jdbc.DBController})(~jclass{!pid%advantage}{%database.jdbc.DBController})(~jclass{!pid%advantage}{%database.jdbc.DatabaseManagement}))" Name="" Kind="49"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="2508163d-0102-fa22-5ad0-0a200123aa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%database.jdbc.DBController})(~jclass{!pid%advantage}{%database.jdbc.DBController})(~jclass{!pid%advantage}{%database.jdbc.DatabaseManagement}))" Name="" Kind="49"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="2508163e-0102-f6e8-75f7-0a200123aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%database.jdbc.DBController})(~jclass{!pid%advantage}{%database.jdbc.DBController})(~jclass{!pid%advantage}{%database.jdbc.DatabaseManagement}))" Name="" Kind="49"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="2508163f-0102-f7fb-7f7b-0a200123aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%database.jdbc.DBController})(~jclass{!pid%advantage}{%database.jdbc.DBController})(~jclass{!pid%advantage}{%database.jdbc.DatabaseManagement}))" Name="" Kind="49"/>
+        </children>
+      </Labels>
+      <BendPoints x="4" y="124"/>
+      <BendPoints x="4" y="-65"/>
+      <BendPoints x="4" y="156"/>
+      <BendPoints x="4" y="-33"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:PositionalGeneralView" LineColor="4009615" FillColor="13565951" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="3fb27c23-0102-f7d1-6add-0a200123aa77" sourceConnectors="3fb27f58-0102-e5c8-5e2c-0a200123aa77 3fb27f62-0102-ee9e-368c-0a200123aa77" PositionX="625" PositionY="10625" ExtentX="150" ExtentY="150" Autosize="true" VisibilityStyle="2" ShowCompartmentTitle="false" CompartmentStereotypeStyle="2" ShowParentName="false">
+      <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})" Name="BuildSQLStatement" Kind="29"/>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="3fb27c2d-0102-e6dd-128b-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})" Name="BuildSQLStatement" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="3fb27c41-0102-fc5b-2a25-0a200123aa77">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})" Name="BuildSQLStatement" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Attribute" ShapeStereotypeStyle="2" Id="3fb27c42-0102-f921-31d7-0a200123aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})" Name="BuildSQLStatement" Kind="29"/>
+      </children>
+      <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ListCompartmentView" Visible="true" FactoryHint="Operation" ShapeStereotypeStyle="2" Id="3fb27c43-0102-fa34-3b6d-0a200123aa77" Ratio="-1.0" Collapsed="false">
+        <SemanticReference Id="emfsemantic:(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})" Name="BuildSQLStatement" Kind="29"/>
+      </children>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="3fb27f58-0102-e5c8-5e2c-0a200123aa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="3fb27c23-0102-f7d1-6add-0a200123aa77" target="250815c4-0102-e131-7080-0a200123aa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.DatabaseManagement}))" Name="" Kind="49"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="3fb27f59-0102-e6db-6caa-0a200123aa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.DatabaseManagement}))" Name="" Kind="49"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="3fb27f5a-0102-e3a2-7ab0-0a200123aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.DatabaseManagement}))" Name="" Kind="49"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="3fb27f5b-0102-e4b5-0436-0a200123aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.DatabaseManagement}))" Name="" Kind="49"/>
+        </children>
+      </Labels>
+      <BendPoints x="0" y="0"/>
+      <BendPoints x="0" y="0"/>
+      <BendPoints x="0" y="0"/>
+      <BendPoints x="0" y="0"/>
+    </children>
+    <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:ConnectorView" LineColor="4009615" Font="Tahoma|10|0|" Visible="true" FactoryHint="" ShapeStereotypeStyle="2" Id="3fb27f62-0102-ee9e-368c-0a200123aa77" Routing="0" Smoothness="0" AvoidObstructions="false" ClosestDistance="false" SourceAnchor="anchor" TargetAnchor="anchor" JumpLinksStatus="0" JumpLinksType="1" JumpLinksReverse="false" ShowCompartmentTitle="false" source="3fb27c23-0102-f7d1-6add-0a200123aa77" target="250815ba-0102-efc2-0880-0a200123aa77">
+      <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.DBController}))" Name="" Kind="49"/>
+      <Labels Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="3fb27f63-0102-efb1-4521-0a200123aa77" FromLine="-18" FromEnd="50" IsPercentage="true">
+        <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.DBController}))" Name="" Kind="49"/>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Stereotype" ShapeStereotypeStyle="2" Id="3fb27f64-0102-f511-4fa6-0a200123aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.DBController}))" Name="" Kind="49"/>
+        </children>
+        <children xsi:type="com.rational.xtools.umlvisualizer.emfnotation:NameCompartmentView" Visible="true" FactoryHint="Name" ShapeStereotypeStyle="2" Id="3fb27f65-0102-f624-5935-0a200123aa77">
+          <SemanticReference Id="emfsemantic:(~sc{%UMLDependency}(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.BuildSQLStatement})(~jclass{!pid%advantage}{%database.jdbc.DBController}))" Name="" Kind="49"/>
+        </children>
+      </Labels>
+      <BendPoints x="0" y="0"/>
+      <BendPoints x="0" y="0"/>
+      <BendPoints x="0" y="0"/>
+      <BendPoints x="0" y="0"/>
+    </children>
+  </Diagram>
+</com.rational.xtools.umlvisualizer.emfnotation:Pack>

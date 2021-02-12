@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=int\ getWeight()
+comment1.target=int\ getParking()
+comment2.params=weight
+comment2.target=void\ setWeight(int)
+comment3.params=parking
+comment3.target=void\ setParking(int)
+numComments=4
