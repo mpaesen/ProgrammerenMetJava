@@ -1,5 +1,5 @@
 class StackArray {
-    private int[] items;
+    private final int[] items;
     private int size = -1;
 
     public StackArray() {
