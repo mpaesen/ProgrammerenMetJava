@@ -2,96 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c577f1f-9803-4978-b5a8-05d6947a849e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../readingList/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../readingList/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StudentGUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StudentIO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/.idea/libraries/junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/StudentGUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/src/FormatException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/src/Student.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/src/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/src/StudentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/src/StudentGUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../studentenGui/src/StudentIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../liang/liang.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../manning/readinglist/readinglist.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/MiniCrmApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/model/Community.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/model/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/model/PersonAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/model/persistence/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/model/persistence/CommunityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/model/persistence/EventRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/model/persistence/MemberID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/model/persistence/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/model/persistence/PersistenceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/model/persistence/PersonAddressID.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/model/persistence/PersonAddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../miniCRM/src/main/resources/miniCRM.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_io_2_8_0_bin_tar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_engine_5_0_0_M4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/FileAndDirectoryInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thymeleaf/.idea/thymeleaf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../JHTP11" beforeDir="false" afterPath="$PROJECT_DIR$/../JHTP11" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Opdrachten" beforeDir="false" afterPath="$PROJECT_DIR$/../Opdrachten" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../invoicing" beforeDir="false" afterPath="$PROJECT_DIR$/../invoicing" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../learn-spring" beforeDir="false" afterPath="$PROJECT_DIR$/../learn-spring" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../readingList/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../readingList/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../readingList/src/main/java/be/syntra/readingList/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../readingList/src/main/java/be/syntra/readingList/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/AccessingDataJpaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../miniCRM/src/main/java/com/crm/miniCRM/model/persistence/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/Vaccinatie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/model/Patient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/model/Vaccin.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/model/exceptions/AlreadyVaccinatedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/model/exceptions/DoesNotExistsException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/model/exceptions/PatientAgeException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/model/vaccins/Covid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/model/vaccins/Polio.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/model/vaccins/Rubella.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/persistency/PatientGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/persistency/VaccinFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/persistency/VaccinGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/persistency/VaccinLogger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/persistency/VaccinatieGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/sms/Examen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/sms/model/Campagne.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/sms/model/CampagneStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/sms/model/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/sms/pattern/Observer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/sms/pattern/Subject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/sms/utils/CampagneGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/sms/utils/FutureDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/sms/utils/ObserverGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/sms/utils/PersonGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/sms/utils/SystemProperty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/utils/Globals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/utils/Meta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/studenten/utils/RandomDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Vaccinatie.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Patient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Vaccin.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/exceptions/AlreadyVaccinatedException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/exceptions/DoesNotExistsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/exceptions/PatientAgeException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/vaccins/Covid.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/vaccins/Polio.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/vaccins/Rubella.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/persistency/PatientGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/persistency/VaccinFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/persistency/VaccinGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/persistency/VaccinLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/persistency/VaccinatieGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sms/Examen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sms/model/Campagne.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sms/model/CampagneStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sms/model/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sms/pattern/Observer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sms/pattern/Subject.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sms/utils/CampagneGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sms/utils/FutureDate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sms/utils/ObserverGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sms/utils/PersonGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sms/utils/SystemProperty.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Globals.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/Meta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/RandomDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormatException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentGUI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StudentIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/studenten.iml" beforeDir="false" afterPath="$PROJECT_DIR$/studenten.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,6 +61,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1ncvcFuVjEHIcOSl6s7kYUKreku" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -117,6 +78,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -133,7 +95,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3930453" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -146,87 +108,64 @@
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/out/production" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Examen">
-    <configuration name="Examen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sms.Examen" />
-      <module name="studenten" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sms.test.TestSms" />
-      <module name="studenten" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sms.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestVaccineManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.TestVaccineManager" />
-      <module name="studenten" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Vaccinatie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Vaccinatie" />
+  <component name="RunManager" selected="Application.FileAndDirectoryInfo">
+    <configuration name="FileAndDirectoryInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileAndDirectoryInfo" />
       <module name="studenten" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Vaccineren" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="View.Vaccineren" />
+    <configuration name="FileTypesGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FileTypesGUI" />
       <module name="studenten" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="View.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="studenten" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiProcessing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiProcessing" />
+      <module name="studenten" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Opdracht10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Opdracht10" />
+      <module name="studenten" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Examen" />
-        <item itemvalue="Application.Vaccineren" />
-        <item itemvalue="Application.Vaccinatie" />
-        <item itemvalue="Application.TestVaccineManager" />
-        <item itemvalue="Application.TestSms" />
+        <item itemvalue="Application.FileAndDirectoryInfo" />
+        <item itemvalue="Application.MultiProcessing" />
+        <item itemvalue="Application.FileTypesGUI" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Opdracht10" />
       </list>
     </recent_temporary>
   </component>
@@ -245,10 +184,18 @@
       <workItem from="1612192497941" duration="7000" />
       <workItem from="1614716256466" duration="100000" />
       <workItem from="1615235178004" duration="49000" />
+      <workItem from="1616700295859" duration="7169000" />
+      <workItem from="1616781580692" duration="1000" />
+      <workItem from="1617900012300" duration="1279000" />
+      <workItem from="1617901425435" duration="1364000" />
+      <workItem from="1619543816732" duration="6718000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

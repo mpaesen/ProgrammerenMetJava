@@ -4,9 +4,13 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/JHTP11" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Opdrachten" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gs-accessing-data-jpa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gs-securing-web" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gs-serving-web-content" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/invoicing" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/learn-spring" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/learn-spring/ProgrammerenMetJava" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stackabuse-articles-code" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/testWeb" vcs="Git" />
   </component>
 </project>
