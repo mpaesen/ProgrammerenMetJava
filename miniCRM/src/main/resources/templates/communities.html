@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+
+<title>Communities</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+<body>
+	<table class="table col-md-6 ml-3">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Description</th>
+
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="community : ${communities}">
+				<td th:text="${community.id}"></td>
+				<td th:text="${community.description}"></td>
+			</tr>
+		</tbody>
+	</table>
+
+	<p>
+		<a th:href="@{/communities/new}" class="btn btn-link">New community</a>
+	</p>
+</body>
+</html>
